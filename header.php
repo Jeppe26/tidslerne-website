@@ -17,10 +17,13 @@
         <?php wp_head(); ?>
     </head>
 
+    <?php
+  $logoImage = get_field("logo");
+?>
     <body>
     <nav class="navbar">
         <div class="logo-container">
-            <img src="your-logo.png" alt="Logo" class="logo">
+        <img src="<?php echo esc_url($logoImage['url']); ?>" alt="Logo">
         </div>
         <ul class="nav-links">
             <li><a href="#">Tidslerne</a></li>
