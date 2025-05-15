@@ -21,7 +21,8 @@ body {
             padding: 10px 20px;
         }
         .logo-container {
-           
+           height: 50px; /* Example height */
+            width: 100px
         }
         .logo {
             height: 50px; /* Example height */
