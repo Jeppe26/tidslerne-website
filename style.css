@@ -46,7 +46,6 @@ body {
             color: #26A69A;
         }
         .hamburger {
-            display: none; /* Hide by default on larger screens */
             font-size: 24px;
             cursor: pointer;
         }
@@ -54,7 +53,6 @@ body {
         /* Responsive design for smaller screens */
         @media (max-width: 768px) {
             .nav-links {
-                display: none;
                 flex-direction: column;
                 background-color: #4DB6AC;
                 position: absolute;
