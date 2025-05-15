@@ -25,6 +25,7 @@ body {
         }
         .logo {
             height: 50px; /* Example height */
+            width: 50px
         }
         .nav-links {
             list-style: none;
