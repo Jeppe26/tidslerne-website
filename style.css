@@ -21,11 +21,11 @@ body {
             padding: 10px 20px;
         }
         .logo-container {
-           display: block;
+           
         }
         .logo {
             height: 50px; /* Example height */
-            width: 50px
+            width: 100px
         }
         .nav-links {
             list-style: none;
