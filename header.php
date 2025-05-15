@@ -28,7 +28,7 @@
        <?php
         $image = get_field("logo"); 
         echo'<pre>';
-        print_r($image);
+        var_dumb($image);
         echo'</pre>';
         ?>
 
