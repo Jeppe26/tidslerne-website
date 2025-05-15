@@ -13,7 +13,7 @@ body {
     background-color: #fbfbfb;
   }
         .navbar {
-            background-image: -o-linear-gradient(top,#40e0d0,#25857b);
+            background-image: linear-gradient(top,#40e0d0,#25857b);
             color: white;
             display: flex;
             justify-content: space-between;
