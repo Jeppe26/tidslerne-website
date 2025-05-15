@@ -25,10 +25,12 @@
     <nav class="navbar">
         <div class="logo-container">
         <img src="<?php echo esc_url($logoImage["url"]); ?>" alt="logo">
+       <?php
         $image = get_field("logo"); 
         echo'<pre>';
         var_dumb($image);
         echo'</pre>';
+        ?>
 
         </div>
         <ul class="nav-links">
