@@ -16,3 +16,19 @@
         <title><?php bloginfo("name"); ?></title>
         <?php wp_head(); ?>
     </head>
+
+    <body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="your-logo.png" alt="Logo" class="logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Tidslerne</a></li>
+            <li><a href="#">Behandlinger</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Medie/historie</a></li>
+            <li><a href="#">Om os/kontakt</a></li>
+        </ul>
+        <div class="hamburger">&#9776;</div>
+    </nav>
+    </body>
