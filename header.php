@@ -46,7 +46,7 @@
     </nav>
     </body>
 
-     <?php endif; ?>
+    
 
     <?php endwhile ?>
     <?php endif ?>
