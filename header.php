@@ -19,18 +19,15 @@
 
     
     <body>
+          <?php if(have_posts()): ?>
+            <?php while(have_posts()): the_post() ?>
     <?php
   $logoImage = get_field("logo");
 ?>
     <nav class="navbar">
         <div class="logo-container">
         <img src="<?php echo esc_url($logoImage["url"]); ?>" alt="logo">
-       <?php
-        $image = get_field("logo"); 
-        echo'<pre>';
-        var_dumb($image);
-        echo'</pre>';
-        ?>
+       
 
         </div>
         <ul class="nav-links">
@@ -43,3 +40,6 @@
         <div class="hamburger">&#9776;</div>
     </nav>
     </body>
+
+    <?php endwhile; ?>
+<?php endif; ?>
