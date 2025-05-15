@@ -21,7 +21,7 @@ body {
             padding: 10px 20px;
         }
         .logo-container {
-            /* You might want to set a max-height for your logo */
+           display: block;
         }
         .logo {
             height: 50px; /* Example height */
