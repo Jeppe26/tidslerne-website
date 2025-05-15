@@ -51,6 +51,126 @@ body {
             cursor: pointer;
         }
 
+
+        /* Front page----> */
+        .hero {
+            background-color: #e0f7fa; /* Lys turkis baggrund */
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden; /* For at håndtere potentielle overflow fra baggrundselementer */
+        }
+        
+        .hero-image-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.6; /* Let dæmpet for at teksten står frem */
+            background-image: url('placeholder-man-with-laptop.jpg'); /* Udskift med din faktiske billedsti */
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .hero-content {
+            position: relative; /* Sikrer at indholdet er over baggrundsbilledet */
+            z-index: 10; /* Sikrer at indholdet er over baggrundsbilledet */
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero-title {
+            font-size: 3em;
+            color: #2e7d32; /* Mørkegrøn */
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        
+        .hero-button {
+            display: inline-block;
+            background-color: #2e7d32; /* Mørkegrøn */
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        .hero-button:hover {
+            background-color: #1b5e20; /* Mørkere grøn */
+        }
+        
+        .info-section {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 30px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        
+        .info-card {
+            background-color: #e0f2f7; /* Lys cyan */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+        }
+        
+        .info-card h3 {
+            color: #00838f; /* Mørk cyan */
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .info-card .icon {
+            font-size: 2em;
+            color: #00838f; /* Mørk cyan */
+            margin-bottom: 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         /* Responsive design for smaller screens */
         @media (max-width: 768px) {
             .nav-links {
