@@ -19,6 +19,8 @@
 
     
     <body>
+          <?php if(have_posts()): ?>
+            <?php while(have_posts()): the_post() ?>
     <?php
   $logoImage = get_field("logo");
 ?>
@@ -43,3 +45,8 @@
         <div class="hamburger">&#9776;</div>
     </nav>
     </body>
+
+     <?php endif; ?>
+
+    <?php endwhile ?>
+    <?php endif ?>
