@@ -17,10 +17,11 @@
         <?php wp_head(); ?>
     </head>
 
+    
+    <body>
     <?php
   $logoImage = get_field("logo");
 ?>
-    <body>
     <nav class="navbar">
         <div class="logo-container">
         <img src="<?php echo esc_url($logoImage['url']); ?>" alt="logo">
