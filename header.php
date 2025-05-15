@@ -47,6 +47,3 @@
     </body>
 
     
-
-    <?php endwhile ?>
-    <?php endif ?>
