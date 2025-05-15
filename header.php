@@ -24,7 +24,7 @@
 ?>
     <nav class="navbar">
         <div class="logo-container">
-        <img src="<?php echo esc_url($logoImage['url']); ?>" alt="logo">
+        <img src="<?php echo esc_url($logoImage["url"]); ?>" alt="logo">
         </div>
         <ul class="nav-links">
             <li><a href="#">Tidslerne</a></li>
