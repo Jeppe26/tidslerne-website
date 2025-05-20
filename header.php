@@ -76,7 +76,7 @@
                         <div class="headerContainerContentRightBox2Content">
                         <h3><?php echo $HeaderBox2Titel?></h3>
                         <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]); ?>" alt="header_box_2_news_image" class="icon2" />
-                        <p><?php echo $HeaderBox1Tekst?></p>
+                        <p><?php echo $HeaderBox2Tekst?></p>
                         <button><img src="images/arrowDown.svg" alt="Down arrow icon"></button>
                         </div>
                     </div>
