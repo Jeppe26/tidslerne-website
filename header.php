@@ -30,8 +30,9 @@
   $HeaderBox1Billede = get_field("header_box_1_billede");
   $HeaderBox1Titel = get_field("header_box_1_titel");
   $HeaderBox1Tekst = get_field("header_box_1_tekst");
- $HeaderBox2Titel = get_field("header_box_2_Titel");
- $HeaderBox2NewsImage = get_field("header_box_2_news_image");
+  $HeaderBox2Titel = get_field("header_box_2_Titel");
+  $HeaderBox2NewsImage = get_field("header_box_2_news_image");
+  $HeaderBox2Tekst = get_field("header_box_2_tekst");
 
 
 
@@ -75,9 +76,7 @@
                         <div class="headerContainerContentRightBox2Content">
                         <h3><?php echo $HeaderBox2Titel?></h3>
                         <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]); ?>" alt="header_box_2_news_image" class="icon2" />
-                        <p>
-                            Få seneste nyt direkte i din indbakke - tilmeld dig vores nyhedsbrev og hold dig opdateret.
-                        </p>
+                        <p><?php echo $HeaderBox1Tekst?></p>
                         <button><img src="images/arrowDown.svg" alt="Down arrow icon"></button>
                         </div>
                     </div>
