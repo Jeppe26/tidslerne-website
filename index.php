@@ -24,6 +24,7 @@ $loop = new WP_Query($arguments);
           
         </div>
       </section>
+      </section>
 
 
 
