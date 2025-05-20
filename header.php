@@ -26,6 +26,7 @@
   $logoImage = get_field("logo");
   $HeaderImage = get_field("forside_hero_billede");
   $HeaderTitel = get_field("forside_titel");
+  $HeaderTekst = get_field("forside_tekst");
 
 ?>
 
@@ -49,8 +50,7 @@
         <div class="headerContainerContent">
             <div class="headerContainerContentLeft">
                 <h1><?php echo $HeaderTitel?></h1>
-                <h2>Kræftforeningen Tidslerne er en forening for tidligere og nuværende kræftpatienter samt deres pårørende og i øvrigt enhver, 
-                    der ønsker at støtte.</h2>
+                <h2><?php echo $HeaderTekst?></h2>
                     <a href="#">UDFORSK </a>
             </div>
             <div class="headerContainerContentRight">
