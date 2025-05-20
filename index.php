@@ -20,7 +20,7 @@ $loop = new WP_Query($arguments);
 <?php if($loop->have_posts()):?>
   <?php while($loop->have_posts()): $loop->the_post()?> 
           </div>
-          
+          <?php endif; ?>
           
         </div>
       </section>
@@ -53,4 +53,3 @@ $loop = new WP_Query($arguments);
 
 
 <?php endwhile; ?>
-<?php endif; ?>
