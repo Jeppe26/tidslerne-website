@@ -66,15 +66,15 @@
                 <div class="headerContainerContentRightBoxContainers">
                     <div class="headerContainerContentRightBox1">
                         <div class="headerContainerContentRightBox1Content">
-                        <img src="<?php echo esc_url($HeaderBox1Billede["url"]); ?>" alt="header_box_2_news_image" class="icon">
+                        <img src="<?php echo esc_url($HeaderBox1Billede["url"]); ?>" alt="header_box_1_billede" class="icon">
                             <h3><?php echo $HeaderBox1Titel?></h3>
                             <p><?php echo $HeaderBox1Tekst?></p>
                         </div>
                     </div>
                     <div class="headerContainerContentRightBox2">
                         <div class="headerContainerContentRightBox2Content">
-                        <h3>Bliv Informeret</h3>
-                        <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]); ?>" alt="header_box_1_billede" class="icon2" />
+                        <h3><?php echo $HeaderBox2Titel?></h3>
+                        <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]); ?>" alt="header_box_2_news_image" class="icon2" />
                         <p>
                             Få seneste nyt direkte i din indbakke - tilmeld dig vores nyhedsbrev og hold dig opdateret.
                         </p>
