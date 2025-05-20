@@ -186,7 +186,7 @@ header{
   flex-direction: column;
   height: 95%;
 }
-.headerContainerContentRightBox1Content .icon {
+.icon {
     flex: 1;
     display: block;
     width: 80px;
