@@ -21,7 +21,11 @@ $loop = new WP_Query($arguments);
   <?php while($loop->have_posts()): $loop->the_post()?> 
   
   
-            HEJ
+            <?php
+            $todaysRecipeImage = get_field("behandling_card_billede");
+            ?>
+
+            <div><?php echo esc_html($todaysRecipeImage["url"]); ?></div>
           
   
         <?php endwhile?>
