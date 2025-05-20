@@ -17,18 +17,22 @@
     </head>
 
     
-    <body>
-          <?php if(have_posts()): ?>
-            <?php while(have_posts()): the_post() ?>
-    <?php
+ <body>
+    <?php if(have_posts()): ?>
+    <?php while(have_posts()): the_post() ?>
+
+
+<?php
   $logoImage = get_field("logo");
+  $HeaderImage = get_field("forside_hero_billede");
+  $HeaderTitel = get_field("forside_titel");
+
 ?>
+
 <header>
     <nav class="navbar">
         <div class="logo-container">
         <img src="<?php echo esc_url($logoImage["url"]); ?>" alt="logo">
-       
-
         </div>
         <ul class="nav-links">
             <li><a href="#">Tidslerne</a></li>
@@ -39,11 +43,12 @@
         </ul>
         <div class="hamburger">&#9776;</div>
     </nav>
+
     </body>
     <div class="headerContainer">
         <div class="headerContainerContent">
             <div class="headerContainerContentLeft">
-                <h1>TIDSLERNE</h1>
+                <h1><?php echo $HeaderTitel?></h1>
                 <h2>Kræftforeningen Tidslerne er en forening for tidligere og nuværende kræftpatienter samt deres pårørende og i øvrigt enhver, 
                     der ønsker at støtte.</h2>
                     <a href="#">UDFORSK </a>
