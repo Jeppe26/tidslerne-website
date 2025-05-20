@@ -30,7 +30,7 @@
   $HeaderBox1Billede = get_field("header_box_1_billede");
   $HeaderBox1Titel = get_field("header_box_1_titel");
   $HeaderBox1Tekst = get_field("header_box_1_tekst");
-  $HeaderBox2Titel = get_field("header_box_2_Titel");
+  $HeaderBox2Titel = get_field("header_box_2_titel");
   $HeaderBox2NewsImage = get_field("header_box_2_news_image");
   $HeaderBox2Tekst = get_field("header_box_2_tekst");
 
