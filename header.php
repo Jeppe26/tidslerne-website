@@ -8,7 +8,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-       
         <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> */ --> 
@@ -24,6 +23,7 @@
     <?php
   $logoImage = get_field("logo");
 ?>
+<header>
     <nav class="navbar">
         <div class="logo-container">
         <img src="<?php echo esc_url($logoImage["url"]); ?>" alt="logo">
@@ -40,6 +40,42 @@
         <div class="hamburger">&#9776;</div>
     </nav>
     </body>
+    <div class="headerContainer">
+        <div class="headerContainerContent">
+            <div class="headerContainerContentLeft">
+                <h1>TIDSLERNE</h1>
+                <h2>Kræftforeningen Tidslerne er en forening for tidligere og nuværende kræftpatienter samt deres pårørende og i øvrigt enhver, 
+                    der ønsker at støtte.</h2>
+                    <a href="#">UDFORSK </a>
+            </div>
+            <div class="headerContainerContentRight">
+                <div class="headerContainerContentRightBoxContainers">
+                    <div class="headerContainerContentRightBox1">
+                        <div class="headerContainerContentRightBox1Content">
+                            <img src="images/medal.svg" alt="Award Icon" class="icon" />
+                            <h3>Betroet og krediteret</h3>
+                            <p>
+                            Vi er anerkendt af både fagfolk og brugere for vores troværdighed og kvalitet.
+                            Din tillid er vores styrke.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="headerContainerContentRightBox2">
+                        <div class="headerContainerContentRightBox2Content">
+                        <h3>Bliv Informeret</h3>
+                        <img src="images/news.svg" alt="News Icon" class="icon2" />
+                        <p>
+                            Få seneste nyt direkte i din indbakke - tilmeld dig vores nyhedsbrev og hold dig opdateret.
+                        </p>
+                        <button><img src="images/arrowDown.svg" alt="Down arrow icon"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</header>
 
     <?php endwhile; ?>
 <?php endif; ?>

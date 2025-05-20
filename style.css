@@ -3,103 +3,441 @@ Description: This is a CSS file for styling a simple HTML page
 Author: Tidslerne 
 Date: 2025-30-05 
 Version: 1.0 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;600;700&display=swap');
 
-body {
-    font-family: 'Roboto';
+body{
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #fbfbfb;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/harold.jfif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.headerContainer{
+    
+    height: calc(100% - 100px);
+    width: calc(100% - 60px); /* Full width minus 25px on each side */
+    margin: 0 30px; /* Push it 25px from each side */
+    padding: 0; /* Optional, unless you need internal padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.headerContainerContent {
+    display: flex;
+    width: 100%;
+    height: 65%; /* or any desired height */
+    min-height: 550px;
+}
+.navbar {
+    background-image: linear-gradient(to bottom, #25857B, #40E0C0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+}
+.logo-container {
+   height: 50px; /* Example height */
+    width: 100px
+}
+.logo {
+    height: 50px; /* Example height */
+    width: 100px
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 40px;
+    font-size: 32px;
+    
+}
+/* Example hover effect */
+.nav-links a:hover {
+    color: #E04060;
+}
+.hamburger {
+    font-size: 36px;
+    cursor: pointer;
+    
+    
+}
+.headerContainerContentLeft{
+    width: 35%;
+    height: 100%;
+    min-width: 900px;
+    
+}
+.headerContainerContentLeft h1{
+    font-size: 150;
+    font-weight: 200;
+    margin: 0;
+    display: inline-block;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.headerContainerContentLeft h2{
+    font-size: 32;
+    font-weight: 600;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.headerContainerContentLeft A{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    color: #E04060;
+    text-decoration: none;
+    position: relative;
+    padding-right: 90px;
+}
+
+.headerContainerContentLeft a::after {
+    content: '→';
+    color: #E04060;
+    position: absolute;
+    right: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 70px;
+}
+.headerContainerContentLeft A:hover{
+    
+}
+.headerContainerContentRight{
+    width: 65%;
+    height: 100%;
+    
+    
+}
+.headerContainerContentRightBoxContainers{
+    
+    width: 350px;
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.headerContainerContentRightBox1{
+    background-color: #E04060;
+    width: 100%;
+    flex: 1;
+    border-radius: 25px;
+    background: 
+    linear-gradient(to top, #40E0D0, rgba(35, 122, 113, 0.1)) border-box,
+    rgba(255, 255, 255, 0.2) padding-box;
+  
+
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+  color: #000;
+  font-family: sans-serif;
+  text-align: center;
+}
+.headerContainerContentRightBox2{
+    background-image: linear-gradient(to bottom, #40E0C0, #25857B);
+    width: 100%;
+    flex: 1;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+.headerContainerContentRightBox1Content{
+    
+    background-image: linear-gradient(to bottom, rgba( 255, 255, 255, 0.3), rgba( 255, 255, 255, 0.9));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 23.75px;
+  
+  margin: 0 auto;
+  margin-top: 1.5%;
+  height: 97%;
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+}
+.headerContainerContentRightBox2Content{
+    display: flex;
+  flex-direction: column;
+  height: 95%;
+}
+.headerContainerContentRightBox1Content .icon {
+    flex: 1;
+    display: block;
+    width: 80px;
+    margin: 0 auto 10px auto;
+    padding-top: 15px;
   }
-        .navbar {
-            background-color: #4DB6AC; /* Example background color */
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-        }
-        .logo-container {
-           height: 50px; /* Example height */
-            width: 100px
-        }
-        .logo {
-            height: 50px; /* Example height */
-            width: 100px
-        }
-        .nav-links {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            align-items: center;
-        }
-        .nav-links li {
-            margin-left: 20px;
-        }
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            padding: 5px 10px;
-        }
-        /* Example hover effect */
-        .nav-links a:hover {
-            color: #26A69A;
-        }
-        .hamburger {
-            font-size: 24px;
-            cursor: pointer;
-        }
+  .headerContainerContentRightBox1Content h3 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #444444;
+    flex: 1;
+  }
+  
+  .headerContainerContentRightBox1Content p {
+    font-size: 18px;
+    text-align: center;
+    color: #444444;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 2;
+  }
+  .headerContainerContentRightBox2 h3{
+    padding-top: 15px;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    flex: 1;
+  }
+  .headerContainerContentRightBox2 .icon2{
+    display: block;
+    width: 66px;
+    margin: 0 auto 0 auto;
+    flex: 2;
+  }
+  .headerContainerContentRightBox2 p{
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 10px;
+    flex: 1;
+  }
+   .headerContainerContentRightBox2 button{
+    all: unset;
+  cursor: pointer;
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  
+  }
+  .headerContainerContentRightBox2 button:hover{
+  background-color: #E04060;
+  scale: 1.1;
+  }
+  .headerContainerContentRightBox2 button img{
+    width: 80%;
+    height: 80%;
 
+  }
+  .todays_recipe {
+    height: fit-content;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px auto;
+    gap:10px;
+  }
+  
+  .todays_recipes_content_block_image img {
+      height:700px;
+      width: 100%;
+      background-size:cover;
+      background-position: center;
+      border-top-left-radius:5px;
+      border-top-right-radius: 5px;
+      object-position: center;
+      object-fit: cover;
+      position: absolute;
+      z-index: -1;
+      border-radius: 15px;
+  }
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /* Responsive design for smaller screens */
-        @media (max-width: 768px) {
-            .nav-links {
-                flex-direction: column;
-                background-color: #4DB6AC;
-                position: absolute;
-                top: 60px; /* Adjust based on your navbar height */
-                left: 0;
-                width: 100%;
-                text-align: center;
-                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                z-index: 1;
-            }
-            .nav-links.active {
-                display: flex;
-            }
-            .nav-links li {
-                margin: 15px 0;
-            }
-            .hamburger {
-                display: block;
-            }
-        }
+  
+  
+  .todays_recipes_headline {
+    height:60px;
+    color:var(--color-white); 
+    border-bottom: 1px solid var(--color-white);
+    font-size:37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 20px 0;
+    width:var(--width-12col);
+    margin:70px auto 0 auto;  
+  
+    text-shadow: 1px 1px 1px var(--primary-color);
+  }
+  .todays_recipes_headline2 {
+    height:60px;
+    color:var(--color-white); 
+    border-bottom: 1px solid var(--color-white);
+    font-size:37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 20px 0;
+    width:var(--width-12col);
+    margin:0px auto 0 auto;  
+  
+    text-shadow: 1px 1px 1px var(--primary-color);
+  }
+  .todays_recipes_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 10px;
+    height: fit-content;
+    box-sizing: border-box;
+    margin:30px auto 0 auto;
+    width: calc(100% - 60px);
+    margin: 0 30px;
+  }
+  
+  .todays_recipes_content_block {
+    background-color:var(--background-color-light);
+    position:relative;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 1px 1px 3px var(--background-color-dark-bg);
+    height: 700px;
+  }
+  
+  .todays_recipes_content_block_text_top h5 {
+    font-size:40px;
+    font-weight: 700; 
+    text-transform:uppercase;
+    margin: 0 0 10px 20px;
+  }
+  
+  .todays_recipes_content_block_text_top p {
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 20px;
+  }
+  
+  
+  .todays_recipes_content_block_text {
+    padding:00px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: auto;
+    color:var(--color_dark);
+  }
+  
+  .todays_recipes_content_block_bottom_area {
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 0 0 20px;
+    border-left: 1px solid #40E0D0;
+  }
+  
+  .todays_recipes_content_block_bottom_area_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 0 10px;
+    
+  }
+  
+  
+  div[data-category="seafood"] {
+    border-left: 1px solid var(--category-seafood);
+  }
+  
+  p[data-category="seafood"] {
+    color: var(--category-seafood);
+  }
+  
+  div[data-category="chicken"] {
+    border-left: 1px solid var(--category-chicken);
+  }
+  
+  
+  
+  p[data-category="chicken"] {
+    color: var(--category-chicken);
+  }
+  
+  div[data-category="pasta"] {
+    border-left: 1px solid var(--category-pasta);
+  }
+  
+  p[data-category="pasta"] {
+    color: var(--category-pasta);
+  }
+  
+  div[data-category="misc"] {
+    border-left: 1px solid var(--category-misc);
+  }
+  
+  p[data-category="misc"] {
+    color: var(--category-misc);
+  }
+  
+  
+  #chicken-icon {
+    color: var(--category-chicken);
+  }
+  
+  .todays_recipes_content_block_bottom_area_left p {
+    font-size:16px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  
+  .todays_recipes_content_block_bottom_area_right button {
+    background-color: var(--color_dark);
+    border: 1px solid var(--background-color-light);
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    padding:8px 16px;
+    cursor:pointer;
+  }
+  
+  .todays_recipes_content_block_bottom_area_right button a {
+    color:var(--color-light);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:12px;
+  }
+  
+  
+  p [data-category="seafood"]
+  {color:var (var--category-seafood)}
