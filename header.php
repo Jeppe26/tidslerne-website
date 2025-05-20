@@ -33,6 +33,8 @@
   $HeaderBox2Titel = get_field("header_box_2_titel");
   $HeaderBox2NewsImage = get_field("header_box_2_news_image");
   $HeaderBox2Tekst = get_field("header_box_2_tekst");
+  $HeaderBox2Image = get_field("header_box_2_image");
+
 
 
 
@@ -77,7 +79,7 @@
                         <h3><?php echo $HeaderBox2Titel?></h3>
                         <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]); ?>" alt="header_box_2_news_image" class="icon2" />
                         <p><?php echo $HeaderBox2Tekst?></p>
-                        <button><img src="images/arrowDown.svg" alt="Down arrow icon"></button>
+                        <button><img src="<?php echo esc_url($HeaderBox2Image["url"]); ?>" alt="header_box_2_image"></button>
                         </div>
                     </div>
                 </div>
