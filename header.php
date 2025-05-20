@@ -64,7 +64,7 @@
                 <div class="headerContainerContentRightBoxContainers">
                     <div class="headerContainerContentRightBox1">
                         <div class="headerContainerContentRightBox1Content">
-                        <img src="<?php echo esc_url($HeaderBox1Billede["url"]); ?>" alt="header_box_1_billede">
+                        <img src="<?php echo esc_url($HeaderBox1Billede["url"]); ?>" alt="header_box_1_billede" class="icon">
                             <h3><?php echo $HeaderBox1Titel?></h3>
                             <p><?php echo $HeaderBox1Tekst?></p>
                         </div>
