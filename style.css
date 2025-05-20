@@ -86,7 +86,7 @@ header{
     
 }
 .headerContainerContentLeft h1{
-    font-size: 150;
+    font-size: 150px;
     font-weight: 200;
     margin: 0;
     display: inline-block;
@@ -94,7 +94,7 @@ header{
     margin-bottom: 30px;
 }
 .headerContainerContentLeft h2{
-    font-size: 32;
+    font-size: 32px;
     font-weight: 600;
     margin: 0;
     width: 100%;
