@@ -29,6 +29,8 @@
   $HeaderTekst = get_field("forside_tekst");
   $HeaderBox1Billede = get_field("header_box_1_billede");
   $HeaderBox1Titel = get_field("header_box_1_titel");
+  $HeaderBox1Tekst = get_field("header_box_1_tekst");
+
 
 
 
@@ -62,11 +64,8 @@
                     <div class="headerContainerContentRightBox1">
                         <div class="headerContainerContentRightBox1Content">
                         <img src="<?php echo esc_url($HeaderBox1Billede["url"]); ?>" alt="header_box_1_billede">
-                            <h3><?php echo $$HeaderBox1Titel?></h3>
-                            <p>
-                            Vi er anerkendt af både fagfolk og brugere for vores troværdighed og kvalitet.
-                            Din tillid er vores styrke.
-                            </p>
+                            <h3><?php echo $HeaderBox1Titel?></h3>
+                            <p><?php echo $HeaderBox1Tekst?></p>
                         </div>
                     </div>
                     <div class="headerContainerContentRightBox2">
