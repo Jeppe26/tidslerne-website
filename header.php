@@ -27,6 +27,10 @@
   $HeaderImage = get_field("forside_hero_billede");
   $HeaderTitel = get_field("forside_titel");
   $HeaderTekst = get_field("forside_tekst");
+  $HeaderBox1Billede = get_field("header_box_1_billede");
+  $HeaderBox1Titel = get_field("header_box_1_titel");
+
+
 
 ?>
 
@@ -57,8 +61,8 @@
                 <div class="headerContainerContentRightBoxContainers">
                     <div class="headerContainerContentRightBox1">
                         <div class="headerContainerContentRightBox1Content">
-                            <img src="images/medal.svg" alt="Award Icon" class="icon" />
-                            <h3>Betroet og krediteret</h3>
+                        <img src="<?php echo esc_url($HeaderBox1Billede["url"]); ?>" alt="header_box_1_billede">
+                            <h3><?php echo $$HeaderBox1Titel?></h3>
                             <p>
                             Vi er anerkendt af både fagfolk og brugere for vores troværdighed og kvalitet.
                             Din tillid er vores styrke.
