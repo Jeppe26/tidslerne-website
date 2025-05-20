@@ -82,5 +82,23 @@
     
 </header>
 
+</body>
+<style>
+header {
+    background-image: url('<?php echo esc_url($HeaderImage["url"]); ?>');}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
     <?php endwhile; ?>
 <?php endif; ?>
