@@ -5,6 +5,7 @@
 
 <?php
 $SomeImage = get_field("some_billede");
+$SomeTekstBox1 = get_field("some_tekst_box_1");
 ?>
 <section>
     <section class="cards">
@@ -78,7 +79,7 @@ $ArtikelTitel = get_field("artikel_titel");
   <div class="socials">
     <div class="img-wrapper">
     <img src="<?php echo esc_url($SomeImage["url"]) ?>" alt="" class="SocialShape">
-    <button class="socialsButton">Find vores sociale medier</button>
+    <button class="socialsButton"><?php echo $SomeTekstBox1?></button>
     <button class="socialsButton2">FIND VORES FACEBOOK HER</button>
     <h2 class="socialTitle">Tidslernes Sociale<br>Medier</r></h2>
   </div>
@@ -113,43 +114,6 @@ $ArtikelTitel = get_field("artikel_titel");
     <button type="submit">Meld dig ind nu</button>
   </form>
 </section>
-
-<footer>
-  <div class="footer-content">
-    <div class="footer-column">
-      <h3>Kræftforeningen Tidslerne</h3>
-      <p class="footer-left-text">
-        Danmarks<br>
-        patient<br>
-        forening
-      </p>
-    </div>
-
-    <div class="footer-column">
-      <h3>v/Formand Mai Nielsen</h3>
-      <address>
-        Ådalsparken 29,<br>
-        6710 Esbjerg V<br>
-        CVR 1742 0291<br>
-        T: 7020-0515<br>
-        E: <a href="mailto:sekretariat@tidslerne.dk">sekretariat@tidslerne.dk</a>
-      </address>
-    </div>
-
-    <div class="footer-column">
-      <h3>Merch kan købers her</h3>
-      <img src="images/tshirt.png" alt="Merch billede" class="merch-img">
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    <p>2025 Kræftforeningen Tidslerne.<br>All rights reserved.</p>
-  </div>
-</footer>
-
-
-
-
 
 
 
