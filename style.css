@@ -306,7 +306,7 @@ header{
     text-shadow: 1px 1px 1px var(--primary-color);
   }
   
-  .cards_content_content {
+  .cards_content {
     display: grid;
     grid-template-columns: repeat(4, 1fr) ;
     gap: 10px;
