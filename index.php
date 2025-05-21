@@ -18,7 +18,7 @@ $loop = new WP_Query($arguments);
 ?>
 
 <?php
-  $behandlingTitel = get_field("behandling_titel");
+  
  
 
 ?>
@@ -35,7 +35,7 @@ $loop = new WP_Query($arguments);
             </div>
             <div class="cards_content_block_text">
               <div class="cards_content_block_text_top">
-                <h5><?php echo $behandlingTitel?></h5>
+                <h5><?php echo $BehandlingTitel?></h5>
                 <p>Læs mere Om de behandlinger som medicinalindustrien hader</p>
               </div>
               <div class="cards_content_block_text_bottom">
@@ -58,7 +58,12 @@ $loop = new WP_Query($arguments);
 
   
 <?php
-$CardImage = get_field("behandling_image");?>
+$CardImage = get_field("behandling_image");
+$BehandlingTitel = get_field("behandling_titel");
+
+
+
+?>
 
           
   
