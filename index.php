@@ -42,7 +42,7 @@ $loop = new WP_Query($arguments);
                 <div class="cards_content_block_bottom_area">
                   <div class="cards_content_block_bottom_area_left">
                     <p class="category-color" data-category="seafood"><?php echo $ArtikelTitel?></p>
-                    <p>Recipe</p>
+                    <p>Artikel</p>
                   </div>
                   <div class="cards_content_block_bottom_area_right">
                     <button>
@@ -62,9 +62,6 @@ $CardImage = get_field("behandling_image");
 $BehandlingTitel = get_field("behandling_titel");
 $BehandlingTekst = get_field("behandling_tekst");
 $ArtikelTitel = get_field("artikel_titel");
-
-
-
 ?>
 
           
