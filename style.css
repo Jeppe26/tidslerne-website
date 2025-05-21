@@ -409,7 +409,7 @@ header{
     color: white;
   }
   
-  .todays_recipes_content_block_bottom_area_left p {
+  .cards_content_block_bottom_area_left p {
     font-size:16px;
     text-transform: uppercase;
     font-weight: 400;
@@ -417,11 +417,11 @@ header{
     margin-bottom: 5px;
   }
   
-  .todays_recipes_content_block_bottom_area_right{
+  .cards_content_block_bottom_area_right{
 
   }
   
-  .todays_recipes_content_block_bottom_area_right button {
+  .cards_content_block_bottom_area_right button {
     background-color: #E04060;
     border: 1px solid var(--background-color-light);
     color: white;
@@ -434,7 +434,7 @@ header{
     
   }
   
-  .todays_recipes_content_block_bottom_area_right button a {
+  .cards_content_block_bottom_area_right button a {
     color:var(--color-light);
     text-transform: uppercase;
     text-decoration: none;
