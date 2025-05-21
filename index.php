@@ -17,6 +17,12 @@ $arguments = array(
 $loop = new WP_Query($arguments);
 ?>
 
+<?php
+  $behandlingTitel = get_field("behandling_titel");
+ 
+
+?>
+
 <?php if($loop->have_posts()):?>
   <?php while($loop->have_posts()): $loop->the_post()?> 
   
@@ -29,7 +35,7 @@ $loop = new WP_Query($arguments);
             </div>
             <div class="cards_content_block_text">
               <div class="cards_content_block_text_top">
-                <h5>Behandlinger</h5>
+                <h5><?php echo $behandlingTitel?></h5>
                 <p>Læs mere Om de behandlinger som medicinalindustrien hader</p>
               </div>
               <div class="cards_content_block_text_bottom">
