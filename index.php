@@ -6,6 +6,8 @@
 <?php
 $SomeImage = get_field("some_billede");
 $SomeTekstBox1 = get_field("some_tekst_box_1");
+$SomeTekstBox2 = get_field("some_tekst_box_2");
+$Nyhedsbrev = get_field("nyhedsbrev_tekst");
 ?>
 <section>
     <section class="cards">
@@ -80,8 +82,8 @@ $ArtikelTitel = get_field("artikel_titel");
     <div class="img-wrapper">
     <img src="<?php echo esc_url($SomeImage["url"]) ?>" alt="" class="SocialShape">
     <button class="socialsButton"><?php echo $SomeTekstBox1?></button>
-    <button class="socialsButton2">FIND VORES FACEBOOK HER</button>
-    <h2 class="socialTitle">Tidslernes Sociale<br>Medier</r></h2>
+    <button class="socialsButton2"><?php echo $SomeTekstBox2?></button>
+    <h2 class="socialTitle">Tidslernes Sociale Medier</r></h2>
   </div>
   </div>
 </section>
@@ -105,7 +107,7 @@ $ArtikelTitel = get_field("artikel_titel");
 </section>
 <section class="nyhedsBrev">
   <h2 class="nyhedsBrevTitel">
-    Tilmeld dig vores nyhedsbrev 
+  <?php echo $Nyhedsbrev?>
     <img src="images/news.svg" alt="Nyhedsbrev ikon" class="newsletter-icon">
   </h2>
   <form class="newsletter-form">
