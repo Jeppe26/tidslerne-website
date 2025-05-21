@@ -22,7 +22,7 @@ $loop = new WP_Query($arguments);
   
   <div class="cards_content_block">
             <div class="cards_content_block_image">
-              <img src="images/trykkammer.jpg" alt="">
+            <img src="<?php echo esc_url($CardImage["url"]) ?>" alt="">
               <div class="colorLayer">
 
               </div>
@@ -51,11 +51,9 @@ $loop = new WP_Query($arguments);
 
 
   
-            <?php
-            $todaysRecipeImage = get_field("behandling_image");
-            ?>
+<?php
+$CardImage = get_field("behandling_image");?>
 
-            <img src="<?php echo esc_url($todaysRecipeImage["url"]) ?>" alt="">
           
   
         <?php endwhile?>
