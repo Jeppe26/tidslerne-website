@@ -25,7 +25,7 @@ $loop = new WP_Query($arguments);
             $todaysRecipeImage = get_field("behandling_image");
             ?>
 
-            <div><?php echo esc_html($todaysRecipeImage["url"]); ?></div>
+            <img src="<?php echo esc_url($todaysRecipeImage["url"]) ?>" alt="">
           
   
         <?php endwhile?>
