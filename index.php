@@ -9,6 +9,7 @@ $SomeTekstBox1 = get_field("some_tekst_box_1");
 $SomeTekstBox2 = get_field("some_tekst_box_2");
 $Nyhedsbrev = get_field("nyhedsbrev_tekst");
 $HeaderBox2NewsImage = get_field("header_box_2_news_image");
+$MeldDigInd = get_field("meld_dig_ind_nu");
 ?>
 <section>
     <section class="cards">
@@ -114,7 +115,7 @@ $ArtikelTitel = get_field("artikel_titel");
   <form class="newsletter-form">
     <input type="text" placeholder="Email/tlf:" required>
     <input type="text" placeholder="Navn:" required>
-    <button type="submit">Meld dig ind nu</button>
+    <button type="submit"> <?php echo $MeldDigInd?></button>
   </form>
 </section>
 
