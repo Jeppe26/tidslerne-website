@@ -17,14 +17,15 @@ $arguments = array(
 $loop = new WP_Query($arguments);
 ?>
 
-<?php
-  
- 
-
-?>
-
 <?php if($loop->have_posts()):?>
   <?php while($loop->have_posts()): $loop->the_post()?> 
+
+  <?php
+$CardImage = get_field("behandling_image");
+$BehandlingTitel = get_field("behandling_titel");
+$BehandlingTekst = get_field("behandling_tekst");
+$ArtikelTitel = get_field("artikel_titel");
+?>
   
   <div class="cards_content_block">
             <div class="cards_content_block_image">
@@ -54,15 +55,6 @@ $loop = new WP_Query($arguments);
               </div>
             </div>
           </div>
-
-
-  
-<?php
-$CardImage = get_field("behandling_image");
-$BehandlingTitel = get_field("behandling_titel");
-$BehandlingTekst = get_field("behandling_tekst");
-$ArtikelTitel = get_field("artikel_titel");
-?>
 
           
   
