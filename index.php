@@ -2,6 +2,10 @@
 
 <?php if (have_posts()): ?>
 <?php while (have_posts()): the_post(); ?>
+
+<?php
+$SomeImage = get_field("some_billede");
+?>
 <section>
     <section class="cards">
         
@@ -25,7 +29,6 @@ $CardImage = get_field("behandling_image");
 $BehandlingTitel = get_field("behandling_titel");
 $BehandlingTekst = get_field("behandling_tekst");
 $ArtikelTitel = get_field("artikel_titel");
-$SomeImage = get_field("some_billede");
 ?>
   
   <div class="cards_content_block">
