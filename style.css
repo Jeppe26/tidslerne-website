@@ -445,3 +445,304 @@ header{
   
   p [data-category="seafood"]
   {color:var (var--category-seafood)}
+
+  .socialsSection{
+    margin-top: 150px;
+  }
+  .socials{
+    
+    width: calc(100% - 60px); /* Full width minus 25px on each side */
+    height: fit-content;
+    margin: 0 30px; /* Push it 25px from each side */
+    padding: 0; /* Optional, unless you need internal padding */
+  }
+ .socialShape{
+  display: block;
+  width: 100%;
+  height: auto;
+ }
+
+ .searchbar{
+  background: 
+  linear-gradient(to top, #40E0C0, rgba(35, 122, 113, 0.1)) border-box,
+  rgba(255, 255, 255, 0.2) padding-box;
+  margin: auto auto;
+  width: 50%;
+  height: 75px;
+  border-radius: 25px;
+ }
+ .searchbarContent{
+  background-color: #fbfbfb;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 25px;
+  
+  margin: 0 auto;
+  margin-top: 0.5%;
+  height: 85%;
+  width: 99%;
+
+ }
+ .searchbarContent input{
+  width: calc(100% - 20px);
+  height: 99%;
+  border-radius: 25px;
+  border: none;
+  font-size: 24px;
+  margin-left: 10px;
+ }
+ .img-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%; /* Keeps it tight around the image */
+}
+.img-wrapper2 {
+  position: relative;
+  display: inline-block;
+  width: 100%; /* Keeps it tight around the image */
+}
+ .searchbarContent input:focus{
+  border: none;
+  outline: none;
+ }
+ .socialsButton{
+  position: absolute;
+  top: 54%;         /* Position in center */
+  left: 0px;
+  
+  padding: 20px 20px;
+  border: 5px solid #E04060 !important;
+  background-color: #fbfbfb;
+  color: #E04060;
+  border: none;
+  border-radius: 36px;
+  cursor: pointer;
+  width: 29%;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+ }
+ .socialsButton::after {
+  content: '→';
+  color: #E04060;
+  position: absolute;
+  right: 20px;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 70px;
+}
+.socialsButton2{
+  position: absolute;
+  top: 78%;         /* Position in center */
+  right: 50px;
+  
+  padding: 10px 20px;
+  border: 1px solid #444444 !important;
+  background-color: #444444;
+  color: #ffffff;
+  border: none;
+  border-radius: 36px;
+  cursor: pointer;
+  width: 450px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+ }
+ .socialsButton2::after {
+  content: '→';
+  color: #ffffff;
+  position: absolute;
+  right: 20px;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 70px;
+}
+.socialTitle{
+  position: absolute;
+  bottom: -139px;        /* Position in center */
+  left: 0px;
+  font-size: 96px;
+  font-weight: 600;
+  width: 50%;
+  margin: 0;
+}
+  
+.medlemSection{
+
+width: calc(100% - 60px); /* Full width minus 25px on each side */
+height: fit-content;
+margin: 0 30px; /* Push it 25px from each side */
+padding: 0; /* Optional, unless you need internal padding */
+margin-top: calc(150px + 170px + 95px);
+}
+.medlemTitle{
+  position: absolute;
+  top: -95px;        /* Position in center */
+  right: 0px;
+  font-size: 96px;
+  font-weight: 600;
+  width: 56%;
+  margin: 0;
+}
+.medlemsButton{
+  position: absolute;
+  bottom: 0;         /* Position in center */
+  left: 10.66%;
+  
+  padding: 8px 20px;
+  border: 5px solid #E04060 !important;
+  background-color: #fbfbfb;
+  color: #E04060;
+  border: none;
+  border-radius: 36px;
+  cursor: pointer;
+  width: 21%;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+ }
+ .medlemsButton::after {
+  content: '→';
+  
+  position: absolute;
+  right: 20px;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 70px;
+}
+
+.medlemTextBox{
+  width: 100%;
+  height: 69%;
+  position: absolute;
+  top: 21.1%;         /* Position in center */
+  left: 0;
+}
+.medlemTextBox ul{
+  margin-left: 100px;
+}
+.medlemTextBox li{
+color: white;
+font-size: 75px;
+font-weight: 400;
+line-height: 1.1;
+}
+
+.nyhedsBrev{
+  background-image: linear-gradient(to bottom, #40E0C0, #25857B);
+  width: 100%; /* Full width minus 25px on each side */
+  height: 600px;
+  padding: 0; /* Optional, unless you need internal padding */
+  margin-top: calc(150px + 170px + 95px);
+  border-radius: 0 100px 100px 0;
+}
+.nyhedsBrevTitel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 96px;
+  margin-bottom: 20px;
+  color: white;
+  margin-left: 30px;
+  padding-top: 50px;
+  width: 60%;
+}
+
+.newsletter-icon {
+  width: 96px;
+  height: 96px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 30px;
+  width: 45%;
+}
+
+.newsletter-form input {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 40px;
+  height: 100px;
+}
+
+.newsletter-form button {
+  background-color: #e44061;
+  color: white;
+  padding: 12px;
+  font-size: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 100px;
+}
+
+.newsletter-form button:hover {
+  background-color: #cc3553;
+}
+
+footer{
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to bottom, #009D84, #003734);
+  margin-top: calc(150px + 170px + 95px);
+  color: white;
+  padding: 20px 0px 20px;
+  
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  gap: 20px;
+  text-align: center;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 600px;
+}
+
+.footer-column p,
+.footer-column address {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 33px;
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+.footer-column a {
+  color: white;
+  text-decoration: underline;
+}
+
+.merch-img {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.footer-left-text{
+  
+}
