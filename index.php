@@ -22,7 +22,7 @@ $loop = new WP_Query($arguments);
   
   
             <?php
-            $todaysRecipeImage = get_field("behandling_card_billede");
+            $todaysRecipeImage = get_field("behandling_image");
             ?>
 
             <div><?php echo esc_html($todaysRecipeImage["url"]); ?></div>
