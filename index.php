@@ -25,6 +25,7 @@ $CardImage = get_field("behandling_image");
 $BehandlingTitel = get_field("behandling_titel");
 $BehandlingTekst = get_field("behandling_tekst");
 $ArtikelTitel = get_field("artikel_titel");
+$SomeImage = get_field("some_billede");
 ?>
   
   <div class="cards_content_block">
@@ -73,7 +74,7 @@ $ArtikelTitel = get_field("artikel_titel");
 <section class="socialsSection">
   <div class="socials">
     <div class="img-wrapper">
-    <img src="images/emojis.svg" alt="" class="SocialShape">
+    <img src="<?php echo esc_url($SomeImage["url"]) ?>" alt="" class="SocialShape">
     <button class="socialsButton">Find vores sociale medier</button>
     <button class="socialsButton2">FIND VORES FACEBOOK HER</button>
     <h2 class="socialTitle">Tidslernes Sociale<br>Medier</r></h2>
