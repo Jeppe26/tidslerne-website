@@ -10,6 +10,7 @@ $SomeTekstBox2 = get_field("some_tekst_box_2");
 $Nyhedsbrev = get_field("nyhedsbrev_tekst");
 $HeaderBox2NewsImage = get_field("header_box_2_news_image");
 $MeldDigInd = get_field("meld_dig_ind_nu");
+$MedlemsImage = get_field("medlems_billede");
 ?>
 <section>
     <section class="cards">
@@ -92,7 +93,7 @@ $ArtikelTitel = get_field("artikel_titel");
 <section class="medlemSection">
   <div class="medlem">
     <div class="img-wrapper2">
-    <img src="images/medlemShape.svg" alt="" class="SocialShape">
+    <img src="<?php echo esc_url($MedlemsImage["url"]) ?>" alt="" class="SocialShape">
     <h2 class="medlemTitle">Bliv medlem og tag gode ved alle vores fordele</h2>
     <button class="medlemsButton">Læs mere</button>
     <div class="medlemTextBox">
