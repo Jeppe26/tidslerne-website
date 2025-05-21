@@ -8,6 +8,7 @@ $SomeImage = get_field("some_billede");
 $SomeTekstBox1 = get_field("some_tekst_box_1");
 $SomeTekstBox2 = get_field("some_tekst_box_2");
 $Nyhedsbrev = get_field("nyhedsbrev_tekst");
+$HeaderBox2NewsImage = get_field("header_box_2_news_image");
 ?>
 <section>
     <section class="cards">
@@ -108,7 +109,7 @@ $ArtikelTitel = get_field("artikel_titel");
 <section class="nyhedsBrev">
   <h2 class="nyhedsBrevTitel">
   <?php echo $Nyhedsbrev?>
-    <img src="images/news.svg" alt="Nyhedsbrev ikon" class="newsletter-icon">
+  <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]) ?>" alt="" class="newsletter-icon">
   </h2>
   <form class="newsletter-form">
     <input type="text" placeholder="Email/tlf:" required>
