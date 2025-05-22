@@ -22,7 +22,7 @@ $ArtikelTitel = get_field("artikel_titel");
   
  <div class="behandlingsKat">
         <div class="behandlingsKatLeft">
-            <img src="images/piller.jpg" alt="">
+        <img src="<?php echo esc_url($CardImage["url"]) ?>" alt="">
         </div>
         <div class="behandlingsKatRight">
             <div class="scrollProgress">
