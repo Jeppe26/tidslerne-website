@@ -142,3 +142,4 @@ $ArtikelTitel = get_field("artikel_titel");
 
 <?php endwhile; ?>
 <?php endif; ?>
+<?php get_footer(); ?>
