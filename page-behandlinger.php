@@ -7,7 +7,7 @@
 
 <section class="behandlinger">
 <div class="behandlingerText">
-    <h2>Behandlinger</h2>
+    <h2><?php echo $BehandlingMidtTitel?></h2>
     <p>Kræftforeningen Tidslerne er en forening for tidligere og nuværende kræftpatienter samt deres pårørende og i øvrigt enhver, der ønsker at støtte.</p>
 </div>
 <div class="behandlingsKategorier">
@@ -28,7 +28,7 @@ $CardImage = get_field("behandling_image");
 $BehandlingTitel = get_field("behandling_titel");
 $BehandlingTekst = get_field("behandling_tekst");
 $ArtikelTitel = get_field("artikel_titel");
-?>
+$BehandlingMidtTitel = get_field("behandling_midt_titel");?>
   
  <div class="behandlingsKat">
         <div class="behandlingsKatLeft">
