@@ -3,9 +3,14 @@
 <?php if (have_posts()): ?>
 <?php while (have_posts()): the_post(); ?>
 
+<?php
+$EventSliderImage1 = get_field("event_slider_1");
+
+
+?>
 
     <div class="imageSlider">
-        <img src="images/spilledød.jpg" alt="">
+    <img src="<?php echo esc_url($EventSliderImage1["url"]) ?>" alt="">
         <img src="images/skib_Johanne.jpg" alt="">
         <img src="images/oplægTids.jpg" alt="">
         <img src="images/morgenmad.jpg" alt="">
