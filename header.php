@@ -24,7 +24,7 @@
 
 <?php
   $logoImage = get_field("logo");
-  $HeaderImage = get_field("behandling_hero_billede");
+  $HeaderImage = get_field("forside_hero_billede");
   $HeaderTitel = get_field("forside_titel");
   $HeaderTekst = get_field("forside_tekst");
   $HeaderBox1Billede = get_field("header_box_1_billede");
