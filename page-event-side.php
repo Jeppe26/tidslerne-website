@@ -3,21 +3,7 @@
 <?php if (have_posts()): ?>
 <?php while (have_posts()): the_post(); ?>
 
-<nav class="navbar">
-        <div class="logo-container">
-        <img src=""alt="logo"> 
-       
 
-        </div>
-        <ul class="nav-links">
-            <li><a href="#">Tidslerne</a></li>
-            <li><a href="#">Behandlinger</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Medie/historie</a></li>
-            <li><a href="#">Om os/kontakt</a></li>
-        </ul>
-        <div class="hamburger">&#9776;</div>
-    </nav>
     <div class="imageSlider">
         <img src="images/spilledød.jpg" alt="">
         <img src="images/skib_Johanne.jpg" alt="">
