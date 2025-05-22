@@ -70,11 +70,12 @@ $EventCardImage = get_field("event_cards_image");
       </div>
       
      
-      <?php endwhile?>
-        <?php wp_reset_postdata()?>
-        <?php endif?>
+     
    
     </section>
+    <?php endwhile?>
+        <?php wp_reset_postdata()?>
+        <?php endif?>
       <!-- 2. Your masked section -->
       <div class="events"></div>
 
