@@ -5,15 +5,18 @@
 
 <?php
 $EventSliderImage1 = get_field("event_slider_1");
+$EventSliderImage2 = get_field("event_slider_2");
+$EventSliderImage3 = get_field("event_slider_3");
+$EventSliderImage4 = get_field("event_slider_4");
 
 
 ?>
 
     <div class="imageSlider">
     <img src="<?php echo esc_url($EventSliderImage1["url"]) ?>" alt="">
-        <img src="images/skib_Johanne.jpg" alt="">
-        <img src="images/oplægTids.jpg" alt="">
-        <img src="images/morgenmad.jpg" alt="">
+    <img src="<?php echo esc_url($EventSliderImage2["url"]) ?>" alt="">
+    <img src="<?php echo esc_url($EventSliderImage3["url"]) ?>" alt="">
+    <img src="<?php echo esc_url($EventSliderImage4["url"]) ?>" alt="">
     </div>
    
    
