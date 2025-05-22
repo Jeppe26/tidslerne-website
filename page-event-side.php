@@ -39,6 +39,7 @@ $loop = new WP_Query($arguments);
 
   <?php
 $EventCardImage = get_field("event_cards_image");
+$EventCardTitel = get_field("event_cards_titel");
 
 ?>
 
@@ -65,7 +66,7 @@ $EventCardImage = get_field("event_cards_image");
         </svg>
         <h3 class="svgSted">Esbjerg Bowling Center</h3>
         <p>D. 14/5 - 2025 kl 17:30 - 100DKK</p>
-        <h2>Bowling med Tidslerne</h2>
+        <h2><?php echo $EventCardTitel?></h2>
         <button>Tilmeld Dig</button>
       </div>
       
