@@ -40,7 +40,7 @@ $ArtikelTitel = get_field("artikel_titel");
 
                 </div>
             </div>
-            <h3><?php echo $BehandlingTitel?></h3>
+            <h3 class="behandlingTitler"><?php echo $BehandlingTitel?></h3>
             <p><?php echo $BehandlingTekst?></p>
             <button>LÆS MERE</button>
         </div>
