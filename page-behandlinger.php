@@ -30,9 +30,9 @@ $ArtikelTitel = get_field("artikel_titel");
 
                 </div>
             </div>
-            <h3>Konventionel</h3>
-            <p>Forskning og flere studier viser at konventionel medicin oprindeligt brugt til andre lidelser kan hjælpe med at sulte kræft og i sidste ende slå kræftceller ihjel.</p>
-            <button>LÆS MERE</button>
+            <h3><?php echo $BehandlingTitel?></h3>
+            <p><?php echo $BehandlingTekst?></p>
+            <button>LÆS MERE</button>el.
         </div>
     </div>
 
