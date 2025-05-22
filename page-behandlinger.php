@@ -2,6 +2,16 @@
 
 <?php if (have_posts()): ?>
 <?php while (have_posts()): the_post(); ?>
+
+
+
+<section class="behandlinger">
+<div class="behandlingerText">
+    <h2>Behandlinger</h2>
+    <p>Kræftforeningen Tidslerne er en forening for tidligere og nuværende kræftpatienter samt deres pårørende og i øvrigt enhver, der ønsker at støtte.</p>
+</div>
+<div class="behandlingsKategorier">
+
 <?php
 $arguments = array(
   "post_type"=> "behandling-card",
@@ -32,7 +42,7 @@ $ArtikelTitel = get_field("artikel_titel");
             </div>
             <h3><?php echo $BehandlingTitel?></h3>
             <p><?php echo $BehandlingTekst?></p>
-            <button>LÆS MERE</button>el.
+            <button>LÆS MERE</button>
         </div>
     </div>
 
@@ -41,16 +51,6 @@ $ArtikelTitel = get_field("artikel_titel");
         <?php endwhile?>
         <?php wp_reset_postdata()?>
         <?php endif?>
-
-
-<section class="behandlinger">
-<div class="behandlingerText">
-    <h2>Behandlinger</h2>
-    <p>Kræftforeningen Tidslerne er en forening for tidligere og nuværende kræftpatienter samt deres pårørende og i øvrigt enhver, der ønsker at støtte.</p>
-</div>
-<div class="behandlingsKategorier">
-
-
 
 
         
