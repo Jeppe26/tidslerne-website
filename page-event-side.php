@@ -50,6 +50,12 @@ $loop = new WP_Query($arguments);
 <?php if($loop->have_posts()):?>
   <?php while($loop->have_posts()): $loop->the_post()?> 
 
+
+  <?php
+$EventCardImage = get_field("event_cards_image");
+
+?>
+
       <div style="width: calc(100%-60px); height: 500px; position: relative;" class="svgBowling">
         <svg
           viewBox="0 0 1837 500"
@@ -64,7 +70,7 @@ $loop = new WP_Query($arguments);
           </mask>
       
           <image class="shapeImage"
-            href="images/bowling2.png"
+            href="<?php echo esc_url($EventCardImage["url"]) ?>"
             width="1837"
             height="500"
             mask="url(#clip-mask)"
@@ -78,7 +84,9 @@ $loop = new WP_Query($arguments);
       </div>
       
      
-
+      <?php endwhile?>
+        <?php wp_reset_postdata()?>
+        <?php endif?>
    
     </section>
       <!-- 2. Your masked section -->
