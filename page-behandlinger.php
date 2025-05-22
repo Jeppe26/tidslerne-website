@@ -5,7 +5,7 @@
 
 <?php 
 $BehandlingMidtTitel = get_field("behandling_midt_titel");
-$BehandlingMidtTekst = get_field("behandling_midt_tekst");
+$BehandlingMidtTekst = get_field("behandling_midt_tekstfelt");
 ?>
 
 <section class="behandlinger">
