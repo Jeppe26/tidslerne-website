@@ -2,6 +2,46 @@
 
 <?php if (have_posts()): ?>
 <?php while (have_posts()): the_post(); ?>
+<?php
+$arguments = array(
+  "post_type"=> "behandling-card",
+  "posts_per_page" => 5, 
+);
+$loop = new WP_Query($arguments);
+?>
+
+<?php if($loop->have_posts()):?>
+  <?php while($loop->have_posts()): $loop->the_post()?> 
+
+  <?php
+$CardImage = get_field("behandling_image");
+$BehandlingTitel = get_field("behandling_titel");
+$BehandlingTekst = get_field("behandling_tekst");
+$ArtikelTitel = get_field("artikel_titel");
+?>
+  
+ <div class="behandlingsKat">
+        <div class="behandlingsKatLeft">
+            <img src="images/piller.jpg" alt="">
+        </div>
+        <div class="behandlingsKatRight">
+            <div class="scrollProgress">
+                <div class="scrollProgresContent">
+
+                </div>
+            </div>
+            <h3>Konventionel</h3>
+            <p>Forskning og flere studier viser at konventionel medicin oprindeligt brugt til andre lidelser kan hjælpe med at sulte kræft og i sidste ende slå kræftceller ihjel.</p>
+            <button>LÆS MERE</button>
+        </div>
+    </div>
+
+          
+  
+        <?php endwhile?>
+        <?php wp_reset_postdata()?>
+        <?php endif?>
+
 
 <section class="behandlinger">
 <div class="behandlingerText">
