@@ -3,7 +3,6 @@
 <?php if (have_posts()): ?>
 <?php while (have_posts()): the_post(); ?>
 
-
 <section class="behandlinger">
 <div class="behandlingerText">
     <h2>Behandlinger</h2>
@@ -95,6 +94,7 @@
     </div>
 </div>
 </section>
+
 
 
 
