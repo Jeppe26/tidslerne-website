@@ -78,12 +78,12 @@ $EventCardSted = get_field("event_cards_sted");
       </div>
       
      
-     
-   
-    </section>
-    <?php endwhile?>
+     <?php endwhile?>
         <?php wp_reset_postdata()?>
         <?php endif?>
+   
+    </section>
+    
       <!-- 2. Your masked section -->
       <div class="events"></div>
 
