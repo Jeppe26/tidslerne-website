@@ -105,7 +105,7 @@ $Video1 = get_field("video_1");
     <h2 class="billedTitlel">Video Galeri</h2>
     <div class="videoer">
         <div class="grid-container-video">
-            <div class="box"><iframe width="560" height="315" src="<?php echo esc_url(get_field('video_1')); ?>" alt=""></iframe></div>
+            <iframe width="560" height="315" src="<?php echo esc_url(get_field('video_1')); ?>" alt=""></iframe>
             <div class="box"></div>
             <div class="box"></div>
             <div class="box"></div>
