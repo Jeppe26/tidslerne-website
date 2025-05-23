@@ -38,61 +38,29 @@ $ArtikelTekst = get_field("artikel_tekst");
 </div>
 
   <div class="articleList">
+  $arguments = array(
+  "post_type"=> "artikel-card",
+  "posts_per_page" => 3, 
+);
+$loop = new WP_Query($arguments);
+?>
+
+<?php if($loop->have_posts()):?>
+  <?php while($loop->have_posts()): $loop->the_post()?> 
+
+  <?php
+$ArtikelCardBillede = get_field("artikel_card_billede");
+$ArtikelCardGrønTitel = get_field("artikel_card_gron_titel");
+$ArtikelCardTitel = get_field("artikel_card_titel");
+$ArtikelCardTekst = get_field("artikel_card_tekst");
+$ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
+?>
     <div class="news">
-        <img src="images/oplægTids.jpg" alt="A large green ship with RAINBOW WARRIOR written on the side and a colorful rainbow stripe painted across its hull. The word GREENPEACE is displayed in white letters. The ship is moving through the ocean, with its white sails fully unfolded. The sky is partly cloudy. Waves are splash against the ship, creating a sense of motion and speed. The ship belongs to Greenpeace, an environmental organization known for its activism.">
+    <img src="<?php echo esc_url($ArtikelCardBillede["url"]) ?>" alt=""> 
         <div class="newsText">
-            <h3>News > Articles > About Us</h3>
-            <h2>Our missions off-shore</h2>
-            <p id="newsP1">For more than 50 years, Greenpeace has been sailing the world’s oceans protecting our planet and fighting for environmental justice.<br><br>
-                Have you ever dreamed of sailing on a Greenpeace ship? The ship’s core crew is made up of people from a wide range of backgrounds – ranging from captains, mates, and marine engineers to doctors, cooks and volunteer deckhands. It is hard work. But it could be the experience of a lifetime.</p>
-            <!-- https://www.greenpeace.org/international/about/ships/ -->
-
-                <p id="newsP2">20 July 2024 I 105 Views I 5 Comments</p>
-            <button>Se mere</button>
-        </div>
-    </div>
-
-
-    <div class="news">
-        <img src="images/oplægTids.jpg" alt="A large green ship with RAINBOW WARRIOR written on the side and a colorful rainbow stripe painted across its hull. The word GREENPEACE is displayed in white letters. The ship is moving through the ocean, with its white sails fully unfolded. The sky is partly cloudy. Waves are splash against the ship, creating a sense of motion and speed. The ship belongs to Greenpeace, an environmental organization known for its activism.">
-        <div class="newsText">
-            <h3>News > Articles > About Us</h3>
-            <h2>Our missions off-shore</h2>
-            <p id="newsP1">For more than 50 years, Greenpeace has been sailing the world’s oceans protecting our planet and fighting for environmental justice.<br><br>
-                Have you ever dreamed of sailing on a Greenpeace ship? The ship’s core crew is made up of people from a wide range of backgrounds – ranging from captains, mates, and marine engineers to doctors, cooks and volunteer deckhands. It is hard work. But it could be the experience of a lifetime.</p>
-            <!-- https://www.greenpeace.org/international/about/ships/ -->
-
-                <p id="newsP2">20 July 2024 I 105 Views I 5 Comments</p>
-            <button>Se mere</button>
-        </div>
-    </div>
-
-
-    <div class="news">
-        <img src="images/oplægTids.jpg" alt="A large green ship with RAINBOW WARRIOR written on the side and a colorful rainbow stripe painted across its hull. The word GREENPEACE is displayed in white letters. The ship is moving through the ocean, with its white sails fully unfolded. The sky is partly cloudy. Waves are splash against the ship, creating a sense of motion and speed. The ship belongs to Greenpeace, an environmental organization known for its activism.">
-        <div class="newsText">
-            <h3>News > Articles > About Us</h3>
-            <h2>Our missions off-shore</h2>
-            <p id="newsP1">For more than 50 years, Greenpeace has been sailing the world’s oceans protecting our planet and fighting for environmental justice.<br><br>
-                Have you ever dreamed of sailing on a Greenpeace ship? The ship’s core crew is made up of people from a wide range of backgrounds – ranging from captains, mates, and marine engineers to doctors, cooks and volunteer deckhands. It is hard work. But it could be the experience of a lifetime.</p>
-            <!-- https://www.greenpeace.org/international/about/ships/ -->
-
-                <p id="newsP2">20 July 2024 I 105 Views I 5 Comments</p>
-            <button>Se mere</button>
-        </div>
-    </div>
-
-
-    <div class="news">
-        <img src="images/oplægTids.jpg" alt="A large green ship with RAINBOW WARRIOR written on the side and a colorful rainbow stripe painted across its hull. The word GREENPEACE is displayed in white letters. The ship is moving through the ocean, with its white sails fully unfolded. The sky is partly cloudy. Waves are splash against the ship, creating a sense of motion and speed. The ship belongs to Greenpeace, an environmental organization known for its activism.">
-        <div class="newsText">
-            <h3>News > Articles > About Us</h3>
-            <h2>Our missions off-shore</h2>
-            <p id="newsP1">For more than 50 years, Greenpeace has been sailing the world’s oceans protecting our planet and fighting for environmental justice.<br><br>
-                Have you ever dreamed of sailing on a Greenpeace ship? The ship’s core crew is made up of people from a wide range of backgrounds – ranging from captains, mates, and marine engineers to doctors, cooks and volunteer deckhands. It is hard work. But it could be the experience of a lifetime.</p>
-            <!-- https://www.greenpeace.org/international/about/ships/ -->
-
-                <p id="newsP2">20 July 2024 I 105 Views I 5 Comments</p>
+            <h3><?php echo $ArtikelCardGrønTitel?></h3>
+            <h2><?php echo $ArtikelCardTitel?></h2>
+            <p><?php echo $ArtikelCardTekst?></p>
             <button>Se mere</button>
         </div>
     </div>
