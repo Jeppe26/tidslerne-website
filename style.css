@@ -456,7 +456,7 @@ header{
     margin: 0 30px; /* Push it 25px from each side */
     padding: 0; /* Optional, unless you need internal padding */
   }
- .socialShape{
+ .SocialShape{
   display: block;
   width: 100%;
   height: auto;
