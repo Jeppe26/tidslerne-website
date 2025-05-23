@@ -17,6 +17,7 @@ $KontigentTitel = get_field("kontigent_titel");
 $RegNrTekst = get_field("reg_nr_tekst");
 $GaverTitel = get_field("gaver_titel");
 $MobilepayTekst = get_field("mobilepay_tekst");
+$OmOsTidslerne = get_field("om_os_kraeftforeningen_titel");
 
 ?>
 
@@ -63,7 +64,7 @@ $MobilepayTekst = get_field("mobilepay_tekst");
     </div>
 
     <div class="info">
-        <h3>Kræftforeningen Tidslerne</h3>
+        <h3><?php echo $OmOsTidslerne?></h3>
         <h4>att.: Mai Nielsen, formand</h4>
         <div class="mail">
             <img src="" alt="">
