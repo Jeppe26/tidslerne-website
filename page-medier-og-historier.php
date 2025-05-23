@@ -9,7 +9,7 @@
     <h2 class="patientHistorieTitel">Patient Historier</h2>
       <?php
 $arguments = array(
-  "post_type"=> "Artikler",
+  "post_type"=> "artikel_cards",
   "posts_per_page" => 3, 
 );
 $loop = new WP_Query($arguments);
