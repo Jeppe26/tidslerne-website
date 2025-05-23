@@ -98,7 +98,7 @@ $Billede11 = get_field("billede_11");
 <button class="billedButton">Se mere</button>
 </section>
 <?php
-$Video1 = get_field("video_1");
+
 ?>
 
 <section class="videoGaleri">
