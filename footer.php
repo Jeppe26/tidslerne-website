@@ -1,37 +1,43 @@
 <footer>
-    <?php $Footer = get_field("footer"); ?>
+    <?php 
+    $FooterTitel = get_field("footer_titel");
+    $FooterForeningTekst = get_field("footer_forening_tekst");
+    $FooterFormandTitel = get_field("footer_formand_titel");
+    $FooterForeningInfo = get_field("footer_forening_info");
+    $FooterMail = get_field("footer_mail");
+    $FooterMerchTitel = get_field("footer_merch_titel");
+    $FooterMerchBillede = get_field("footer_merch_billede");
+    $FooterCopyright = get_field("footer_copyright");
+?>
+
+
     <p>&copy; <?php echo $Footer; ?></p>
 </footer>
 <footer>
   <div class="footer-content">
     <div class="footer-column">
-      <h3>Kræftforeningen Tidslerne</h3>
+      <h3><?php echo $FooterTitel?></h3>
       <p class="footer-left-text">
-        Danmarks<br>
-        patient<br>
-        forening
+      <?php echo $FooterForeningTekst?>
       </p>
     </div>
 
     <div class="footer-column">
-      <h3>v/Formand Mai Nielsen</h3>
+      <h3><?php echo $FooterFormandTitel?></h3>
       <address>
-        Ådalsparken 29,<br>
-        6710 Esbjerg V<br>
-        CVR 1742 0291<br>
-        T: 7020-0515<br>
-        E: <a href="mailto:sekretariat@tidslerne.dk">sekretariat@tidslerne.dk</a>
+      <?php echo $FooterForeningInfo?>
+        E: <a href="mailto:sekretariat@tidslerne.dk"><?php echo $FooterMail?></a>
       </address>
     </div>
 
     <div class="footer-column">
-      <h3>Merch kan købers her</h3>
-      <img src="images/tshirt.png" alt="Merch billede" class="merch-img">
+      <h3><?php echo $FooterMerchTitel?></h3>
+      <img src="<?php echo esc_url($FooterMerchBillede["url"]) ?>" alt=""> class="merch-img">
     </div>
   </div>
 
   <div class="footer-bottom">
-    <p>2025 Kræftforeningen Tidslerne.<br>All rights reserved.</p>
+    <p><?php echo $FooterCopyright?></p>
   </div>
 </footer>
 </main>
