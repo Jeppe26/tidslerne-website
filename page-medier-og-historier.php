@@ -24,7 +24,6 @@ $ArtikelCardGrønTitel = get_field("artikel_card_gron_titel");
 $ArtikelCardTitel = get_field("artikel_card_titel");
 $ArtikelCardTekst = get_field("artikel_card_tekst");
 $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
-$Billede1 = get_field("billede_1");
 
 ?>
     <div class="news">
@@ -64,6 +63,11 @@ $Billede1 = get_field("billede_1");
         <div class="item j"></div>
         <div class="item k"></div>
       </div>
+
+      <?php
+$Billede1 = get_field("billede_1");
+
+    ?>
       <style>
         .a{background-image: url("<?php echo esc_url($Billede1["url"]) ?>"); }
         .b{background-image: url("images/oplægTids.jpg");}
