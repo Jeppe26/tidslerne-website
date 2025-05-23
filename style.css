@@ -930,3 +930,12 @@ margin-bottom: 20px;
   font-weight: 700;
   text-align: center;
 }
+
+
+body.page-id-22 .headerContainer {
+    display: none;
+}
+
+body.page-id-22 header {
+    height: auto;
+}
