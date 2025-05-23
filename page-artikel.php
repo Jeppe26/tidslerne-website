@@ -7,6 +7,9 @@
 $NyesteArtikel = get_field("nyeste_artikel_titel");
 $Konventionel = get_field("konventionel_undertitel");
 $ArtikelTitelBillede = get_field("artikel_titel_billede");
+$ArtikelGrønTitel = get_field("artikel_gron_titel");
+$ArtikelTitel = get_field("artikel_titel");
+$ArtikelTekst = get_field("artikel_tekst");
 
 ?>
 
@@ -17,13 +20,9 @@ $ArtikelTitelBillede = get_field("artikel_titel_billede");
     <div class="newsMain">
     <img src="<?php echo esc_url($ArtikelTitelBillede["url"]) ?>" alt="">
         <div class="newsMainText">
-            <h3>News > Articles > About Us</h3>
-            <h2>Our missions off-shore</h2>
-            <p id="newsMainP1">For more than 50 years, Greenpeace has been sailing the world’s oceans protecting our planet and fighting for environmental justice.<br><br>
-                Have you ever dreamed of sailing on a Greenpeace ship? The ship’s core crew is made up of people from a wide range of backgrounds – ranging from captains, mates, and marine engineers to doctors, cooks and volunteer deckhands. It is hard work. But it could be the experience of a lifetime.</p>
-            <!-- https://www.greenpeace.org/international/about/ships/ -->
-
-                <p id="newsMainP2">20 July 2024 I 105 Views I 5 Comments</p>
+            <h3><?php echo $ArtikelGrønTitel?></h3>
+            <h2><?php echo $ArtikelTitel?></h2>
+            <p><?php echo $ArtikelTekst?></p>
             <button>Se mere</button>
         </div>
     </div>
