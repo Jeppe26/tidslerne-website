@@ -7,6 +7,7 @@
 $OmOsTitel = get_field("om_os_titel");
 $OmOsTekst = get_field("om_os_tekst");
 $OmOsBillede = get_field("om_os_image");
+$MedlemsBillede = get_field("medlems_billede");
 
 
 ?>
@@ -27,7 +28,7 @@ $OmOsBillede = get_field("om_os_image");
 <section class="medlemmer">
     <div class="row">
 <div class="medlemLeft">
-<img src="images/handsome.jpg" alt="">
+<img src="<?php echo esc_url($MedlemsBillede["url"]) ?>" alt="">
 </div>
 <div class="medlemRight">
 <h2>Vi sætter vores medlemmer først</h2>
