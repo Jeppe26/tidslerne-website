@@ -1,5 +1,4 @@
-<footer>
-    <?php 
+<?php 
     $frontpage_id = get_option('page_on_front');
     $FooterTitel = get_field("footer_titel", $frontpage_id);
     $FooterForeningTekst = get_field("footer_forening_tekst", $frontpage_id);
@@ -10,10 +9,7 @@
     $FooterMerchBillede = get_field("footer_merch_billede", $frontpage_id);
     $FooterCopyright = get_field("footer_copyright", $frontpage_id);
 ?>
-
-
-    
-</footer>
+  
 <footer>
   <div class="footer-content">
     <div class="footer-column">
