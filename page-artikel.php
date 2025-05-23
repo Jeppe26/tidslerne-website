@@ -69,11 +69,7 @@ $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
   </div>
   <?php endwhile; ?>
 <?php endif; ?> 
-  <div class="articleList">
-  $arguments = array(
-  "post_type"=> "artikel-card",
-  "posts_per_page" => 3, 
-);
+
 </section>
 
 
