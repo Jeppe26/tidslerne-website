@@ -12,7 +12,7 @@
 ?>
 
 
-    <p>&copy; <?php echo $Footer; ?></p>
+    
 </footer>
 <footer>
   <div class="footer-content">
