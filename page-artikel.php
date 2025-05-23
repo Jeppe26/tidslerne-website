@@ -66,6 +66,8 @@ $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
     </div>
   </div>
   </div>
+  <?php endwhile; ?>
+<?php endif; ?>
 </section>
 
 
