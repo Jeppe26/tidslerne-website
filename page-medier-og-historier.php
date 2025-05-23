@@ -3,7 +3,7 @@
 <?php if (have_posts()): ?>
 <?php while (have_posts()): the_post(); ?>
 
-      
+
 
 <section class="patientHistorier">
     <h2 class="patientHistorieTitel">Patient Historier</h2>
@@ -19,14 +19,14 @@ $loop = new WP_Query($arguments);
   <?php while($loop->have_posts()): $loop->the_post()?> 
 
   <?php
-$CardImage = get_field("behandling_image");
+$ArtikelCardBillede = get_field("artikel_card_billede");
 $BehandlingTitel = get_field("behandling_titel");
 $BehandlingTekst = get_field("behandling_tekst");
 $ArtikelTitel = get_field("artikel_titel");
 ?>
     <div class="news">
-        <img src="images/oplægTids.jpg" alt="A large green ship with RAINBOW WARRIOR written on the side and a colorful rainbow stripe painted across its hull. The word GREENPEACE is displayed in white letters. The ship is moving through the ocean, with its white sails fully unfolded. The sky is partly cloudy. Waves are splash against the ship, creating a sense of motion and speed. The ship belongs to Greenpeace, an environmental organization known for its activism.">
-        <div class="newsText">
+    <img src="<?php echo esc_url($ArtikelCardBillede["url"]) ?>" alt=""> 
+    <div class="newsText">
             <h3>News > Articles > About Us</h3>
             <h2>Our missions off-shore</h2>
             <p id="newsP1">For more than 50 years, Greenpeace has been sailing the world’s oceans protecting our planet and fighting for environmental justice.<br><br>
@@ -37,32 +37,8 @@ $ArtikelTitel = get_field("artikel_titel");
             <button>Se mere</button>
         </div>
     </div>
-    <div class="news">
-        <img src="images/Acadia-hypertermi-13.jpg" alt="A close-up of the Rainbow Warrior ship's hull, with the iconic rainbow stripes and a white bird symbol—a part of Greenpeace's logo. Three dolphins follow the ship, creating a dynamic and lively scene. The contrast of the colorful hull against the blue waves highlights Greenpeace's strong connection to marine conservation and environmental activism. The dolphins add a natural and hopeful energy to the image, symbolizing harmony with nature.">
-        <div class="newsText">
-            <h3>News > Articles > About Us</h3>
-            <h2>Breaking</h2>
-            <p id="newsP1">Shell backs down in their multimillion dollar lawsuit against Greenpeace over a peaceful protest. We showed them their bully tactics won't intimidate us - and now they've settled out of court. People power works!<br><br>
-                They demanded $1m USD in damages – and planned to spend another $10m USD in legal fees, which we could have had to pay if we lost the case.</p>
-           <!-- https://www.greenpeace.org/international/story/71777/shell-backs-down-in-lawsuit-against-greenpeace/ -->
-
-                <p id="newsP2">10 December 2024 I 50 Views I 2 Comments</p>
-                <button>Se mere</button>
-        </div>
-    </div>
-    <div class="news">
-        <img src="images/tidsYoga.jpg" alt="A group of people is standing on a bridge, holding a yellow banner with bold black text that reads ЗЕЛЕНЕ ВІДНОВЛЕННЯ ДЛЯ УКРАЇНИ (Green Renewal for Ukraine). The word GREENPEACE is written in smaller green text below. The group, consisting of men and women in casual clothing, smiling at the camera. The bridge features white steel beams and decorative arches in the background, with a view of forest under a clear sky.">
-        <div class="newsText">
-            <h3>News > Articles > About Us</h3>
-            <h2>Protesting peacefully</h2>
-            <p id="newsP1">
-                For more than 50 years we have been using peaceful protest to bring about change. Non-violence is a core principle of Greenpeace and at the heart of all of our activities. Our non-violent direct actions have proved essential to the success of campaigns in exposing environmental crimes, confronting unjust activities and stopping environmental destruction.<br><br>
-                We believe that non-violence direct action is required when all other avenues, such as dialogue or legal action, have been investigated and exhausted, or are clearly not viable.</p>
-           <!-- https://www.greenpeace.org/canada/en/about-us/protesting-peacefully-to-change-the-world/ -->
-                <p id="newsP2">16 September 2024 I 90 Views I 10 Comments</p>
-                <button>Se mere</button>
-        </div>
-    </div>
+    
+    
 
      <?php endwhile?>
         <?php wp_reset_postdata()?>
@@ -86,7 +62,21 @@ $ArtikelTitel = get_field("artikel_titel");
         <div class="item j"></div>
         <div class="item k"></div>
       </div>
-      
+      <style>
+        .a{
+            background-image: url("images/oplægTids.jpg");
+            background-image: url("images/oplægTids.jpg");
+            background-image: url("images/oplægTids.jpg");
+            background-image: url("images/oplægTids.jpg");
+            background-image: url("images/oplægTids.jpg");
+            background-image: url("images/oplægTids.jpg");
+            background-image: url("images/oplægTids.jpg");
+            background-image: url("images/oplægTids.jpg");
+            background-image: url("images/oplægTids.jpg");
+        
+
+        }
+      </style>
 </div>
 <button class="billedButton">Se mere</button>
 </section>
