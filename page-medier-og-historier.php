@@ -24,6 +24,7 @@ $ArtikelCardGrønTitel = get_field("artikel_card_gron_titel");
 $ArtikelCardTitel = get_field("artikel_card_titel");
 $ArtikelCardTekst = get_field("artikel_card_tekst");
 $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
+$Billede1 = get_field("billede_1");
 
 ?>
     <div class="news">
@@ -48,7 +49,7 @@ $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
 </section>
 
 <section class="billedGaleri">
-<h2 class="billedTitlel">Billede Galeri</h2>
+<h2 class="billedTitlel">Billede Galleri</h2>
 <div class="billeder">
     <div class="grid-container">
         <div class="item a"></div>
@@ -64,19 +65,19 @@ $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
         <div class="item k"></div>
       </div>
       <style>
-        .a{
-            background-image: url("images/oplægTids.jpg");
-            background-image: url("images/oplægTids.jpg");
-            background-image: url("images/oplægTids.jpg");
-            background-image: url("images/oplægTids.jpg");
-            background-image: url("images/oplægTids.jpg");
-            background-image: url("images/oplægTids.jpg");
-            background-image: url("images/oplægTids.jpg");
-            background-image: url("images/oplægTids.jpg");
-            background-image: url("images/oplægTids.jpg");
-        
+        .a{background-image: url("<?php echo esc_url($Billede1["url"]) ?>"); }
+        .b{background-image: url("images/oplægTids.jpg");}
+        .c{background-image: url("images/oplægTids.jpg");}
+        .d{background-image: url("images/oplægTids.jpg");}
+        .e{background-image: url("images/oplægTids.jpg");}
+        .f{background-image: url("images/oplægTids.jpg");}
+        .g{ background-image: url("images/oplægTids.jpg");}
+        .h{background-image: url("images/oplægTids.jpg");}
+        .i{background-image: url("images/oplægTids.jpg");}
+        .j{background-image: url("images/oplægTids.jpg");}
+        .k{background-image: url("images/oplægTids.jpg");}
 
-        }
+        
       </style>
 </div>
 <button class="billedButton">Se mere</button>
