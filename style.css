@@ -522,15 +522,6 @@ header{
   font-weight: 700;
   text-align: left;
  }
- .socialsButton::after {
-  content: '→';
-  color: #E04060;
-  position: absolute;
-  right: 20px;
-  top: 45%;
-  transform: translateY(-50%);
-  font-size: 70px;
-}
 .socialsButton2{
   position: absolute;
   top: 78%;         /* Position in center */
