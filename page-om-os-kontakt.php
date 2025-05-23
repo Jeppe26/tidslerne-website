@@ -3,15 +3,23 @@
 <?php if (have_posts()): ?>
 <?php while (have_posts()): the_post(); ?>
 
+<?php
+$OmOsTitel = get_field("om_os_titel");
+$OmOsTekst = get_field("om_os_tekst");
+$OmOsBillede = get_field("om_os_image");
+
+
+?>
+
 
 <section class="omOs">
     <div class="wrapperOmOs">
 <div class="omOsText">
-<h2>Om os</h2>
-<p>Kræftforeningen Tidslerne er en forening for tidligere og nuværende kræftpatienter samt deres pårørende og i øvrigt enhver, der ønsker at støtte et forum for samspillet mellem den konventionelle og alternative behandling af kræftsyge mennesker.</p>
+<h2><?php echo $OmOsTitel?></h2>
+<p><?php echo $OmOsTekst?></p>
 </div>
 <div class="omOsBillede">
-<img src="images/tidslerneGræs.jpg" alt="">
+<img src="<?php echo esc_url($OmOsBillede["url"]) ?>" alt="">
 </div>
 </div>
 </section>
