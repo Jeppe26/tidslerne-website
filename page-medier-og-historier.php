@@ -9,8 +9,8 @@
     <h2 class="patientHistorieTitel">Patient Historier</h2>
       <?php
 $arguments = array(
-  "post_type"=> "behandling-card",
-  "posts_per_page" => 4, 
+  "post_type"=> "Artikler",
+  "posts_per_page" => 3, 
 );
 $loop = new WP_Query($arguments);
 ?>
@@ -26,7 +26,7 @@ $ArtikelTitel = get_field("artikel_titel");
 ?>
     <div class="news">
     <img src="<?php echo esc_url($ArtikelCardBillede["url"]) ?>" alt=""> 
-    
+
     <div class="newsText">
             <h3>News > Articles > About Us</h3>
             <h2>Our missions off-shore</h2>
