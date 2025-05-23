@@ -1,13 +1,14 @@
 <footer>
     <?php 
-    $FooterTitel = get_field("footer_titel");
-    $FooterForeningTekst = get_field("footer_forening_tekst");
-    $FooterFormandTitel = get_field("footer_formand_titel");
-    $FooterForeningInfo = get_field("footer_forening_info");
-    $FooterMail = get_field("footer_mail");
-    $FooterMerchTitel = get_field("footer_merch_titel");
-    $FooterMerchBillede = get_field("footer_merch_billede");
-    $FooterCopyright = get_field("footer_copyright");
+    $frontpage_id = get_option('page_on_front');
+    $FooterTitel = get_field("footer_titel", $frontpage_id);
+    $FooterForeningTekst = get_field("footer_forening_tekst", $frontpage_id);
+    $FooterFormandTitel = get_field("footer_formand_titel", $frontpage_id);
+    $FooterForeningInfo = get_field("footer_forening_info", $frontpage_id);
+    $FooterMail = get_field("footer_mail", $frontpage_id);
+    $FooterMerchTitel = get_field("footer_merch_titel", $frontpage_id);
+    $FooterMerchBillede = get_field("footer_merch_billede", $frontpage_id);
+    $FooterCopyright = get_field("footer_copyright", $frontpage_id);
 ?>
 
 
