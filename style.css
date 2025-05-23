@@ -568,11 +568,10 @@ margin-top: calc(150px + 170px + 95px);
 }
 .medlemTitle{
   position: absolute;
-  top: -95px;        /* Position in center */
-  right: 0px;
+  top: -110px;        /* Position in center */
   font-size: 90px;
   font-weight: 600;
-  width: 70%;
+  width: 1000px;
   margin: 0;
 }
 .medlemsButton{
