@@ -83,7 +83,9 @@ $OmOsKontaktInfo = get_field("om_os_kontakt_info");
         <h4><?php echo $OmOsAdresseTitel?></h4>
         <p><?php echo $OmOsAdresse?>
     
-        <?php echo $OmOsKontaktInfo?></p>
+            T: 86 11 32 44<br>
+            M: 40 15 90 11<br>
+            CVR: 17420291</p>
     </div>
 </div>
 
