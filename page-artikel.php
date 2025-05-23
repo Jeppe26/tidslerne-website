@@ -6,6 +6,7 @@
 <?php
 $NyesteArtikel = get_field("nyeste_artikel_titel");
 $Konventionel = get_field("konventionel_undertitel");
+$ArtikelTitelBillede = get_field("artikel_titel_billede");
 
 ?>
 
@@ -14,7 +15,7 @@ $Konventionel = get_field("konventionel_undertitel");
 <h3 class="articlesSubTitle"><?php echo $Konventionel?></h3>
 <div class="mainArticle">
     <div class="newsMain">
-        <img src="images/oplægTids.jpg" alt="">
+    <img src="<?php echo esc_url($ArtikelTitelBillede["url"]) ?>" alt="">
         <div class="newsMainText">
             <h3>News > Articles > About Us</h3>
             <h2>Our missions off-shore</h2>
