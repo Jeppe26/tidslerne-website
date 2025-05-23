@@ -603,7 +603,7 @@ margin-top: calc(150px + 170px + 95px);
   font-size: 70px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
     .medlemsButton{
         text-align: center;
     }
