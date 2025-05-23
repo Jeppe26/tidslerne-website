@@ -35,7 +35,7 @@ $EventSliderImage4 = get_field("event_slider_4");
 
       <?php
 $arguments = array(
-  "post_type"=> "event-cards",
+  "post_type"=> "Event-card",
   "posts_per_page" => 5, 
 );
 $loop = new WP_Query($arguments);
