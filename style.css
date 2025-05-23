@@ -939,3 +939,484 @@ body.page-id-22 .headerContainer {
 body.page-id-22 header {
     height: auto;
 }
+
+.patientHistorier{
+  width: calc(100% - 60px);
+  height: fit-content;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.news{
+  width: 100%;
+  display: flex;
+  height: 300px;
+  margin-bottom: 50px;
+  
+}
+.newsText{
+  flex: 1; /* ✅ allow it to fill remaining space instead of hard width */
+  padding-left: 20px;
+  
+}
+.news img{
+  width: 500px;
+  min-width: 500px; /* ✅ don't let it shrink */
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.newsText h3{
+  color: #40E0C0;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
+}
+.newsText h2{
+  border: none;
+  font-size: 36px;
+  font-weight: 700;
+}
+#newsP1{
+  margin: 0px 0 5px;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+}
+#newsP2{
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0;
+}
+.newsText button{
+  background-color: #40E0C0;
+  border: 1px solid var(--background-color-light);
+  color: white;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  padding:10px 80px;
+  cursor:pointer;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.patientHistorieTitel{
+  font-size: 100px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.patientButton{
+  background-color: #E04060;
+  border: 1px solid var(--background-color-light);
+  color: white;
+  border-radius: 25px;
+  font-size: 32px;
+  font-weight: 700;
+  padding:10px 100px;
+  cursor:pointer;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.billedGaleri{
+  width: calc(100% - 60px);
+  height: fit-content;
+  margin: 0 auto;
+  
+  margin-top: 120px;
+}
+.billedTitlel{
+  font-size: 100px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+  width: 100%; /* Responsive width */
+  
+  
+  aspect-ratio: 4 / 3; /* Maintain full grid ratio */
+  height: auto;
+}
+
+.item {
+  background: black;
+  width: 100%;
+  background-size: cover;
+   /* Each cell is square */
+}
+
+/* Grid item placement */
+.a { grid-column: 1; grid-row: 1; border-top-left-radius: 8px; background-image: url("images/hyggenygge.jpg")}
+.b { grid-column: 2; grid-row: 1; background-image: url("images/efterkemo.jpg")}
+.c { grid-column: 3 / 5; grid-row: 1; border-top-right-radius: 8px; background-image: url("images/hovedterapi.jpg")}
+.d { grid-column: 1 / 3; grid-row: 2 / 4; background-image: url("images/hemoConference.jpg")}
+.e { grid-column: 3; grid-row: 2; background-image: url("images/kvindeILillaJakke.jpg")}
+.f { grid-column: 4; grid-row: 2; background-image: url("images/kvindeIStrik.jpg")}
+.g { grid-column: 3; grid-row: 3 / 5; background-image: url("images/blackmannsMor.jpg")}
+.h { grid-column: 4; grid-row: 3; background-image: url("images/armeIVæret.jpg")}
+.i { grid-column: 1; grid-row: 4; border-bottom-left-radius: 8px; background-image: url("images/tidsYoga.jpg")}
+.j { grid-column: 2; grid-row: 4; background-image: url("images/canna.jpg")}
+.k { grid-column: 4; grid-row: 4; border-bottom-right-radius: 8px; background-image: url("images/jordbærHjelm.jpg")}
+
+.billedButton{
+  background-color: #E04060;
+  border: 1px solid var(--background-color-light);
+  color: white;
+  border-radius: 25px;
+  font-size: 32px;
+  font-weight: 700;
+  padding:10px 100px;
+  cursor:pointer;
+  margin-top: 50px;
+  margin-left: auto;
+}
+
+.videoGaleri{
+  width: calc(100% - 60px);
+  height: fit-content;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+.grid-container-video {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  
+  margin: auto;
+  padding: 20px;
+}
+
+.box {
+  background: black;
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+}
+.wrapperOmOs{
+  width: calc(100% - 60px);
+  height: 700px;
+  margin: 0 auto;
+  
+  display: flex;
+  
+}
+.omOs{
+  width: 100%;
+  height: fit-content;
+background-image: linear-gradient(to left, #25857B, #40E0C0);
+}
+.omOsText{
+  width: 700px;
+  flex: 1;
+}
+.omOsText h2{
+  font-size: 132px; 
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  margin-top: 10%;
+}
+.omOsText p{
+  font-size: 40px; 
+  color: white;
+  font-weight: 400;
+}
+.omOsBillede {
+             /* Pushes the whole image container to the right */
+  height: 100%;
+  display: flex;
+  align-items: center; 
+  justify-content: right;  
+  flex: 1;        /* Vertical centering */
+}
+
+.omOsBillede img { 
+  width: 80%;
+  height: auto;
+  flex-shrink: 0; 
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 15%;
+  object-fit: cover;
+}
+
+.medlemmer{
+  width: calc(100% - 60px);
+  height: 700px;
+  margin: 0 auto;
+  
+  margin-top: 100px;
+  display: flex;
+}
+.row{
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.medlemLeft{
+  flex-basis: 35%;
+}
+.medlemLeft img{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  object-position: top;
+}
+.medlemRight{
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+   /* or use flex-grow */
+  height: 100%;
+}
+.medlemRight h2{
+  font-size: 106;
+  font-weight: 200;
+  margin: 0;
+  flex-grow: 1;
+}
+.medlemRight p{
+  font-size: 24;
+  font-weight: 600;
+  margin: 0;
+  flex-grow: 1;
+}
+.medlemRight button{
+  background-color: #E04060;
+  border: 1px solid var(--background-color-light);
+  color: white;
+  border-radius: 25px;
+  font-size: 50px;
+  font-weight: 700;
+  padding:10px 100px;
+  cursor:pointer;
+  margin-top: 50px;
+  width: 700px;
+  
+  
+}
+
+.kontakt{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 200px;
+  
+}
+.kontakt h2{
+  margin: 0 auto;
+  width: calc(100% - 60px);
+  text-align: right;
+  font-size: 106px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  
+  
+}
+.kontaktContainer{
+  flex: 1 1 0; /* ✅ allows shrinking if needed */
+ 
+  display: flex;
+  
+  
+}
+.map{
+flex: 1;
+height: 100%;
+}
+.map img{
+  width: 100%;
+  height: 100%;
+  max-height: 100%;         /* ✅ Prevents it from growing larger than container */
+  object-fit: cover;        /* ✅ Ensures it doesn’t stretch, fills nicely */
+  display: block;  
+  
+}
+
+.indbetalinger{
+  flex: 1;
+  background-color: #237A711A;
+  padding: 0 20px;
+}
+.indbetalinger h3{
+  font-size: 64px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.indbetalinger h4{
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+.indbetalinger p{
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.info{
+  flex: 1;
+  background-color: #40E0C01A;
+  padding: 0 20px;
+}
+.info h3{
+  font-size: 64px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.info h4{
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+.info p{
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.articles{
+  width: calc(100% - 60px);
+  height: fit-content;
+  margin: 0 auto;
+}
+.articlesTitle{
+  font-size: 106px;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+.articlesSubTitle{
+  font-size: 64px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.newsMain{
+  width: 100%;
+  display: flex;
+  height: 500px;
+  margin-bottom: 50px;
+  
+}
+.newsMainText{
+  flex: 1; /* ✅ allow it to fill remaining space instead of hard width */
+  padding-left: 20px;
+  
+}
+.newsMain img{
+  width: 600px;
+  min-width: 600px; /* ✅ don't let it shrink */
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.newsMainText h3{
+  color: #40E0C0;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+}
+.newsMainText h2{
+  border: none;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#newsMainP1{
+  margin: 0px 0 5px;
+  font-weight: bold;
+  font-size: 26px;
+  width: 100%;
+}
+#newsMainP2{
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0;
+}
+.newsMainText button{
+  background-color: #E04060;
+  border: 1px solid var(--background-color-light);
+  color: white;
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: 400;
+  padding:20px 100px;
+  cursor:pointer;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.searchbarArticle{
+  background: 
+  linear-gradient(to top, #40E0C0, rgba(35, 122, 113, 0.1)) border-box,
+  rgba(255, 255, 255, 0.2) padding-box;
+  
+  width: 50%;
+  height: 75px;
+  border-radius: 25px;
+  padding-top: 5px;
+ }
+ .searchbarArticleContent{
+  background-color: #fbfbfb;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 25px;
+  
+  margin: 0 auto;
+  
+  height: 70px;
+  width: 99%;
+
+ }
+ .searchbarArticleContent input{
+  width: calc(100% - 20px);
+  height: 99%;
+  border-radius: 25px;
+  border: none;
+  font-size: 24px;
+  margin-left: 10px;
+ }
+
+ .searchbarArticleContent input:focus{
+  border: none;
+  outline: none;
+ }
+ .searchArticle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 150px;
+ }
+ .searchArticle button{
+  
+  background-color: #40E0C0;
+  border: 1px solid var(--background-color-light);
+  color: white;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  padding:10px 70px;
+  cursor:pointer;
+  margin-left: 20px;
+  height: 80px;
+}
+ 
+.searchArticle button img{
+  height: 100%;
+}
+
+.articleList{
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
