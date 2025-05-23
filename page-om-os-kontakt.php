@@ -11,8 +11,12 @@ $MedlemsBillede = get_field("medlems_billede");
 $OmOsMedlemsTitel = get_field("om_os_medlem_titel");
 $OmOsMedlemsTekst = get_field("om_os_medlem_tekst");
 $OmOsLokation = get_field("om_os_lokation");
-
-
+$OmOsIndbetalingTitel = get_field("om_os_indbetaling_titel");
+$OmOsIndbetalingTekst = get_field("om_os_indbetaling_tekst");
+$KontigentTitel = get_field("kontigent_titel");
+$RegNrTekst = get_field("reg_nr_tekst");
+$GaverTitel = get_field("gaver_titel");
+$MobilepayTekst = get_field("mobilepay_tekst");
 
 ?>
 
@@ -36,7 +40,7 @@ $OmOsLokation = get_field("om_os_lokation");
 </div>
 <div class="medlemRight">
 <h2><?php echo $OmOsMedlemsTitel?></h2>
-<p><?php echo $OmOsMedlemsTekst?> </p>
+<p><?php echo $OmOsMedlemsTekst?></p>
 <button>Bliv medlem her</button>
 </div>
 </div>
@@ -51,11 +55,11 @@ $OmOsLokation = get_field("om_os_lokation");
     </div>
 
     <div class="indbetalinger">
-        <h3>Indbetaliger</h3>
-        <h4>Medlemskontingent:</h4>
-        <p>Reg. nr: 9570<br>Konto: 997 0118<br>IBAN kontonummer: DK1730000009970118<br>BIC (SWIFT-adresse) DABADKKK</p>
-        <h4>Gaver & Donationer (gerne pr. MobilePay):</h4>
-        <p>MobilePay: 211 600<br>eller<br>Danske Bank<br>Reg. nr: 9570<br>Konto: 1202 5041<br>IBAN kontonummer: DK2930000012025041<br>BIC (SWIFT-adresse) DABADKKK</p>
+        <h3><?php echo $OmOsIndbetalingTitel?></h3>
+        <h4><?php echo $KontigentTitel?></h4>
+        <p><?php echo $RegNrTekst?></p>
+        <h4><?php echo $GaverTitel?></h4>
+        <p><?php echo $MobilepayTekst?></p>
     </div>
 
     <div class="info">
