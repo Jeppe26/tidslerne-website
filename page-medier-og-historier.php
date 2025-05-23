@@ -99,6 +99,9 @@ $Billede11 = get_field("billede_11");
 </section>
 <?php
 $Video1 = get_field("video_1");
+$Video2 = get_field("video_2");
+$Video3 = get_field("video_3");
+$Video4 = get_field("video_4");
 ?>
 
 <section class="videoGaleri">
@@ -106,9 +109,9 @@ $Video1 = get_field("video_1");
     <div class="videoer">
         <div class="grid-container-video">
             <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_1')); ?>" alt=""></iframe></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_2')); ?>" alt=""></iframe></div>
+            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_3')); ?>" alt=""></iframe></div>
+            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_4')); ?>" alt=""></iframe></div>
           </div>
           <iframe width="560" height="315" src="<?php echo esc_url(get_field('video_1')); ?>" alt=""></iframe>
     </div>
