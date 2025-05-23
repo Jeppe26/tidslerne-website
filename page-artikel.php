@@ -38,6 +38,7 @@ $ArtikelTekst = get_field("artikel_tekst");
 </div>
 
   <div class="articleList">
+    <?php
   $arguments = array(
   "post_type"=> "artikel-card",
   "posts_per_page" => 3, 
