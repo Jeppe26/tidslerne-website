@@ -3,7 +3,11 @@
 <?php if (have_posts()): ?>
 <?php while (have_posts()): the_post(); ?>
 
-        <?php
+      
+
+<section class="patientHistorier">
+    <h2 class="patientHistorieTitel">Patient Historier</h2>
+      <?php
 $arguments = array(
   "post_type"=> "behandling-card",
   "posts_per_page" => 4, 
@@ -20,9 +24,6 @@ $BehandlingTitel = get_field("behandling_titel");
 $BehandlingTekst = get_field("behandling_tekst");
 $ArtikelTitel = get_field("artikel_titel");
 ?>
-
-<section class="patientHistorier">
-    <h2 class="patientHistorieTitel">Patient Historier</h2>
     <div class="news">
         <img src="images/oplægTids.jpg" alt="A large green ship with RAINBOW WARRIOR written on the side and a colorful rainbow stripe painted across its hull. The word GREENPEACE is displayed in white letters. The ship is moving through the ocean, with its white sails fully unfolded. The sky is partly cloudy. Waves are splash against the ship, creating a sense of motion and speed. The ship belongs to Greenpeace, an environmental organization known for its activism.">
         <div class="newsText">
