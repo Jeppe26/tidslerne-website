@@ -8,6 +8,10 @@ $OmOsTitel = get_field("om_os_titel");
 $OmOsTekst = get_field("om_os_tekst");
 $OmOsBillede = get_field("om_os_image");
 $MedlemsBillede = get_field("medlems_billede");
+$OmOsMedlemsTitel = get_field("om_os_medlem_titel");
+$OmOsMedlemsTekst = get_field("om_os_medlem_tekst");
+$OmOsLokation = get_field("om_os_lokation");
+
 
 
 ?>
@@ -31,10 +35,8 @@ $MedlemsBillede = get_field("medlems_billede");
 <img src="<?php echo esc_url($MedlemsBillede["url"]) ?>" alt="">
 </div>
 <div class="medlemRight">
-<h2>Vi sætter vores medlemmer først</h2>
-<p>Som medlem af kræftforeningen Tidslerne knytter der sig en række fordele, som du omgående kan drage fordel af efter at have tegnet et medlemskab.
-
-    Medlemskab enten som patientmedlem eller støttemedlem, kan du tegne her, og når du har betalt dit kontingent har du adgang til vores medlemsportal.</p>
+<h2><?php echo $OmOsMedlemsTitel?></h2>
+<p><?php echo $OmOsMedlemsTekst?> </p>
 <button>Bliv medlem her</button>
 </div>
 </div>
@@ -45,7 +47,7 @@ $MedlemsBillede = get_field("medlems_billede");
 <div class="kontaktContainer">
 
     <div class="map">
-        <img src="images/map.jpg" alt="">
+    <img src="<?php echo esc_url($OmOsLokation["url"]) ?>" alt="">
     </div>
 
     <div class="indbetalinger">
