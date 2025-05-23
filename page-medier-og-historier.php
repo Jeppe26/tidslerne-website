@@ -110,6 +110,7 @@ $Video1 = get_field("video_1");
             <div class="box"></div>
             <div class="box"></div>
           </div>
+          <iframe width="560" height="315" src="<?php echo esc_url(get_field('video_1')); ?>" alt=""></iframe>
     </div>
 </section>
 
