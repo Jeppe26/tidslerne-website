@@ -18,6 +18,12 @@ $RegNrTekst = get_field("reg_nr_tekst");
 $GaverTitel = get_field("gaver_titel");
 $MobilepayTekst = get_field("mobilepay_tekst");
 $OmOsTidslerne = get_field("om_os_kraeftforeningen_titel");
+$OmOsFormand = get_field("om_os_formand");
+$OmOsMail = get_field("om_os_mail");
+$OmOsTlf = get_field("om_os_tlf");
+$OmOsAdresseTitel = get_field("om_os_adresse_titel");
+$OmOsAdresse = get_field("om_os_adresse");
+$OmOsKontaktInfo = get_field("om_os_kontakt_info");
 
 ?>
 
@@ -65,22 +71,18 @@ $OmOsTidslerne = get_field("om_os_kraeftforeningen_titel");
 
     <div class="info">
         <h3><?php echo $OmOsTidslerne?></h3>
-        <h4>att.: Mai Nielsen, formand</h4>
+        <h4><?php echo $OmOsFormand?></h4>
         <div class="mail">
             <img src="" alt="">
-            <p>sekretariat@tidslerne.dk</p>
+            <p><?php echo $OmOsMail?></p>
         </div>
         <div class="phoneNr">
             <img src="" alt="">
-            <p>+45 70 20 05 165</p>
+            <p><?php echo $OmOsTlf?></p>
         </div>
-        <h4>HovedKontor Adresse:</h4>
-        <p>Ådalsparken 29,<br>
-            6710 Esbjerg V
-            <br><br>
-            T: 86 11 32 44<br>
-            M: 40 15 90 11<br>
-            CVR: 17420291</p>
+        <h4><?php echo $OmOsAdresseTitel?></h4>
+        <p><?php echo $OmOsAdresse?></p>
+        <p><?php echo $OmOsKontaktInfo?></p>
     </div>
 </div>
 
