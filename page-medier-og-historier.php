@@ -20,21 +20,21 @@ $loop = new WP_Query($arguments);
 
   <?php
 $ArtikelCardBillede = get_field("artikel_card_billede");
-$BehandlingTitel = get_field("behandling_titel");
-$BehandlingTekst = get_field("behandling_tekst");
-$ArtikelTitel = get_field("artikel_titel");
+$ArtikelCardGrønTitel = get_field("artikel_card_gron_titel");
+$ArtikelCardTitel = get_field("artikel_card_titel");
+$ArtikelCardTekst = get_field("artikel_card_tekst");
+$ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
+
 ?>
     <div class="news">
     <img src="<?php echo esc_url($ArtikelCardBillede["url"]) ?>" alt=""> 
 
     <div class="newsText">
-            <h3>News > Articles > About Us</h3>
-            <h2>Our missions off-shore</h2>
-            <p id="newsP1">For more than 50 years, Greenpeace has been sailing the world’s oceans protecting our planet and fighting for environmental justice.<br><br>
-                Have you ever dreamed of sailing on a Greenpeace ship? The ship’s core crew is made up of people from a wide range of backgrounds – ranging from captains, mates, and marine engineers to doctors, cooks and volunteer deckhands. It is hard work. But it could be the experience of a lifetime.</p>
-            <!-- https://www.greenpeace.org/international/about/ships/ -->
+            <h3><?php echo $ArtikelCardGrønTitel?></h3>
+            <h2><?php echo $ArtikelCardTitel?></h2>
+            <p id="newsP1"><?php echo $ArtikelCardTekst?></p>
 
-                <p id="newsP2">20 July 2024 I 105 Views I 5 Comments</p>
+                <p id="newsP2"><?php echo $ArtikelCardDatoInfo?></p>
             <button>Se mere</button>
         </div>
     </div>
