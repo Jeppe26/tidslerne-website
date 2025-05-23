@@ -3,6 +3,24 @@
 <?php if (have_posts()): ?>
 <?php while (have_posts()): the_post(); ?>
 
+        <?php
+$arguments = array(
+  "post_type"=> "behandling-card",
+  "posts_per_page" => 4, 
+);
+$loop = new WP_Query($arguments);
+?>
+
+<?php if($loop->have_posts()):?>
+  <?php while($loop->have_posts()): $loop->the_post()?> 
+
+  <?php
+$CardImage = get_field("behandling_image");
+$BehandlingTitel = get_field("behandling_titel");
+$BehandlingTekst = get_field("behandling_tekst");
+$ArtikelTitel = get_field("artikel_titel");
+?>
+
 <section class="patientHistorier">
     <h2 class="patientHistorieTitel">Patient Historier</h2>
     <div class="news">
@@ -44,6 +62,10 @@
                 <button>Se mere</button>
         </div>
     </div>
+
+     <?php endwhile?>
+        <?php wp_reset_postdata()?>
+        <?php endif?>
     <button class="patientButton">Se mere</button>
 </section>
 
