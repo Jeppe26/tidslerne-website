@@ -513,7 +513,7 @@ header{
  .socialsButton{
   position: absolute;
   top: 54%;         /* Position in center */
-  left: 0;
+  left: 0%;
   
   padding: clamp(0.8rem, 1vw, 1.5rem) clamp(1rem, 2vw, 1rem);;
   border: 5px solid #E04060 !important;
