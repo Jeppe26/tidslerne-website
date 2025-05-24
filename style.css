@@ -515,14 +515,14 @@ header{
   top: 54%;         /* Position in center */
   left: 2%;
   
-  padding: clamp(0.8rem, 2vw, 1.5rem) clamp(1rem, 3vw, 2rem);;
+  padding: clamp(0.8rem, 1vw, 1.5rem) clamp(1rem, 2vw, 1rem);;
   border: 5px solid #E04060 !important;
   background-color: #fbfbfb;
   color: #E04060;
   border: none;
   border-radius: 36px;
   cursor: pointer;
-  width: clamp(180px, 25%, 300px);
+  width: clamp(140px, 30%, 500px);
   font-size: clamp(1rem, 2vw, 2.25rem);
   font-weight: 700;
   text-align: center;
