@@ -4,7 +4,9 @@ Author: Tidslerne
 Date: 2025-30-05 
 Version: 1.0 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;600;700&display=swap');
-
+html{
+    width: 100%;
+}
 body{
     margin: 0;
     padding: 0;
