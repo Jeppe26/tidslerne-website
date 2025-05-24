@@ -513,9 +513,9 @@ header{
  .socialsButton{
   position: absolute;
   top: 54%;         /* Position in center */
-  left: 0;
+  left: 2%;
   
-  padding: clamp(0.1rem, 1vw, 1rem) clamp(1rem, 2vw, 1rem);
+  padding: clamp(0.8rem, 2vw, 1.5rem) clamp(1rem, 3vw, 2rem);;
   border: 5px solid #E04060 !important;
   background-color: #fbfbfb;
   color: #E04060;
@@ -539,7 +539,7 @@ header{
   border: none;
   border-radius: 36px;
   cursor: pointer;
-  width: clamp(180px, 30%, 500px);
+  width: clamp(200px, 40%, 450px);
   font-size: clamp(1rem, 2vw, 2.25rem);
   font-weight: 700;
   text-align: center;
