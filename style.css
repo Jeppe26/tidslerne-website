@@ -542,9 +542,13 @@ header{
   width: clamp(200px, 40%, 450px);
   font-size: clamp(1rem, 2vw, 2.25rem);
   font-weight: 700;
-  text-align: left;
+  text-align: center;
  }
- 
+ @media (max-width: 1412px) {
+    .socialsButton2{
+        padding: 20px;
+    }
+}
 .socialTitle{
   position: absolute;
   bottom: -23%;        /* Position in center */
