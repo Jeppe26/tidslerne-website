@@ -448,21 +448,7 @@ header{
   p [data-category="seafood"]
   {color:var (var--category-seafood)}
 
-  .socialsSection{
-    margin-top: 150px;
-  }
-  .socials{
-    
-    width: calc(100% - 60px); /* Full width minus 25px on each side */
-    height: fit-content;
-    margin: 0 30px; /* Push it 25px from each side */
-    padding: 0; /* Optional, unless you need internal padding */
-  }
- .SocialShape{
-  display: block;
-  width: 100%;
-  height: auto;
- }
+
 
  .searchbar{
   background: 
@@ -485,20 +471,7 @@ header{
   width: 99%;
 
  }
- .searchbarContent input{
-  width: calc(100% - 20px);
-  height: 99%;
-  border-radius: 25px;
-  border: none;
-  font-size: 24px;
-  margin-left: 10px;
- }
- .img-wrapper {
-  position: relative;
-  display: inline-block;
-  width: 100%; /* Keeps it tight around the image */
-}
-.img-wrapper2 {
+ .img-wrapper2 {
   position: relative;
   display: inline-block;
   width: 100%; /* Keeps it tight around the image */
@@ -507,27 +480,57 @@ header{
   border: none;
   outline: none;
  }
+ .searchbarContent input{
+  width: calc(100% - 20px);
+  height: 99%;
+  border-radius: 25px;
+  border: none;
+  font-size: 24px;
+  margin-left: 10px;
+ }
+
+   .socialsSection{
+    margin-top: 150px;
+  }
+  .socials{
+    
+    width: calc(100% - 60px); /* Full width minus 25px on each side */
+    height: fit-content;
+    margin: 0 30px; /* Push it 25px from each side */
+    padding: 0; /* Optional, unless you need internal padding */
+  }
+ .SocialShape{
+  display: block;
+  width: 100%;
+  height: auto;
+ }
+ .img-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%; /* Keeps it tight around the image */
+}
+
  .socialsButton{
   position: absolute;
   top: 54%;         /* Position in center */
-  left: 0px;
+  left: 2%;
   
-  padding: 20px 20px;
+  padding: clamp(0.8rem, 2vw, 1.5rem) clamp(1rem, 3vw, 2rem);;
   border: 5px solid #E04060 !important;
   background-color: #fbfbfb;
   color: #E04060;
   border: none;
   border-radius: 36px;
   cursor: pointer;
-  width: 29%;
-  font-size: 36px;
+  width: clamp(180px, 25%, 300px);
+  font-size: clamp(1rem, 2vw, 2.25rem);
   font-weight: 700;
   text-align: center;
  }
 .socialsButton2{
   position: absolute;
   top: 78%;         /* Position in center */
-  right: 50px;
+  right: 2%;
   
   padding: 10px 20px;
   border: 1px solid #444444 !important;
@@ -536,8 +539,8 @@ header{
   border: none;
   border-radius: 36px;
   cursor: pointer;
-  width: 450px;
-  font-size: 36px;
+  width: clamp(200px, 40%, 450px);
+  font-size: clamp(1rem, 2.5vw, 2.25rem);
   font-weight: 700;
   text-align: left;
  }
@@ -552,7 +555,7 @@ header{
 }
 .socialTitle{
   position: absolute;
-  bottom: -139px;        /* Position in center */
+  bottom: -10%;        /* Position in center */
   left: 0px;
   font-size: clamp(2.14rem, 5vw, 5.4rem);
   font-weight: 600;
