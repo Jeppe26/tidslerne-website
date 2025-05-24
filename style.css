@@ -522,7 +522,7 @@ header{
   width: 29%;
   font-size: 36px;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
  }
 .socialsButton2{
   position: absolute;
@@ -539,7 +539,7 @@ header{
   width: 450px;
   font-size: 36px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
  }
  .socialsButton2::after {
   content: '→';
