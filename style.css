@@ -540,22 +540,14 @@ header{
   border-radius: 36px;
   cursor: pointer;
   width: clamp(200px, 40%, 450px);
-  font-size: clamp(1rem, 2.5vw, 2.25rem);
+  font-size: clamp(1rem, 2vw, 2.25rem);
   font-weight: 700;
   text-align: left;
  }
- .socialsButton2::after {
-  content: '→';
-  color: #ffffff;
-  position: absolute;
-  right: 20px;
-  top: 45%;
-  transform: translateY(-50%);
-  font-size: 70px;
-}
+ 
 .socialTitle{
   position: absolute;
-  bottom: -10%;        /* Position in center */
+  bottom: -23%;        /* Position in center */
   left: 0px;
   font-size: clamp(2.14rem, 5vw, 5.4rem);
   font-weight: 600;
