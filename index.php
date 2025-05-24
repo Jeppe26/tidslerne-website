@@ -71,6 +71,7 @@ $ArtikelTitel = get_field("artikel_titel");
         <?php endwhile?>
         <?php wp_reset_postdata()?>
         <?php endif?>
+        </div>
         <div class="searchbar">
             <div class="searchbarContent">
               <input type="text" placeholder="Søg her.." autocomplete="off">
