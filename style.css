@@ -286,6 +286,7 @@ header{
 @media (max-width: 1300px) {
 .headerContainerContentRightBoxContainers{
     flex-direction: row;
+    width: calc(100% - 60px);
     
 }
 }
