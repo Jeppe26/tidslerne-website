@@ -804,6 +804,7 @@ footer{
   font-size: 33px;
   font-weight: 200;
   margin-top: 30px;
+  min-width: 380px;
 }
 
 .footer-column a {
@@ -832,6 +833,14 @@ footer{
 .footer-left-text{
   
 }
+
+@media (max-width: 1170px) {
+    .footer-content{
+        flex-wrap: wrap;
+    }
+    
+}
+
 .behandlinger{
   height: fit-content;
   padding: 0; /* Optional, unless you need internal padding */
