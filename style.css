@@ -698,7 +698,7 @@ line-height: 1.1;
 .nyhedsBrev{
   background-image: linear-gradient(to bottom, #40E0C0, #25857B);
   width: 100%; /* Full width minus 25px on each side */
-  height: 600px;
+  height: fit-content;
   padding: 0; /* Optional, unless you need internal padding */
   margin-top: calc(150px + 170px + 95px);
   border-radius: 0 100px 100px 0;
