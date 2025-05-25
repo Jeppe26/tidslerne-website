@@ -707,7 +707,7 @@ line-height: 1.1;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 96px;
+  font-size: clamp(2.14rem, 4.1vw, 5.4rem);
   margin-bottom: 20px;
   color: white;
   margin-left: 30px;
@@ -726,7 +726,7 @@ line-height: 1.1;
   gap: 10px;
   margin-left: 30px;
   width: 45%;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .newsletter-form input {
