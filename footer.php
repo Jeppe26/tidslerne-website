@@ -31,11 +31,12 @@
       <h3><?php echo $FooterMerchTitel?></h3>
       <img src="<?php echo esc_url($FooterMerchBillede["url"]) ?>" alt=""> class="merch-img">
     </div>
-  </div>
-
-  <div class="footer-bottom">
+    <div class="footer-bottom">
     <p><?php echo $FooterCopyright?></p>
   </div>
+  </div>
+
+  
 </footer>
 </main>
 </div>
