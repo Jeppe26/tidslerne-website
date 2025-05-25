@@ -480,6 +480,9 @@ header{
   .cards{
     gap: 20px;
   }
+  .searchbar{
+    width: 100%;
+  }
 }
 
  .searchbar{
