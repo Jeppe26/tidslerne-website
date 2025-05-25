@@ -706,7 +706,7 @@ line-height: 1.1;
 .nyhedsBrevTitel {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px;
   font-size: clamp(2.14rem, 4.1vw, 5.4rem);
   margin-bottom: 20px;
   color: white;
