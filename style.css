@@ -448,7 +448,18 @@ header{
   p [data-category="seafood"]
   {color:var (var--category-seafood)}
 
-
+@media (max-width: 1480px) {
+   .cards_content {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr) ;
+    gap: 10px;
+    height: fit-content;
+    box-sizing: border-box;
+    margin:30px auto 0 auto;
+    width: calc(100% - 60px);
+    margin: 0 30px;
+  }
+}
 
  .searchbar{
   background: 
