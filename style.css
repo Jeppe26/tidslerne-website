@@ -815,7 +815,7 @@ footer{
   margin-top: 10px;
   width: 100%;
   max-width: 200px;
-  height: auto;
+  height: 100%;
   border-radius: 6px;
 }
 
@@ -826,7 +826,7 @@ footer{
   font-size: 40px;
   width: 100%;
   text-align: center;
-  
+
 }
 .footer-left-text{
   
