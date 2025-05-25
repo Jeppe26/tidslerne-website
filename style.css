@@ -709,7 +709,6 @@ line-height: 1.1;
   
   color: white;
 
-  width: 60%;
 }
 
 .newsletter-icon {
@@ -724,7 +723,7 @@ display: flex;
   margin-bottom: 20px;
   margin-left: 30px;
   padding-top: 50px;
-  width: 60%;
+  
 }
 
 .newsletter-form {
