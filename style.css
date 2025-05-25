@@ -523,7 +523,7 @@ header{
 
  @media (max-width: 820px) {
    .searchbar{
-    width: 100%;
+    width: calc(100% - 60px);
    }
 }
 
