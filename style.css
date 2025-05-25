@@ -480,9 +480,6 @@ header{
   .cards{
     gap: 20px;
   }
-  .searchbar{
-    width: 100%;
-  }
 }
 
  .searchbar{
@@ -523,6 +520,13 @@ header{
   font-size: 24px;
   margin-left: 10px;
  }
+
+ @media (max-width: 820px) {
+   .searchbar{
+    width: 100%;
+   }
+}
+
 
    .socialsSection{
     margin-top: 150px;
