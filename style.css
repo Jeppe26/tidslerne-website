@@ -704,11 +704,9 @@ line-height: 1.1;
   border-radius: 0 100px 100px 0;
 }
 .nyhedsBrevTitel {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  
   font-size: 96px;
-  margin-bottom: 20px;
+  
   color: white;
   margin-left: 30px;
   padding-top: 50px;
@@ -718,6 +716,16 @@ line-height: 1.1;
 .newsletter-icon {
   width: 96px;
   height: 96px;
+}
+
+.nyhedsText{
+display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  padding-top: 50px;
+  width: 60%;
 }
 
 .newsletter-form {

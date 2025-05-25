@@ -110,10 +110,13 @@ $ArtikelTitel = get_field("artikel_titel");
   </div>
 </section>
 <section class="nyhedsBrev">
-  <h2 class="nyhedsBrevTitel">
-  <?php echo $Nyhedsbrev?>
+    <div class="nyhedsText">
+<h2 class="nyhedsBrevTitel"><?php echo $Nyhedsbrev?></h2>
   <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]) ?>" alt="" class="newsletter-icon">
-  </h2>
+    </div>
+  
+
+  
   <form class="newsletter-form">
     <input type="text" placeholder="Email/tlf:" required>
     <input type="text" placeholder="Navn:" required>
