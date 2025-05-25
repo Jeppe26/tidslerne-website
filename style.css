@@ -814,8 +814,8 @@ footer{
 .merch-img {
   margin-top: 10px;
   width: 100%;
-  max-width: 200px;
-  height: 100%;
+  object-fit: cover;
+  height: 250px;
   border-radius: 6px;
 }
 
