@@ -90,7 +90,9 @@ header{
 @media (max-width: 1300px) {
    .nav-links a {
     display: none;
-    
+}
+.headerContainerContent{
+ flex-direction: column;
 }
 }
 .hamburger {
