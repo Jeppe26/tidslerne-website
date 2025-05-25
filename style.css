@@ -476,6 +476,10 @@ header{
    .cards_content_headline {
     font-size:48px;
   }
+
+  .cards{
+    gap: 20px;
+  }
 }
 
  .searchbar{
