@@ -513,7 +513,7 @@ header{
   outline: none;
  }
  .searchbarContent input{
-  width: calc(100%);
+  width: calc(100% - 20px);
   height: 95%;
   border-radius: 25px;
   border: none;
