@@ -84,6 +84,11 @@ header{
     font-size: 32px;
     
 }
+@media (max-width: 1300px) {
+   .nav-links a {
+    display: none;
+    
+}
   
 }
 .hamburger {
