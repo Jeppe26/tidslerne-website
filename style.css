@@ -75,6 +75,17 @@ header{
 .nav-links a:hover {
     color: #E04060;
 }
+
+@media (max-width: 1500px) {
+   .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 32px;
+    
+}
+  
+}
 .hamburger {
     font-size: 36px;
     cursor: pointer;
