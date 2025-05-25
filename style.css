@@ -94,6 +94,9 @@ header{
 .headerContainerContent{
  flex-direction: column;
 }
+.headerContainerContentRightBoxContainers{
+    flex-direction: row;
+}
 }
 .hamburger {
     font-size: 36px;
