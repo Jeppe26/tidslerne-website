@@ -472,6 +472,11 @@ header{
     margin: 0 30px;
   }
 }
+@media (max-width: 768px) {
+   .cards_content_headline {
+    font-size:48px;
+  }
+}
 
  .searchbar{
   background: 
