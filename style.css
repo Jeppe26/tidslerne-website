@@ -1840,6 +1840,7 @@ height: 100%;
   .newsMain img{
     margin-bottom: 50px;
     width: 100%;
+    min-width: 0;
   }
   .news{
     height: fit-content;
