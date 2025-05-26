@@ -1841,6 +1841,7 @@ height: 100%;
     margin-bottom: 50px;
     width: 100%;
     min-width: 0;
+    height: 400px;
   }
   .news{
     height: fit-content;
