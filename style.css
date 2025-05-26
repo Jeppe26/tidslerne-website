@@ -936,17 +936,17 @@ line-height: 1.1;
   padding: 0px 20px;
   border: 0px solid #E04060 !important;
   background: radial-gradient(
-    circle at 20% center,               /* Moves center to the left */
-    rgba(255, 255, 255, 0.9) 0%,
-    rgba(255, 255, 255, 0) 70%
+    circle at 10% center,               /* Moves center to the left */
+    rgba(255, 255, 255, 0.9) 1%,
+    rgba(255, 255, 255, 0) 20%
   );
   color: #E04060;
   border: none;
   border-radius: 36px;
   cursor: pointer;
-  width: 90%;
-  height: 120px;
-  font-size: clamp(1.2rem, 1.8vw, 5rem);
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
   font-weight: 700;
   text-align: left;
  }
