@@ -1218,7 +1218,7 @@ margin-bottom: 20px;
   }
   .behandlingerText p{
     width: calc(100% - 60px);
-    font-size: clamp(2rem, 5vw, 10rem);
+    font-size: clamp(2rem, 3vw, 5rem);
   }
   .behandlingerText h2{
     font-size: clamp(4rem, 11vw, 20rem);
