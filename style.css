@@ -299,6 +299,10 @@ header{
   height: 220px;
 
 }
+.headerContainerContentRightBox1Content{
+margin-top: 2%;
+height: calc(100% - 6%);
+}
 }
 
   .cards {
