@@ -1860,6 +1860,7 @@ height: 100%;
 @media (max-width: 970px) {
   .newsText h2{
     font-size: clamp(2rem, 3vw, 5rem);
+    
   }
 }
 @media (max-width: 700px) {
