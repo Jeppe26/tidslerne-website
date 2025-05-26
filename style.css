@@ -315,6 +315,7 @@ header{
 }
 .headerContainerContentRightBox2{
   height: fit-content;
+  margin-top: 0;
 }
 .headerContainerContentRightBox1{
   height: fit-content;
