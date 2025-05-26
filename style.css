@@ -1388,17 +1388,44 @@ margin-bottom: 20px;
   }
   
 }
-@media (max-width: 965px) {
+@media (max-width: 100px) {
+  .svgSted{
+    position: static;
+    font-size: 42px;
+    font-weight: 600;
+    margin: 0;
+    
+    text-align: left;
+  }
+  .svgBowling p{
+    position: static;
+    font-size: 40px;
+    font-weight: 400;
+    width: 700px;
+  }
+  
   .svgBowling h2{
-    width: 350px;
+    position: static;
+    font-size: 90px;
+    font-weight: 700;
+    margin: 0;
+    width: 700px;
+  }
+  .svgBowling button{
+    position: static;
+    border: 2px solid none !important;
+    background-color: #ffffff;
+    color: #444444;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    width: 450px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
   }
 }
-@media (max-width: 825px) {
-  .svgBowling h2{
-    width: 300px;
-  }
 
-}
 body.page-id-22 .headerContainer {
     display: none;
 }
