@@ -193,6 +193,11 @@ header{
   color: #000;
   font-family: sans-serif;
   text-align: center;
+  flex-shrink: 0;
+}
+.flex-spacer {
+  flex-grow: 1;
+  min-height: 0; /* important to allow collapse */
 }
 .headerContainerContentRightBox2{
     background-image: linear-gradient(to bottom, #40E0C0, #25857B);
@@ -202,6 +207,7 @@ header{
     border-radius: 25px;
     text-align: center;
     margin-top: auto;
+    flex-shrink: 0;
 }
 .headerContainerContentRightBox1Content{
     
