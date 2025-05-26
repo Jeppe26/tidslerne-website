@@ -1873,6 +1873,7 @@ height: 100%;
 @media (max-width: 810px) {
   .news{
     flex-direction: column;
+    padding-left: 0;
   }
   .news img{
     width: 100%;
