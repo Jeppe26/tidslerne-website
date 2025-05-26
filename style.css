@@ -344,7 +344,7 @@ margin: 10px auto;
   }
   
   .cards_content_block_image img {
-      height:700px;
+      height:100%;
       width: 100%;
       background-size:cover;
       background-position: center;
@@ -358,7 +358,7 @@ margin: 10px auto;
   }
   
   .colorLayer{
-    height:700px;
+    height:100%;
       width: 100%;
       position: absolute;
       z-index: -1;
@@ -401,7 +401,7 @@ margin: 10px auto;
     display:flex;
     flex-direction:column;
     box-shadow: 1px 1px 3px var(--background-color-dark-bg);
-    height: 700px;
+    height: 500px;
   }
   
   .cards_content_block_text_top h5 {
