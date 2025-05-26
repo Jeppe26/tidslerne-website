@@ -1154,7 +1154,7 @@ margin-bottom: 20px;
   .behandlingsKat{
     display: flex;
     gap: 140px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     height: 61vh;
     min-height: 450px;
   }
