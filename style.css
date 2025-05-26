@@ -1295,7 +1295,9 @@ margin-bottom: 20px;
 .svgSted{
   position: absolute;
   top: 220px;        /* Position in center */
-  right: 0px;
+  left: clamp(100px, 
+               55vw,  
+               5000px);
   font-size: 48px;
   font-weight: 600;
   margin: 0;
