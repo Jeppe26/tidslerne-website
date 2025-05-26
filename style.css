@@ -1345,7 +1345,11 @@ margin-bottom: 20px;
   text-align: center;
 }
 
-
+@media (max-width: 1600px) {
+  .svgBowling h2{
+    width: 500px;
+  }
+}
 body.page-id-22 .headerContainer {
     display: none;
 }
