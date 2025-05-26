@@ -359,6 +359,12 @@ margin: 10px auto;
   height: 200px;
 
 }
+.headerContainerContentRightBox1Content .icon{
+    display: none;
+}
+.headerContainerContentRightBox2 .icon2{
+    display: none;
+}
   }
 
   @media (max-height: 870px) {
