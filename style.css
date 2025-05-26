@@ -1160,6 +1160,7 @@ margin-bottom: 20px;
     width: 550px;
     border-radius: 20px;
     object-fit: cover;
+    background-attachment: fixed;
   }
   .behandlingsKatRight{
     display: flex;
