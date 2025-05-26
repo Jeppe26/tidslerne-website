@@ -1840,9 +1840,10 @@ height: 100%;
     margin-bottom: 50px;
   }
 }
+
 @media (max-width: 670px) {
   .newsMain img{
     width: calc(100%);
-    
+
   }
 }
