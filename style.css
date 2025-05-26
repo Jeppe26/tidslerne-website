@@ -203,7 +203,7 @@ header{
     background-image: linear-gradient(to bottom, #40E0C0, #25857B);
     width: 100%;
     height: fit-content;
-    margin-bottom: 100%;
+    
     border-radius: 25px;
     text-align: center;
     margin-top: auto;
@@ -285,9 +285,8 @@ header{
   height: 35px;
   border-radius: 100%;
   transition: 0.3s;
-  margin-bottom: 10px;
   margin: 0 auto;
-  
+  margin-bottom: 10px;
   }
   .headerContainerContentRightBox2 button:hover{
   background-color: #E04060;
