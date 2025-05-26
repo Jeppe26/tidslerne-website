@@ -943,6 +943,7 @@ line-height: 1.1;
 @media (max-width: 768px) {
     .nyhedsBrev{
         border-radius: 0;
+        width: 100%;
     }
     
 }
