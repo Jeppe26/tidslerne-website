@@ -308,6 +308,9 @@ height: calc(100% - 6%);
 .headerContainerContent{
   height: 80%;
 }
+.headerContainerContentLeft h1{
+  font-size: clamp(1rem, 2vw, 2.25rem);
+}
 }
 
   .cards {
