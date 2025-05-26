@@ -957,7 +957,12 @@ line-height: 1.1;
   top: -100px;        /* Position in center */
 }
 }
-
+@media (max-width: 575px) {
+.medlemTitle{
+  position: absolute;
+  top: -130px;        /* Position in center */
+}
+}
 .nyhedsBrev{
   background-image: linear-gradient(to bottom, #40E0C0, #25857B);
   width: calc(100% - 60px); /* Full width minus 25px on each side */
