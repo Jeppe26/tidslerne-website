@@ -154,7 +154,7 @@ header{
     top: 45%;
     transform: translateY(-50%);
     font-size: 70px;
-    
+
 }
 .headerContainerContentLeft A:hover{
     
@@ -1155,6 +1155,7 @@ margin-bottom: 20px;
     display: flex;
     gap: 140px;
     margin-bottom: 50px;
+    height: 557px;
   }
   .behandlingsKatLeft img{
     height: 100%;
