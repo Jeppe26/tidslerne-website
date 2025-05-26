@@ -681,7 +681,7 @@ margin: 10px auto;
     left: 0px;
     font-size: clamp(2.14rem, 5vw, 5.4rem);
     font-weight: 600;
-    width: 50%;
+    width: 100%;
     margin: 0;
   }
 }
