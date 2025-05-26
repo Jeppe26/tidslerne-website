@@ -189,7 +189,7 @@ header{
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  flex: 1;
+  
   color: #000;
   font-family: sans-serif;
   text-align: center;
@@ -202,7 +202,7 @@ header{
 .headerContainerContentRightBox2{
     background-image: linear-gradient(to bottom, #40E0C0, #25857B);
     width: 100%;
-    flex: 1;
+    
     margin-bottom: 100%;
     border-radius: 25px;
     text-align: center;
