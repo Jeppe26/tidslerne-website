@@ -1834,5 +1834,6 @@ height: 100%;
   .newsMain{
     flex-direction: column;
     height: fit-content;
+    
   }
 }
