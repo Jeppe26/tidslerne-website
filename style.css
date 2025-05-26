@@ -1352,8 +1352,8 @@ margin-bottom: 20px;
 }
 @media (max-width: 1450px) {
   .svgBowling p{
-    font-size: clamp(1.5rem, 3vw, 4rem);
-    
+    font-size: clamp(1.5rem, 2.66vw, 4rem);
+
   }
 }
 @media (max-width: 1400px) {
