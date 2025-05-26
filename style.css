@@ -686,7 +686,7 @@ margin: 10px auto;
   }
   .socialsButton{
     position: absolute;
-    top: 100%;         /* Position in center */
+    top: 110%;         /* Position in center */
     left: 0%;
     
     padding: 20px 20px;
@@ -697,13 +697,13 @@ margin: 10px auto;
     border-radius: 36px;
     cursor: pointer;
     width: 50%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 700;
     text-align: center;
    }
   .socialsButton2{
     position: absolute;
-    top: 100%;         /* Position in center */
+    top: 110%;         /* Position in center */
     right: 0%;
     
     padding: 20px 20px;
@@ -717,7 +717,7 @@ margin: 10px auto;
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    
+
    }
 }
 
@@ -736,7 +736,7 @@ margin: 10px auto;
 @media (max-width: 597px) {
   .socialTitle{
     position: absolute;
-    top: -33%;        /* Position in center */
+    top: -35%;        /* Position in center */
     left: 0px;
     font-size: clamp(2.8rem, 5vw, 5.4rem);
     font-weight: 600;
