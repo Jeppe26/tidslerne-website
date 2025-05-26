@@ -1352,7 +1352,7 @@ margin-bottom: 20px;
 }
 @media (max-width: 1400px) {
   .svgBowling h2{
-    font-size: clamp(1.5rem, 3vw, 5rem);
+    font-size: clamp(1.5rem, 10vw, 20rem);
   }
 }
 body.page-id-22 .headerContainer {
