@@ -1388,7 +1388,7 @@ margin-bottom: 20px;
   }
   
 }
-@media (max-width: 100px) {
+@media (max-width: 1000px) {
   .svgSted{
     position: static;
     font-size: 42px;
