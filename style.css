@@ -1375,6 +1375,11 @@ margin-bottom: 20px;
     font-size: clamp(1.5rem, 6vw, 14rem);
     width: 410px;
   }
+  .svgSted{
+    font-size: clamp(80px, 
+    76vw,  
+    1500px);
+  }
 }
 @media (max-width: 1000px) {
   .svgBowling button{
@@ -1393,7 +1398,7 @@ margin-bottom: 20px;
   .svgBowling h2{
     width: 300px;
   }
-  
+
 }
 body.page-id-22 .headerContainer {
     display: none;
