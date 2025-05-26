@@ -1219,6 +1219,9 @@ margin-bottom: 20px;
   .behandlingerText p{
     width: calc(100% - 60px);
   }
+  .behandlingerText h2{
+    font-size: clamp(2rem, 7vw, 8rem);
+  }
 }
 .imageSlider{
   width: 100%;
