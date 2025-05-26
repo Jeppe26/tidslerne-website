@@ -696,8 +696,8 @@ margin: 10px auto;
     border: none;
     border-radius: 36px;
     cursor: pointer;
-    width: clamp(140px, 30%, 500px);
-    font-size: clamp(1rem, 2vw, 2.25rem);
+    width: 50%;
+    font-size: 1rem;
     font-weight: 700;
     text-align: center;
    }
@@ -713,8 +713,8 @@ margin: 10px auto;
     border: none;
     border-radius: 36px;
     cursor: pointer;
-    width: clamp(200px, 40%, 450px);
-    font-size: clamp(1rem, 2vw, 2.25rem);
+    width: 50%;
+    font-size: 1rem;
     font-weight: 700;
     text-align: center;
    }
