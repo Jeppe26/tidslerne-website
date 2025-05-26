@@ -923,9 +923,9 @@ line-height: 1.1;
 }
 }
 
-@media (max-width: 690px) {
-.medlemTitle{
-    
+@media (max-width: 710px) {
+.medlemTextBox{
+    display: none;
     
 }
 
