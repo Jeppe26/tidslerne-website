@@ -1168,11 +1168,13 @@ margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
   }
   .behandlingTitler{
-    font-size: clamp(1rem, 10vw, 10rem);
+    font-size: clamp(2rem, 7vw, 7rem);
     font-weight: 600;
     margin: 20px 0;
+    
   }
   .behandlingsKatRight p{
     font-size: 32px;
