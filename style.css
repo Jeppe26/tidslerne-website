@@ -1856,7 +1856,7 @@ height: 100%;
   }
   .searchbarArticle{
     width: 100%;
-
+    margin-bottom: 10px;
   }
   .searchArticle button{
     width: 100%;
