@@ -1317,7 +1317,7 @@ margin-bottom: 20px;
 .svgBowling h2{
   position: absolute;
   top: 414px;        /* Position in center */
-  right: clamp(40px, calc(100px - 0.1 * 100vw), 60px);
+  right: clamp(80px, calc(100px - 0.1 * 100vw), 60px);
   font-size: 90px;
   font-weight: 700;
   margin: 0;
