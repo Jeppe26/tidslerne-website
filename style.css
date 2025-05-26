@@ -1841,7 +1841,7 @@ height: 100%;
   }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 700px) {
   .newsMain img{
     width: calc(100%);
 
