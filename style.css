@@ -847,7 +847,7 @@ line-height: 1.1;
 @media (max-width: 768px) {
 .medlemTitle{
     width: 100%;
-    text-emphasis: right;
+    text-align: right;
 }
 }
 
