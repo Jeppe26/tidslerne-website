@@ -849,6 +849,7 @@ line-height: 1.1;
     width: 100%;
     text-align: right;
     font-size: clamp(2.8rem, 5vw, 5.4rem);
+    
 }
 }
 
