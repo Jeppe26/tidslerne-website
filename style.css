@@ -1209,6 +1209,7 @@ margin-bottom: 20px;
   .behandlingsKatLeft img{
     height: 450px;
     width: calc(100% - 60px);
+    
   }
   .behandlingerText{
     height: fit-content;
