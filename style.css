@@ -202,7 +202,7 @@ header{
   
   margin: 0 auto;
   margin-top: 1.5%;
-  height: 97%;
+  height: calc(100% - 1.5%);
   width: 97%;
   display: flex;
   flex-direction: column;
@@ -297,7 +297,7 @@ header{
 }
 .headerContainerContentRightBox1{
   height: 220px;
-  
+
 }
 }
 
