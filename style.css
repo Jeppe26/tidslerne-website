@@ -1844,6 +1844,9 @@ height: 100%;
     flex-direction: column;
     height: fit-content;
   }
+  .news img{
+    height: 500px;
+  }
 }
 
 @media (max-width: 700px) {
