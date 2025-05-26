@@ -938,6 +938,7 @@ line-height: 1.1;
   padding: 0; /* Optional, unless you need internal padding */
   margin: 0 auto;
   margin-top: calc(150px + 170px);
+  margin-bottom: calc(150px + 170px);
   border-radius: 100px;
 }
 @media (max-width: 768px) {
@@ -1008,7 +1009,6 @@ footer{
   width: 100%;
   height: fit-content;
   background-image: linear-gradient(to bottom, #009D84, #003734);
-  margin-top: calc(150px + 170px + 95px);
   color: white;
   padding: 20px 0px 20px;
   
