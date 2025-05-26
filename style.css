@@ -1834,6 +1834,9 @@ height: 100%;
   .newsMain{
     flex-direction: column;
     height: fit-content;
-    
+
+  }
+  .newsMain img{
+    margin-bottom: 50px;
   }
 }
