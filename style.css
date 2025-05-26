@@ -370,6 +370,9 @@ margin: 10px auto;
 .headerContainerContentLeft h2{
     font-size: 26px;
 }
+.navbar{
+    padding: 25px 10px;
+}
   
 }
   .cards {
