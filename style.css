@@ -1317,8 +1317,8 @@ margin-bottom: 20px;
 .svgBowling h2{
   position: absolute;
   top: 414px;        /* Position in center */
-  right: clamp(40px, /* Minimum right offset you need (e.g., 40px to prevent overlap on small screens) */
-               5vw,  /* A larger fluid value that pulls it further from the right as screen shrinks */
+  right: clamp(40px, 
+               5vw,  
                100px);
   font-size: 90px;
   font-weight: 700;
