@@ -1840,14 +1840,10 @@ height: 100%;
   .newsMain img{
     margin-bottom: 50px;
   }
-  .news{
-    flex-direction: column;
-    height: fit-content;
-  }
   .news img{
     height: 500px;
     margin-bottom: 20px;
-    
+
   }
 }
 
