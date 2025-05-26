@@ -1384,6 +1384,11 @@ margin-bottom: 20px;
     width: 400px;
   }
 }
+@media (max-width: 965px) {
+  .svgBowling h2{
+    width: 350px;
+  }
+}
 body.page-id-22 .headerContainer {
     display: none;
 }
