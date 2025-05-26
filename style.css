@@ -1203,13 +1203,15 @@ margin-bottom: 20px;
 }
 @media (max-width: 1200px) {
   .behandlingsKat{
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: fit-content;
   }
   .behandlingsKatLeft img{
     height: 450px;
   }
-  
+  .behandlingerText{
+    height: fit-content;
+  }
 }
 .imageSlider{
   width: 100%;
