@@ -312,7 +312,7 @@ height: calc(100% - 6%);
   font-size: clamp(5rem, 10vw, 8.25rem);
 }
 .headerContainerContentLeft h2{
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(2rem, 3vw, 3rem);
 }
 }
 
