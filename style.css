@@ -937,8 +937,8 @@ line-height: 1.1;
   border: 0px solid #E04060 !important;
   background: radial-gradient(
     circle at 50% center,               /* Moves center to the left */
-    rgba(255, 255, 255, 0.9) 1%,
-    rgba(255, 255, 255, 0) 20%
+    rgba(255, 255, 255, 0.9) 20%,
+    rgba(255, 255, 255, 0) 90%
   );
   color: #E04060;
   border: none;
