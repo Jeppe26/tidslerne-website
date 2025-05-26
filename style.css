@@ -1376,6 +1376,14 @@ margin-bottom: 20px;
     width: 410px;
   }
 }
+@media (max-width: 1000px) {
+  .svgBowling button{
+    width: 30vh;
+  }
+  .svgBowling h2{
+    width: 400px;
+  }
+}
 body.page-id-22 .headerContainer {
     display: none;
 }
