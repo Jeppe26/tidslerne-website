@@ -1211,6 +1211,7 @@ margin-bottom: 20px;
   }
   .behandlingerText{
     height: fit-content;
+    margin-bottom: 150px;
   }
   .behandlingerText p{
     width: calc(100% - 60px);
