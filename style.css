@@ -1220,7 +1220,7 @@ margin-bottom: 20px;
     width: calc(100% - 60px);
   }
   .behandlingerText h2{
-    font-size: clamp(4rem, 9vw, 10rem);
+    font-size: clamp(4rem, 11vw, 20rem);
   }
 }
 .imageSlider{
