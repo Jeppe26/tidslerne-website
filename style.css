@@ -195,7 +195,7 @@ header{
   text-align: center;
   flex-shrink: 0;
 }
-.flex-spacer {
+.spacer {
   flex-grow: 1;
   min-height: 0; /* important to allow collapse */
 }

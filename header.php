@@ -70,6 +70,7 @@ $frontpageId = get_option('page_on_front');
                             <p><?php echo $HeaderBox1Tekst?></p>
                         </div>
                     </div>
+                    <div class="spacer"></div>
                     <div class="headerContainerContentRightBox2">
                         <div class="headerContainerContentRightBox2Content">
                         <h3><?php echo $HeaderBox2Titel?></h3>
