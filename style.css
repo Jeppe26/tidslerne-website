@@ -348,9 +348,28 @@ margin: 10px auto;
   }
   }
 
-  @media (max-height: 1500px) {
-   
-
+  @media (max-height: 870px) {
+   .headerContainerContentRightBox2 p{
+    margin-bottom: 5px;
+   }
+   .headerContainerContentRightBox2 h3{
+    font-size: 26px;
+   }
+   .headerContainerContentRightBox1Content h3{
+    font-size: 26px;
+   }
+.headerContainerContentRightBox2 .icon2{
+    width: 6vh;
+}
+.headerContainerContentRightBox1Content .icon{
+    height: 8vh;
+}
+.headerContainerContentLeft h1{
+    font-size: 130px;
+}
+.headerContainerContentLeft h2{
+    font-size: 26px;
+}
   
 }
   .cards {
