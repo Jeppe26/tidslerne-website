@@ -303,7 +303,7 @@ header{
     flex-direction: row;
     width: 50%;
     margin-left: 0;
-    
+    gap: 10px;
 }
 .spacer{
     display: none;
