@@ -1379,6 +1379,7 @@ margin-bottom: 20px;
     left: clamp(80px, 
     76vw,  
     1500px);
+    
   }
 }
 @media (max-width: 1000px) {
