@@ -684,6 +684,40 @@ margin: 10px auto;
     width: 100%;
     margin: 0;
   }
+  .socialsButton{
+    position: absolute;
+    top: 100%;         /* Position in center */
+    left: 0%;
+    
+    padding: clamp(0.8rem, 1vw, 1.5rem) clamp(1rem, 2vw, 1rem);;
+    border: 5px solid #E04060 !important;
+    background-color: #fbfbfb;
+    color: #E04060;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    width: clamp(140px, 30%, 500px);
+    font-size: clamp(1rem, 2vw, 2.25rem);
+    font-weight: 700;
+    text-align: center;
+   }
+  .socialsButton2{
+    position: absolute;
+    top: 100%;         /* Position in center */
+    right: 0%;
+    
+    padding: 10px 20px;
+    border: 1px solid #444444 !important;
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    width: clamp(200px, 40%, 450px);
+    font-size: clamp(1rem, 2vw, 2.25rem);
+    font-weight: 700;
+    text-align: center;
+   }
 }
 
 @media (max-width: 700px) {
