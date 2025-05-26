@@ -1212,6 +1212,9 @@ margin-bottom: 20px;
   .behandlingerText{
     height: fit-content;
   }
+  .behandlingerText p{
+    width: calc(100% - 60px);
+  }
 }
 .imageSlider{
   width: 100%;
