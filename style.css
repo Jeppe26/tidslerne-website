@@ -1829,7 +1829,7 @@ height: 100%;
 
 .articleList{
   padding-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 @media (max-width: 1200px) {
   .newsMain{
