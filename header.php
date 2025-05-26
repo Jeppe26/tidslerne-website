@@ -29,13 +29,13 @@ $frontpageId = get_option('page_on_front');
   $HeaderImage = get_field("forside_hero_billede", $frontpageId);
   $HeaderTitel = get_field("forside_titel", $frontpageId);
   $HeaderTekst = get_field("forside_tekst", $frontpageId);
-  $HeaderBox1Billede = get_field("header_box_1_billede");
-  $HeaderBox1Titel = get_field("header_box_1_titel");
-  $HeaderBox1Tekst = get_field("header_box_1_tekst");
-  $HeaderBox2Titel = get_field("header_box_2_titel");
-  $HeaderBox2NewsImage = get_field("header_box_2_news_image");
-  $HeaderBox2Tekst = get_field("header_box_2_tekst");
-  $HeaderBox2Image = get_field("header_box_2_image");
+  $HeaderBox1Billede = get_field("header_box_1_billede", $frontpageId);
+  $HeaderBox1Titel = get_field("header_box_1_titel", $frontpageId);
+  $HeaderBox1Tekst = get_field("header_box_1_tekst", $frontpageId);
+  $HeaderBox2Titel = get_field("header_box_2_titel", $frontpageId);
+  $HeaderBox2NewsImage = get_field("header_box_2_news_image", $frontpageId);
+  $HeaderBox2Tekst = get_field("header_box_2_tekst", $frontpageId);
+  $HeaderBox2Image = get_field("header_box_2_image", $frontpageId);
 ?>
 
 <header>
