@@ -1852,12 +1852,16 @@ height: 100%;
     padding: 15px 80px;
   }
   .news img{
-    height: 400px;
+    height: 100%;
     margin-bottom: 20px;
 
   }
 }
-
+@media (max-width: 970px) {
+  .newsText h2{
+    font-size: clamp(2rem, 3vw, 5rem);
+  }
+}
 @media (max-width: 700px) {
   .newsMain img{
     width: calc(100%);
