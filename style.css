@@ -51,7 +51,10 @@ header{
 }
 .logo-container {
    height: 75px; /* Example height */
-    width: 150px
+    width: 150px;
+    display: flex;
+    align-items: center;
+
 }
 .logo {
     height: 50px; /* Example height */
