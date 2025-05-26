@@ -1170,7 +1170,7 @@ margin-bottom: 20px;
     justify-content: center;
   }
   .behandlingTitler{
-    font-size: clamp(50px, 2vw, 100px);
+    font-size: clamp(1rem, 2vw, 2.25rem);
     font-weight: 600;
     margin: 20px 0;
   }
