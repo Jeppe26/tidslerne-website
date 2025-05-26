@@ -304,6 +304,9 @@ header{
 margin-top: 2%;
 height: calc(100% - 6%);
 }
+.headerContainerContent{
+  height: 60%;
+}
 }
 
   .cards {
