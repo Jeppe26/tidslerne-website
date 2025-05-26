@@ -1842,6 +1842,7 @@ height: 100%;
   }
   .news{
     flex-direction: column;
+    height: fit-content;
   }
 }
 
