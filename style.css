@@ -1155,7 +1155,8 @@ margin-bottom: 20px;
     display: flex;
     gap: 140px;
     margin-bottom: 50px;
-    height: 560px;
+    height: 61vh;
+    min-height: 450px;
   }
   .behandlingsKatLeft img{
     height: 100%;
@@ -1171,7 +1172,7 @@ margin-bottom: 20px;
     width: 100%;
   }
   .behandlingTitler{
-    font-size: clamp(2rem, 7vw, 7rem);
+    font-size: clamp(2rem, 6vw, 7rem);
     font-weight: 600;
     margin: 20px 0;
     
