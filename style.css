@@ -19,7 +19,7 @@ html{
 header{
     width: 100%;
     height: 100vh;
-    min-height: 800px;
+    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -50,8 +50,8 @@ header{
     padding: 25px 30px;
 }
 .logo-container {
-   height: 75px; /* Example height */
-    width: 150px;
+   height: 85px; /* Example height */
+    width: 170px;
     display: flex;
     align-items: center;
 
