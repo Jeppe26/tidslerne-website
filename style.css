@@ -399,6 +399,9 @@ margin: 10px auto;
    .headerContainerContentRightBox1Content p{
     font-size: 15px;
    }
+   .headerContainerContentRightBox2 button{
+    margin-top: 10px;
+   }
  }
   .cards {
     height: fit-content;
