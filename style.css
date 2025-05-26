@@ -1850,3 +1850,16 @@ height: 100%;
     width: 80%;
   }
 }
+@media (max-width: 600px) {
+  .searchArticle{
+    flex-direction: column;
+  }
+  .searchbarArticle{
+    width: 100%;
+
+  }
+  .searchArticle button{
+    width: 100%;
+    margin-left: 0;
+  }
+}
