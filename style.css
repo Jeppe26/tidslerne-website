@@ -1845,10 +1845,15 @@ height: 100%;
   }
   .newsText{
     align-items: center;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .newsText button{
+    padding: 15px 80px;
   }
   .news img{
-    height: 500px;
+    height: 400px;
     margin-bottom: 20px;
 
   }
