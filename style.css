@@ -292,6 +292,12 @@ header{
 .headerContainerContentRight{
   width: 900px;
 }
+.headerContainerContentRightBox2{
+  height: 350px;
+}
+.headerContainerContentRightBox1{
+  height: 350px;
+}
 }
 
   .cards {
