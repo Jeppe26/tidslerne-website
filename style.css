@@ -168,7 +168,7 @@ header{
 .headerContainerContentRightBox1{
     background-color: #E04060;
     width: 100%;
-    flex: 1;
+    
     border-radius: 25px;
     background: 
     linear-gradient(to top, #40E0D0, rgba(35, 122, 113, 0.1)) border-box,
@@ -213,9 +213,9 @@ header{
   height: 95%;
 }
 .headerContainerContentRightBox1Content .icon {
-    flex: 1;
+    
     display: block;
-    width: 80px;
+    height: 10vh;
     margin: 0 auto 10px auto;
     padding-top: 15px;
   }
@@ -225,7 +225,7 @@ header{
     font-weight: 700;
     text-align: center;
     color: #444444;
-    flex: 1;
+    
   }
   
   .headerContainerContentRightBox1Content p {
@@ -235,7 +235,7 @@ header{
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    flex: 2;
+    
   }
   .headerContainerContentRightBox2 h3{
     padding-top: 15px;
