@@ -290,7 +290,8 @@ header{
     
 }
 .headerContainerContentRight{
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
 }
 .headerContainerContentRightBox2{
   height: 220px;
