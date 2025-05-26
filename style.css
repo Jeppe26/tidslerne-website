@@ -1864,6 +1864,7 @@ height: 100%;
   }
   .news img{
     width: 400px;
+    min-width: 0;
 
   }
 }
