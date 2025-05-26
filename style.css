@@ -301,8 +301,12 @@ header{
 @media (max-width: 1300px) {
 .headerContainerContentRightBoxContainers{
     flex-direction: row;
-    width: calc(100%);
+    width: 50%;
+    margin-left: 0;
     
+}
+.spacer{
+    display: none;
 }
 .headerContainerContentRight{
   width: 100%;
