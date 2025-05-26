@@ -1843,6 +1843,9 @@ height: 100%;
   .news{
     height: fit-content;
   }
+  .newsText{
+    align-items: center;
+  }
   .news img{
     height: 500px;
     margin-bottom: 20px;
