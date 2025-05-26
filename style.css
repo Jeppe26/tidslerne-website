@@ -1178,7 +1178,7 @@ margin-bottom: 20px;
     
   }
   .behandlingsKatRight p{
-    font-size: clamp(2rem, 2vw, 3rem);
+    font-size: clamp(1.5rem, 2vw, 3rem);
     font-weight: 400;
     margin-top: 0;
     width: 85%;
