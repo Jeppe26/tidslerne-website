@@ -677,7 +677,7 @@ margin: 10px auto;
 @media (max-width: 1000px) {
   .socialTitle{
     position: absolute;
-    bottom: 0%;        /* Position in center */
+    top: 0%;        /* Position in center */
     left: 0px;
     font-size: clamp(2.14rem, 5vw, 5.4rem);
     font-weight: 600;
