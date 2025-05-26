@@ -825,7 +825,7 @@ width: calc(100% - 60px); /* Full width minus 25px on each side */
 height: fit-content;
 margin: 0 30px; /* Push it 25px from each side */
 padding: 0; /* Optional, unless you need internal padding */
-margin-top: calc(150px + 170px + 95px);
+margin-top: calc(150px + 170px);
 }
 .medlemTitle{
   position: absolute;
@@ -937,7 +937,7 @@ line-height: 1.1;
   height: fit-content;
   padding: 0; /* Optional, unless you need internal padding */
   margin: 0 auto;
-  margin-top: calc(150px + 170px + 95px);
+  margin-top: calc(150px + 170px);
   border-radius: 100px;
 }
 @media (max-width: 768px) {
