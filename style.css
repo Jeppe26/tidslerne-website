@@ -1205,6 +1205,7 @@ margin-bottom: 20px;
   .behandlingsKat{
     flex-direction: column-reverse;
     height: fit-content;
+    margin-bottom: 150px;
   }
   .behandlingsKatLeft img{
     height: 450px;
