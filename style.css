@@ -1204,6 +1204,10 @@ margin-bottom: 20px;
 @media (max-width: 1200px) {
   .behandlingsKat{
     flex-direction: column;
+    height: fit-content;
+  }
+  .behandlingsKatLeft img{
+    height: 450px;
   }
   
 }
