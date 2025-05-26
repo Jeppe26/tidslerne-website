@@ -1379,16 +1379,14 @@ margin-bottom: 20px;
     left: clamp(80px, 
     76vw,  
     1500px);
-    
+
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .svgBowling button{
     width: 30vh;
   }
-  .svgBowling h2{
-    width: 400px;
-  }
+  
 }
 @media (max-width: 965px) {
   .svgBowling h2{
