@@ -1156,9 +1156,10 @@ margin-bottom: 20px;
     margin-bottom: 50px;
   }
   .behandlingsKatLeft img{
-    height: 550px;
+    height: 100%;
     width: 550px;
     border-radius: 20px;
+    object-fit: cover;
   }
   .behandlingsKatRight{
     display: flex;
