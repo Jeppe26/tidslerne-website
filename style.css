@@ -314,11 +314,11 @@ header{
   margin-top: 20px;
 }
 .headerContainerContentRightBox2{
-  height: fit-content;
+  height: 100%;
   margin-top: 0;
 }
 .headerContainerContentRightBox1{
-  height: fit-content;
+  height: 100%;
 
 }
 .headerContainerContentRightBox1Content{
@@ -365,13 +365,7 @@ margin: 10px auto;
    .headerContainerContentRightBox2 p{
     margin-bottom: 5px;
    }
-   .headerContainerContentRightBox2 h3{
-    
-    font-size: 26px;
-   }
-   .headerContainerContentRightBox1Content h3{
-    font-size: 26px;
-   }
+   
 .headerContainerContentRightBox2 .icon2{
     width: 6vh;
 }
