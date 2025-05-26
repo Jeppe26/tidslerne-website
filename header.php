@@ -41,7 +41,7 @@ $frontpageId = get_option('page_on_front');
 <header>
     <nav class="navbar">
         <div class="logo-container">
-        <img src="<?php echo esc_url($logoImage["url"]); ?>" alt="logo">
+        <img src="<?php echo esc_url($logoImage["url"]); ?>" alt="<?php echo esc_attr($logoImage["alt"]) ?>">
         </div>
         <ul class="nav-links">
             <li><a href="#">Tidslerne</a></li>
