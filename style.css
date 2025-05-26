@@ -380,18 +380,18 @@ margin: 10px auto;
   
 }
 
- @media (max-height: 870px) {
+ @media (max-height: 700px) {
 .headerContainerContentRightBox2 h3{
-    font-size: 26px;
+    font-size: 24px;
    }
    .headerContainerContentRightBox1Content h3{
-    font-size: 26px;
+    font-size: 24px;
    }
 .headerContainerContentRightBox2 .icon2{
-    width: 6vh;
+    width: 5vh;
 }
 .headerContainerContentRightBox1Content .icon{
-    height: 8vh;
+    height: 7vh;
 }
  }
   .cards {
