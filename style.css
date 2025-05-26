@@ -351,6 +351,14 @@ margin: 10px auto;
     height: 90%;
 
   }
+  .headerContainerContentRightBox2{
+  height: 200px;
+  margin-top: 0;
+}
+.headerContainerContentRightBox1{
+  height: 200px;
+
+}
   }
 
   @media (max-height: 870px) {
