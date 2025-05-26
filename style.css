@@ -844,6 +844,12 @@ line-height: 1.1;
     }
     
 }
+@media (max-width: 768px) {
+.medlemTitle{
+    width: 100%;
+    text-emphasis: right;
+}
+}
 
 .nyhedsBrev{
   background-image: linear-gradient(to bottom, #40E0C0, #25857B);
