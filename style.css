@@ -1868,19 +1868,23 @@ height: 100%;
 
   }
 }
+
+
 @media (max-width: 810px) {
   .news{
     flex-direction: column;
   }
-  .newsMain img{
+  .news img{
     width: 100%;
-    min-width: 0;
     
+
   }
   .searchbarArticle{
     width: 80%;
   }
 }
+
+
 @media (max-width: 700px) {
   
 }
