@@ -27,8 +27,8 @@ $frontpageId = get_option('page_on_front');
 
   $logoImage = get_field("logo");
   $HeaderImage = get_field("forside_hero_billede", $frontpageId);
-  $HeaderTitel = get_field("forside_titel");
-  $HeaderTekst = get_field("forside_tekst");
+  $HeaderTitel = get_field("forside_titel", $frontpageId);
+  $HeaderTekst = get_field("forside_tekst", $frontpageId);
   $HeaderBox1Billede = get_field("header_box_1_billede");
   $HeaderBox1Titel = get_field("header_box_1_titel");
   $HeaderBox1Tekst = get_field("header_box_1_tekst");
