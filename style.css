@@ -696,11 +696,11 @@ margin: 10px auto;
     border: none;
     border-radius: 36px;
     cursor: pointer;
-    width: 45%;
+    width: 48%;
     font-size: clamp(1.5rem, 3vw, 4rem);
     font-weight: 700;
     text-align: center;
-    height: 120px;
+    height: 100px;
    }
   .socialsButton2{
     position: absolute;
@@ -714,13 +714,13 @@ margin: 10px auto;
     border: none;
     border-radius: 36px;
     cursor: pointer;
-    width: 45%;
+    width: 48%;
     font-size: clamp(1.5rem, 3vw, 4rem);
     font-weight: 700;
     text-align: center;
-    height: 120px;
+    height: 100px;
 
-    
+
    }
 }
 
