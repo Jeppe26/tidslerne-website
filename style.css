@@ -1308,7 +1308,9 @@ margin-bottom: 20px;
 .svgBowling p{
   position: absolute;
   top: 330px;        /* Position in center */
-  right: 76px;
+  left: clamp(100px, 
+               55vw,  
+               5000px);
   font-size: 40px;
   font-weight: 400;
   width: 700px;
@@ -1317,9 +1319,9 @@ margin-bottom: 20px;
 .svgBowling h2{
   position: absolute;
   top: 414px;        /* Position in center */
-  right: clamp(40px, 
-               5vw,  
-               100px);
+  left: clamp(100px, 
+               55vw,  
+               5000px);
   font-size: 90px;
   font-weight: 700;
   margin: 0;
