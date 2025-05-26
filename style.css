@@ -171,7 +171,7 @@ header{
     margin-left: auto;
     display: flex;
     flex-direction: column;
-    gap: 1.5vh;
+    
     
 }
 .headerContainerContentRightBox1{
@@ -201,6 +201,7 @@ header{
     margin-bottom: 100%;
     border-radius: 25px;
     text-align: center;
+    margin-top: auto;
 }
 .headerContainerContentRightBox1Content{
     
@@ -342,6 +343,11 @@ margin: 10px auto;
   }
   }
 
+  @media (max-height: 1500px) {
+   
+
+  
+}
   .cards {
     height: fit-content;
     width:100%;
