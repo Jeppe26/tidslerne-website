@@ -96,7 +96,7 @@ $ArtikelTitel = get_field("artikel_titel");
     <div class="img-wrapper2">
     <img src="<?php echo esc_url($MedlemsImage["url"]) ?>" alt="<?php echo esc_attr($MedlemsImage["alt"]) ?>" class="SocialShape">
     <h2 class="medlemTitle">Bliv medlem og tag gode ved alle vores fordele</h2>
-    <button class="medlemsButton">Læs mere</button>
+    <button class="medlemsButton"><a href="<?php echo get_permalink(get_page_by_path("om-os-kontakt")->ID) ?>">Læs mere</a></button>
     <div class="medlemTextBox">
       <ul>
         <li>Flere events</li>

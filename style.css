@@ -885,7 +885,10 @@ margin-top: calc(150px + 170px);
   transform: translateY(-50%);
   font-size: 70px;
 }
-
+.medlemsButton a{
+    text-decoration: none;
+    color: #E04060;
+}
 @media (max-width: 1500px) {
     .medlemsButton{
         text-align: center;
