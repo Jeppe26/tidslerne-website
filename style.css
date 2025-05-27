@@ -1976,6 +1976,9 @@ height: 100%;
       padding-bottom: 20px;
       flex: 0;
      }
+     .kontaktContainer{
+      flex: 0;
+     }
      }
 .searchbarArticle{
   background: 
