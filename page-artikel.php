@@ -61,9 +61,9 @@ $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
         <div class="newsText">
             <h3><?php echo $ArtikelCardGrønTitel?></h3>
             <h2><?php echo $ArtikelCardTitel?></h2>
-            <p><?php echo $ArtikelCardTekst?></p>
+            <h4><?php echo $ArtikelCardTekst?></h4>
             <button>
-                <a href="https://tidslerne.nemtilmeld.dk/">Se mere</a>
+                <a href="">Se mere</a>
             </button>
         </div>
     </div>
