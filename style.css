@@ -1913,6 +1913,18 @@ height: 100%;
   margin: 0;
   margin-bottom: 50px;
 }
+.mail p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.phoneNr p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.info p{
+    font-size: 24px;
+    font-weight: 400;
+}
 .newsMain{
   width: 100%;
   display: flex;
