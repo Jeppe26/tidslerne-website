@@ -1699,7 +1699,13 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
 @media (max-width: 1000px) {
   .wrapperOmOs{
     flex-direction: column;
-    
+    justify-content: left;
+  }
+  .omOsBillede img{
+    width: auto;
+  }
+  .omOsText{
+    width: 100%;
   }
 }
 .medlemmer{
