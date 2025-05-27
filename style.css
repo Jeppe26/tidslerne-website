@@ -1609,6 +1609,20 @@ body.page-id-22 header {
   width: 100%;
   border-radius: 8px;
 }
+
+@media (max-width: 1400px) {
+  .grid-container-video {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    
+    margin: auto;
+    padding: 20px;
+  }
+}
+
+
+
 .wrapperOmOs{
   width: calc(100% - 60px);
   height: 700px;
