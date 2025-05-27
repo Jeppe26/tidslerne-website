@@ -1362,7 +1362,7 @@ margin-bottom: 20px;
 }
 .svgBowling a{
     color: #444444;
-    
+
 }
 @media (max-width: 1600px) {
   .svgBowling h2{
@@ -1891,7 +1891,7 @@ height: 100%;
   font-weight: 700;
   margin: 0;
 }
-.info p{
+.info h6{
   font-size: 24px;
   font-weight: 400;
   margin: 0;
