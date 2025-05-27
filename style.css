@@ -1956,7 +1956,14 @@ height: 100%;
  .map{
   display: none;
  }
+ 
   }
+  @media (max-width: 950px) {
+    .kontaktContainer{
+      flex-direction: column;
+    }
+    
+     }
 .searchbarArticle{
   background: 
   linear-gradient(to top, #40E0C0, rgba(35, 122, 113, 0.1)) border-box,
