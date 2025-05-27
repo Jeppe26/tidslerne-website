@@ -1791,6 +1791,7 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
 @media (max-width: 775px) {
   .medlemRight button{
     width: 100%;
+    font-size: 32px;
   }
   .medlemRight h2{
     font-size: 50px;
