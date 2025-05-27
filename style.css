@@ -1782,6 +1782,7 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
 }
 .medlemLeft img{
   height: 300px;
+  object-fit: cover;
 }
 .medlemRight{
   flex-basis: 90%;
