@@ -52,7 +52,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 30px;
+    padding: 5px 30px;
 }
 .logo-container {
    height: 85px; /* Example height */
