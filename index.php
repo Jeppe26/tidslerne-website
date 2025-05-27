@@ -57,7 +57,7 @@ $ArtikelTitel = get_field("artikel_titel");
                   </div>
                   <div class="cards_content_block_bottom_area_right">
                     <button>
-                      <a href="#">LÆS MERE</a>
+                      <a href="<?php echo get_permalink(get_page_by_path("artikel")->ID) ?>">LÆS MERE</a>
                     </button>
                   </div>
   
