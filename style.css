@@ -1701,13 +1701,16 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
     flex-direction: column;
     justify-content: left;
   }
+  .omOsBillede{
+    justify-content: left;
+  }
   .omOsBillede img{
-    width: auto;
+    width: 100%;
   }
   .omOsText{
     width: 100%;
   }
-  
+
 }
 .medlemmer{
   width: calc(100% - 60px);
