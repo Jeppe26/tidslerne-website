@@ -35,7 +35,7 @@ $OmOsKontaktInfo = get_field("om_os_kontakt_info");
 <p><?php echo $OmOsTekst?></p>
 </div>
 <div class="omOsBillede">
-<img src="<?php echo esc_url($OmOsBillede["url"]) ?>" alt="">
+<img src="<?php echo esc_url($OmOsBillede["url"]) ?>" alt="<?php echo esc_attr($OmOsBillede["alt"]) ?>">
 </div>
 </div>
 </section>
@@ -43,7 +43,7 @@ $OmOsKontaktInfo = get_field("om_os_kontakt_info");
 <section class="medlemmer">
     <div class="row">
 <div class="medlemLeft">
-<img src="<?php echo esc_url($MedlemsBillede["url"]) ?>" alt="">
+<img src="<?php echo esc_url($MedlemsBillede["url"]) ?>" alt="<?php echo esc_attr($MedlemsBillede["alt"]) ?>">
 </div>
 <div class="medlemRight">
 <h2><?php echo $OmOsMedlemsTitel?></h2>
@@ -58,7 +58,7 @@ $OmOsKontaktInfo = get_field("om_os_kontakt_info");
 <div class="kontaktContainer">
 
     <div class="map">
-    <img src="<?php echo esc_url($OmOsLokation["url"]) ?>" alt="">
+    <img src="<?php echo esc_url($OmOsLokation["url"]) ?>" alt="<?php echo esc_attr($OmOsLokation["alt"]) ?>">
     </div>
 
     <div class="indbetalinger">

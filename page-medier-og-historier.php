@@ -46,29 +46,7 @@ $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
         <?php endif?>
     <button class="patientButton">Se mere</button>
 </section>
-
-<section class="billedGaleri">
-<h2 class="billedTitlel">Billede Galleri</h2>
-<div class="billeder">
-    <div class="grid-container">
-        <div class="item a">
-            <img src="<?php echo esc_url($Billede1['url']); ?>" 
-       alt="<?php echo esc_attr($ArtikelCardBillede["alt"]) ?>"
-       style="position: absolute; width: 1px; height: 1px; opacity: 0;" />
-        </div>
-        <div class="item b"></div>
-        <div class="item c"></div>
-        <div class="item d"></div>
-        <div class="item e"></div>
-        <div class="item f"></div>
-        <div class="item g"></div>
-        <div class="item h"></div>
-        <div class="item i"></div>
-        <div class="item j"></div>
-        <div class="item k"></div>
-      </div>
-
-      <?php
+<?php
 $Billede1 = get_field("billede_1");
 $Billede2 = get_field("billede_2");
 $Billede3 = get_field("billede_3");
@@ -83,6 +61,50 @@ $Billede11 = get_field("billede_11");
 
 
     ?>
+<section class="billedGaleri">
+<h2 class="billedTitlel">Billede Galleri</h2>
+<div class="billeder">
+    <div class="grid-container">
+        <div class="item a">
+            <img src="<?php echo esc_url($Billede1['url']); ?>" 
+       alt="<?php echo esc_attr($Billede1["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" />
+        </div>
+        <div class="item b">
+             <img src="<?php echo esc_url($Billede2['url']); ?>" 
+       alt="<?php echo esc_attr($Billede2["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" />
+        </div>
+        <div class="item c"> <img src="<?php echo esc_url($Billede3['url']); ?>" 
+       alt="<?php echo esc_attr($Billede3["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" /></div>
+        <div class="item d"> <img src="<?php echo esc_url($Billede4['url']); ?>" 
+       alt="<?php echo esc_attr($Billede4["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" /></div>
+        <div class="item e"> <img src="<?php echo esc_url($Billede5['url']); ?>" 
+       alt="<?php echo esc_attr($Billede5["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" /></div>
+        <div class="item f"> <img src="<?php echo esc_url($Billede6['url']); ?>" 
+       alt="<?php echo esc_attr($Billede6["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" /></div>
+        <div class="item g"> <img src="<?php echo esc_url($Billede7['url']); ?>" 
+       alt="<?php echo esc_attr($Billede7["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" /></div>
+        <div class="item h"> <img src="<?php echo esc_url($Billede8['url']); ?>" 
+       alt="<?php echo esc_attr($Billede8["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" /></div>
+        <div class="item i"> <img src="<?php echo esc_url($Billede9['url']); ?>" 
+       alt="<?php echo esc_attr($Billede9["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" /></div>
+        <div class="item j"> <img src="<?php echo esc_url($Billede10['url']); ?>" 
+       alt="<?php echo esc_attr($Billede10["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" /></div>
+        <div class="item k"> <img src="<?php echo esc_url($Billede11['url']); ?>" 
+       alt="<?php echo esc_attr($Billede11["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" /></div>
+      </div>
+
+      
       <style>
         .a{background-image: url("<?php echo esc_url($Billede1["url"]) ?>"); }
         .b{background-image: url("<?php echo esc_url($Billede2["url"]) ?>");}
@@ -112,10 +134,10 @@ $Video4 = get_field("video_4");
     <h2 class="billedTitlel">Video Galeri</h2>
     <div class="videoer">
         <div class="grid-container-video">
-            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_1')); ?>" alt=""></iframe></div>
-            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_2')); ?>" alt=""></iframe></div>
-            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_3')); ?>" alt=""></iframe></div>
-            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_4')); ?>" alt=""></iframe></div>
+            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_1')); ?>" alt="<?php echo esc_attr($Video1["alt"]) ?>"></iframe></div>
+            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_2')); ?>" alt="<?php echo esc_attr($Video2["alt"]) ?>"></iframe></div>
+            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_3')); ?>" alt="<?php echo esc_attr($Video3["alt"]) ?>"></iframe></div>
+            <div class="box"><iframe width="100%" height="100%"  src="<?php echo esc_url(get_field('video_4')); ?>" alt="<?php echo esc_attr($Video4["alt"]) ?>"></iframe></div>
           </div>
     </div>
 </section>
