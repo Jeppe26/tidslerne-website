@@ -1916,12 +1916,12 @@ height: 100%;
 .mail p{
     font-size: 24px;
     font-weight: 400;
-    height: fit-content;
+    margin: 0;
 }
 .phoneNr p{
     font-size: 24px;
     font-weight: 400;
-    height: fit-content;
+    margin: 0;
 }
 .info p{
     font-size: 24px;
