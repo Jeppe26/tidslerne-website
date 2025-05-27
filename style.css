@@ -1730,6 +1730,7 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
+    height: 100%;
 
 }
 .medlemLeft{
@@ -1750,7 +1751,7 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
   height: 100%;
 }
 .medlemRight h2{
-  font-size: 106;
+  font-size: 106px;
   font-weight: 200;
   margin: 0;
   flex-grow: 1;
