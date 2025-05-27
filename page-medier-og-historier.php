@@ -35,7 +35,7 @@ $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
             <p id="newsP1"><?php echo $ArtikelCardTekst?></p>
 
                 <p id="newsP2"><?php echo $ArtikelCardDatoInfo?></p>
-            <button>Se mere</button>
+            <button><a href="">Se mere</a></button>
         </div>
     </div>
     
