@@ -81,8 +81,8 @@ $OmOsKontaktInfo = get_field("om_os_kontakt_info");
             <p><?php echo $OmOsTlf?></p>
         </div>
         <h4><?php echo $OmOsAdresseTitel?></h4>
-        <p><?php echo $OmOsAdresse?><p>
-        <p><?php echo $OmOsKontaktInfo?><p>
+        <h6><?php echo $OmOsAdresse?><h6>
+        <h6><?php echo $OmOsKontaktInfo?><h6>
     </div>
 </div>
 
