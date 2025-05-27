@@ -27,7 +27,7 @@ $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
 
 ?>
     <div class="news">
-    <img src="<?php echo esc_url($ArtikelCardBillede["url"]) ?>" alt=""> 
+    <img src="<?php echo esc_url($ArtikelCardBillede["url"]) ?>" alt="<?php echo esc_attr($ArtikelCardBillede["alt"]) ?>"> 
 
     <div class="newsText">
             <h3><?php echo $ArtikelCardGrønTitel?></h3>
@@ -51,7 +51,11 @@ $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
 <h2 class="billedTitlel">Billede Galleri</h2>
 <div class="billeder">
     <div class="grid-container">
-        <div class="item a"></div>
+        <div class="item a">
+            <img src="<?php echo esc_url($Billede1['url']); ?>" 
+       alt="<?php echo esc_attr($ArtikelCardBillede["alt"]) ?>"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0;" />
+        </div>
         <div class="item b"></div>
         <div class="item c"></div>
         <div class="item d"></div>

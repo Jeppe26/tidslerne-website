@@ -13,10 +13,10 @@ $EventSliderImage4 = get_field("event_slider_4");
 ?>
 
     <div class="imageSlider">
-    <img src="<?php echo esc_url($EventSliderImage1["url"]) ?>" alt="">
-    <img src="<?php echo esc_url($EventSliderImage2["url"]) ?>" alt="">
-    <img src="<?php echo esc_url($EventSliderImage3["url"]) ?>" alt="">
-    <img src="<?php echo esc_url($EventSliderImage4["url"]) ?>" alt="">
+    <img src="<?php echo esc_url($EventSliderImage1["url"]) ?>" alt="<?php echo esc_attr($EventSliderImage1["alt"]) ?>">
+    <img src="<?php echo esc_url($EventSliderImage2["url"]) ?>" alt="<?php echo esc_attr($EventSliderImage2["alt"]) ?>">
+    <img src="<?php echo esc_url($EventSliderImage3["url"]) ?>" alt="<?php echo esc_attr($EventSliderImage3["alt"]) ?>">
+    <img src="<?php echo esc_url($EventSliderImage4["url"]) ?>" alt="<?php echo esc_attr($EventSliderImage4["alt"]) ?>">
     </div>
    
    
@@ -72,6 +72,7 @@ $EventCardSted = get_field("event_cards_sted");
             height="500"
             mask="url(#clip-mask)"
             preserveAspectRatio="xMidYMid slice"
+            aria-label="<?php echo esc_attr($EventCardImage["alt"]) ?>"
           />
         </svg>
         <h3 class="svgSted"><?php echo $EventCardSted?></h3>
