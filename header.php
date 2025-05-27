@@ -1,8 +1,33 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Kræftforeningen Tidslerne er en forening for tidligere og nuværende kræftpatienter 
+    samt deres pårørende og i øvrigt enhver, der ønsker at støtte"
+    >
+    <meta name="author" content="Benjamin Steckmetz, Anders Jørgensen, Jeppe Westergaard">
+    <meta name="robots" content="index, follow">
+    <!--FACEBOOK(meta)-->
+    <meta property="og:title" content="KræftForeningen Tidslerne">
+    <meta property="og:description" 
+    content="Kræftforeningen Tidslerne støtter kræftramte og pårørende med fællesskab, rådgivning og håb. Vores dør står åben. Du er ikke alene">
+
+    <meta property="og:image" content="<?php echo esc_url($logoImage["url"]); ?>">
+    <meta property="og:url" content="http://tidslerne.jeppewestergaard.dk/">
+    <!--tWITTER-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KræftForeningen Tidslerne">
+    <meta name="twitter:description" 
+    content="Kræftforeningen Tidslerne støtter kræftramte og pårørende med fællesskab, rådgivning og håb. Vores dør står åben. Du er ikke alene">
+
+    <meta name="twitter:image" content="<?php echo esc_url($logoImage["url"]); ?>">
+    <meta name="google-site-verification" content="wGobuLv3lLfWEThGrDh12OOBFQ8OWAw5casnk8qYf-0" />
+
+
+        
         <title>Tidslerne</title>
         <link rel="stylesheet" href="/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
