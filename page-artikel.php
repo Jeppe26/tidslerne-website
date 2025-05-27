@@ -63,6 +63,7 @@ $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
             <h2><?php echo $ArtikelCardTitel?></h2>
             <p><?php echo $ArtikelCardTekst?></p>
             <button><a href="https://tidslerne.nemtilmeld.dk/">Se mere</a></button>
+            
         </div>
     </div>
   </div>
