@@ -1792,6 +1792,9 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
   .medlemRight button{
     width: 100%;
   }
+  .medlemRight h2{
+    font-size: 50px;
+  }
 }
 .kontakt{
   width: 100%;
