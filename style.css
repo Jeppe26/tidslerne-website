@@ -1719,7 +1719,7 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
 }
 .medlemmer{
   width: calc(100% - 60px);
-  height: 700px;
+  height: fit-content;
   margin: 0 auto;
   
   margin-top: 100px;
