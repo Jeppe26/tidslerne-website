@@ -44,7 +44,7 @@ $frontpageId = get_option('page_on_front');
         <img src="<?php echo esc_url($logoImage["url"]); ?>" alt="<?php echo esc_attr($logoImage["alt"]) ?>">
         </div>
         <ul class="nav-links">
-            <li><a href="">Tidslerne</a></li>
+            <li><a href="<?php echo home_url(); ?>">Tidslerne</a></li>
             <li><a href="<?php echo get_permalink(get_page_by_path("behandlinger")->ID) ?>">Behandlinger</a></li>
             <li><a href="<?php echo get_permalink(get_page_by_path("event-side")->ID) ?>">Events</a></li>
             <li><a href="<?php echo get_permalink(get_page_by_path("medier-og-historier")->ID) ?>">Medie/historie</a></li>
