@@ -1962,7 +1962,15 @@ height: 100%;
     .kontaktContainer{
       flex-direction: column;
     }
-    
+    .map{
+      display: block;
+     }
+     .indbetalinger{
+      margin-bottom: 20px;
+     }
+     .info{
+      margin-bottom: 20px;
+     }
      }
 .searchbarArticle{
   background: 
