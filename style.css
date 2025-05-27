@@ -1396,12 +1396,14 @@ margin-bottom: 20px;
     margin: 0;
     
     text-align: left;
+    margin-top: 10px;
   }
   .svgBowling p{
     position: static;
     font-size: 40px;
     font-weight: 400;
     width: 700px;
+    margin-bottom: 0;
   }
   
   .svgBowling h2{
@@ -1410,6 +1412,7 @@ margin-bottom: 20px;
     font-weight: 700;
     margin: 0;
     width: 700px;
+    margin-top: 20px;
   }
   .svgBowling button{
     position: static;
@@ -1423,6 +1426,9 @@ margin-bottom: 20px;
     font-size: 36px;
     font-weight: 700;
     text-align: center;
+  }
+  .svgBowling{
+    margin-bottom: 100px;
   }
 }
 
