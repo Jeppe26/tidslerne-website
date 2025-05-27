@@ -18,7 +18,7 @@ $ArtikelTekst = get_field("artikel_tekst");
 <h3 class="articlesSubTitle"><?php echo $Konventionel?></h3>
 <div class="mainArticle">
     <div class="newsMain">
-    <img src="<?php echo esc_url($ArtikelTitelBillede["url"]) ?>" alt="">
+    <img src="<?php echo esc_url($ArtikelTitelBillede["url"]) ?>" alt="<?php echo esc_attr($ArtikelTitelBillede["alt"]) ?>">
         <div class="newsMainText">
             <h3><?php echo $ArtikelGrønTitel?></h3>
             <h2><?php echo $ArtikelTitel?></h2>
@@ -57,7 +57,7 @@ $ArtikelCardTekst = get_field("artikel_card_tekst");
 $ArtikelCardDatoInfo = get_field("artikel_card_dato_info");
 ?>
     <div class="news">
-    <img src="<?php echo esc_url($ArtikelCardBillede["url"]) ?>" alt=""> 
+    <img src="<?php echo esc_url($ArtikelCardBillede["url"]) ?>" alt="<?php echo esc_attr($ArtikelCardBillede["alt"]) ?>"> 
         <div class="newsText">
             <h3><?php echo $ArtikelCardGrønTitel?></h3>
             <h2><?php echo $ArtikelCardTitel?></h2>

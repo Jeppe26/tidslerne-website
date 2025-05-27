@@ -29,7 +29,7 @@
 
     <div class="footer-column">
       <h3><?php echo $FooterMerchTitel?></h3>
-      <img src="<?php echo esc_url($FooterMerchBillede["url"]) ?>" alt="" class="merch-img">
+      <img src="<?php echo esc_url($FooterMerchBillede["url"]) ?>" alt="<?php echo esc_attr($FooterMerchBillede["alt"]) ?>" class="merch-img">
     </div>
     <div class="footer-bottom">
     <p><?php echo $FooterCopyright?></p>

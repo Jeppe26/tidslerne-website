@@ -39,7 +39,7 @@ $ArtikelTitel = get_field("artikel_titel");
   
   <div class="cards_content_block">
             <div class="cards_content_block_image">
-            <img src="<?php echo esc_url($CardImage["url"]) ?>" alt="">
+            <img src="<?php echo esc_url($CardImage["url"]) ?>" alt="<?php echo esc_attr($CardImage["alt"]) ?>">
               <div class="colorLayer">
 
               </div>
@@ -84,7 +84,7 @@ $ArtikelTitel = get_field("artikel_titel");
 <section class="socialsSection">
   <div class="socials">
     <div class="img-wrapper">
-    <img src="<?php echo esc_url($SomeImage["url"]) ?>" alt="" class="SocialShape">
+    <img src="<?php echo esc_url($SomeImage["url"]) ?>" alt="<?php echo esc_attr($SomeImage["alt"]) ?>" class="SocialShape">
     <button class="socialsButton"><?php echo $SomeTekstBox1?></button>
     <button class="socialsButton2"><?php echo $SomeTekstBox2?></button>
     <h2 class="socialTitle">Tidslernes Sociale Medier</r></h2>
@@ -94,7 +94,7 @@ $ArtikelTitel = get_field("artikel_titel");
 <section class="medlemSection">
   <div class="medlem">
     <div class="img-wrapper2">
-    <img src="<?php echo esc_url($MedlemsImage["url"]) ?>" alt="" class="SocialShape">
+    <img src="<?php echo esc_url($MedlemsImage["url"]) ?>" alt="<?php echo esc_attr($MedlemsImage["alt"]) ?>" class="SocialShape">
     <h2 class="medlemTitle">Bliv medlem og tag gode ved alle vores fordele</h2>
     <button class="medlemsButton">Læs mere</button>
     <div class="medlemTextBox">
@@ -112,7 +112,7 @@ $ArtikelTitel = get_field("artikel_titel");
 <section class="nyhedsBrev">
     <div class="nyhedsText">
 <h2 class="nyhedsBrevTitel"><?php echo $Nyhedsbrev?></h2>
-  <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]) ?>" alt="" class="newsletter-icon">
+  <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]) ?>" alt="<?php echo esc_attr($HeaderBox2NewsImage["alt"]) ?>" class="newsletter-icon">
     </div>
   
 

@@ -35,7 +35,7 @@ $ArtikelTitel = get_field("artikel_titel");
   
  <div class="behandlingsKat">
         <div class="behandlingsKatLeft">
-        <img src="<?php echo esc_url($CardImage["url"]) ?>" alt="">
+        <img src="<?php echo esc_url($CardImage["url"]) ?>" alt="<?php echo esc_attr($CardImage["alt"]) ?>">
         </div>
         <div class="behandlingsKatRight">
             <div class="scrollProgress">
@@ -47,39 +47,14 @@ $ArtikelTitel = get_field("artikel_titel");
             <p><?php echo $BehandlingTekst?></p>
             <button>LÆS MERE</button>
         </div>
-    </div>
-
-          
+    </div>       
   
         <?php endwhile?>
         <?php wp_reset_postdata()?>
         <?php endif?>
-
-
-        
+     
 </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php endwhile; ?>
 <?php endif; ?>

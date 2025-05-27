@@ -65,7 +65,7 @@ $frontpageId = get_option('page_on_front');
                 <div class="headerContainerContentRightBoxContainers">
                     <div class="headerContainerContentRightBox1">
                         <div class="headerContainerContentRightBox1Content">
-                        <img src="<?php echo esc_url($HeaderBox1Billede["url"]); ?>" alt="header_box_1_billede" class="icon">
+                        <img src="<?php echo esc_url($HeaderBox1Billede["url"]); ?>" alt="<?php echo esc_attr($HeaderBox1Billede["alt"]) ?>" class="icon">
                             <h3><?php echo $HeaderBox1Titel?></h3>
                             <p><?php echo $HeaderBox1Tekst?></p>
                         </div>
@@ -74,9 +74,9 @@ $frontpageId = get_option('page_on_front');
                     <div class="headerContainerContentRightBox2">
                         <div class="headerContainerContentRightBox2Content">
                         <h3><?php echo $HeaderBox2Titel?></h3>
-                        <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]); ?>" alt="header_box_2_news_image" class="icon2" />
+                        <img src="<?php echo esc_url($HeaderBox2NewsImage["url"]); ?>" alt="<?php echo esc_attr($HeaderBox2NewsImage["alt"]) ?>" class="icon2" />
                         <p><?php echo $HeaderBox2Tekst?></p>
-                        <button><img src="<?php echo esc_url($HeaderBox2Image["url"]); ?>" alt="header_box_2_image"></button>
+                        <button><img src="<?php echo esc_url($HeaderBox2Image["url"]); ?>" alt="<?php echo esc_attr($HeaderBox2Image["alt"]) ?>"></button>
                         </div>
                     </div>
                 </div>
