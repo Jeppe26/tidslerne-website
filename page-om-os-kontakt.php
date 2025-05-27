@@ -48,7 +48,7 @@ $OmOsKontaktInfo = get_field("om_os_kontakt_info");
 <div class="medlemRight">
 <h2><?php echo $OmOsMedlemsTitel?></h2>
 <p><?php echo $OmOsMedlemsTekst?></p>
-<button>Bliv medlem her</button>
+<button><a href="https://medlem.tidslerne.dk/indmeld">Bliv medlem her</a></button>
 </div>
 </div>
 </section>
