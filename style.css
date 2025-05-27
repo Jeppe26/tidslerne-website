@@ -1788,7 +1788,10 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
 .medlemRight{
   flex-basis: 90%;
 }
-
+@media (max-width: 775px) {
+  .medlemRight button{
+    width: 100%;
+  }
 }
 .kontakt{
   width: 100%;
