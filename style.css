@@ -1707,7 +1707,7 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
   .omOsBillede img{
     width: 100%;
     height: 300px;
-    
+    margin-top: 5%;
   }
   .omOsText{
     width: 100%;
