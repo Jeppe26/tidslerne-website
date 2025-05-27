@@ -1965,14 +1965,16 @@ height: 100%;
     .map{
       display: block;
       height: 200px;
-      
+
 
      }
      .indbetalinger{
       padding-bottom: 20px;
+      flex: 0;
      }
      .info{
       padding-bottom: 20px;
+      flex: 0;
      }
      }
 .searchbarArticle{
