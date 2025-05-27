@@ -1396,7 +1396,7 @@ margin-bottom: 20px;
     margin: 0;
     
     text-align: left;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .svgBowling p{
     position: static;
@@ -1404,6 +1404,7 @@ margin-bottom: 20px;
     font-weight: 400;
     width: 700px;
     margin-bottom: 0;
+    margin-top: 0px;
   }
   
   .svgBowling h2{
@@ -1413,12 +1414,13 @@ margin-bottom: 20px;
     margin: 0;
     width: 700px;
     margin-top: 0px;
+    margin-bottom: 20;
   }
   .svgBowling button{
     position: static;
     border: 2px solid none !important;
     background-color: #E04060;
-    color: #444444;
+    color: #ffffff;
     border: none;
     border-radius: 36px;
     cursor: pointer;
