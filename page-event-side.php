@@ -78,7 +78,7 @@ $EventCardSted = get_field("event_cards_sted");
         <h3 class="svgSted"><?php echo $EventCardSted?></h3>
         <p><?php echo $EventCardPris?></p>
         <h2><?php echo $EventCardTitel?></h2>
-        <button>Tilmeld Dig</button>
+        <button><a href="https://tidslerne.nemtilmeld.dk/">Tilmeld Dig</a></button>
       </div>
       
      

@@ -1360,7 +1360,9 @@ margin-bottom: 20px;
   font-weight: 700;
   text-align: center;
 }
-
+.svgBowling a{
+    
+}
 @media (max-width: 1600px) {
   .svgBowling h2{
     width: 550px;
