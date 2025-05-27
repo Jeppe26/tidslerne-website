@@ -1697,6 +1697,9 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
 }
 
 @media (max-width: 1000px) {
+  .omOsText h2{
+    margin-top: 10%;
+  }
   .wrapperOmOs{
     flex-direction: column;
     justify-content: left;
