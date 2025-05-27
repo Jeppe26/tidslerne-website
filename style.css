@@ -1435,7 +1435,14 @@ margin-bottom: 20px;
 
   }
 }
-
+@media (max-width: 640px) {
+  .svgBowling p{
+    font-size: 30px;
+  }
+  .svgBowling button{
+    font-size: 30px;
+  }
+}
 body.page-id-22 .headerContainer {
     display: none;
 }
