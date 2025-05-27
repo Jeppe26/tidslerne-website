@@ -86,7 +86,7 @@ $ArtikelTitel = get_field("artikel_titel");
     <div class="img-wrapper">
     <img src="<?php echo esc_url($SomeImage["url"]) ?>" alt="<?php echo esc_attr($SomeImage["alt"]) ?>" class="SocialShape">
     <button class="socialsButton"><?php echo $SomeTekstBox1?></button>
-    <button class="socialsButton2"><a href="https://www.facebook.com/tidslernedk"></a><?php echo $SomeTekstBox2?></button>
+    <button class="socialsButton2"><a href="https://www.facebook.com/tidslernedk"><?php echo $SomeTekstBox2?></a></button>
     <h2 class="socialTitle">Tidslernes Sociale Medier</r></h2>
   </div>
   </div>
