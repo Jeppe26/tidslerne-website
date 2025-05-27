@@ -1780,8 +1780,11 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
 .medlemLeft{
   flex-basis: 100%;
 }
+.medlemLeft img{
+  height: 300px;
+}
 .medlemRight{
-  flex-basis: 80%;
+  flex-basis: 90%;
 }
 }
 .kontakt{
