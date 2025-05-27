@@ -71,6 +71,8 @@ $OmOsKontaktInfo = get_field("om_os_kontakt_info");
 
     <div class="info">
         <h3><?php echo $OmOsTidslerne?></h3>
+        <h4>Tidsellinjen</h4>
+        <p>Telefon: 7020 0515 </p>
         <h4><?php echo $OmOsFormand?></h4>
         <div class="mail">
             <img src="" alt="">

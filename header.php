@@ -28,7 +28,7 @@
 
 
         
-        <title>Kræftforeningen Tidslerne</title>
+        <title>Kræftforeningen Tidslerne: Fællesskab, støtte og kamp mod kræft i Danmark</title>
         <link rel="icon" href="<?php echo esc_url($logoImage["url"]); ?>" type="image/png">
 
         <link rel="stylesheet" href="/style.css">
