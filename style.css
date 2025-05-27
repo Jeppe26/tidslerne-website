@@ -1617,7 +1617,7 @@ body.page-id-22 header {
     gap: 10px;
     
     margin: auto;
-    padding: 20px;
+    padding: 0px;
   }
 }
 
@@ -1670,7 +1670,28 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
   border-radius: 15%;
   object-fit: cover;
 }
-
+@media (max-width: 1370px) {
+  .wrapperOmOs{
+    width: calc(100% - 60px);
+    height: fit-content;
+    margin: 0 auto;
+    
+    display: flex;
+    
+  }
+  .omOsText h2{
+    font-size: 132px; 
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    margin-top: 10%;
+  }
+  .omOsText p{
+    font-size: clamp(1.5rem, 2.5vw, 4rem); 
+    color: white;
+    font-weight: 400;
+  }
+}
 .medlemmer{
   width: calc(100% - 60px);
   height: 700px;
