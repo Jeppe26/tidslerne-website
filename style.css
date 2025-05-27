@@ -84,7 +84,10 @@ header{
 .nav-links a:hover {
     color: #E04060;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 @media (max-width: 1500px) {
    .nav-links a {
     color: white;

@@ -45,7 +45,7 @@ $ArtikelTitel = get_field("artikel_titel");
             </div>
             <h3 class="behandlingTitler"><?php echo $BehandlingTitel?></h3>
             <p><?php echo $BehandlingTekst?></p>
-            <button>LÆS MERE</button>
+            <button><a href="<?php echo get_permalink(get_page_by_path("artikel")->ID) ?>">LÆS MERE</a></button>
         </div>
     </div>       
   
