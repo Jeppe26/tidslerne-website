@@ -1964,12 +1964,13 @@ height: 100%;
     }
     .map{
       display: block;
+      height: 350px;
      }
      .indbetalinger{
-      margin-bottom: 20px;
+      padding-bottom: 20px;
      }
      .info{
-      margin-bottom: 20px;
+      padding-bottom: 20px;
      }
      }
 .searchbarArticle{
