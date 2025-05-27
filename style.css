@@ -1429,6 +1429,7 @@ margin-bottom: 20px;
   }
   .svgBowling{
     margin-bottom: 100px;
+    height: fit-content;
   }
 }
 
