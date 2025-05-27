@@ -1412,12 +1412,12 @@ margin-bottom: 20px;
     font-weight: 700;
     margin: 0;
     width: 700px;
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .svgBowling button{
     position: static;
     border: 2px solid none !important;
-    background-color: #ffffff;
+    background-color: #E04060;
     color: #444444;
     border: none;
     border-radius: 36px;
@@ -1430,7 +1430,7 @@ margin-bottom: 20px;
   .svgBowling{
     margin-bottom: 100px;
     height: fit-content !important;
-    
+
   }
 }
 
