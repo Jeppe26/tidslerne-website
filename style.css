@@ -1730,7 +1730,7 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
-    
+
 }
 .medlemLeft{
   flex-basis: 35%;
@@ -1738,6 +1738,7 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
 .medlemLeft img{
   height: 100%;
   width: 100%;
+  min-width: 350px;
   object-fit: fill;
   object-position: top;
 }
