@@ -52,7 +52,7 @@
 <?php
 $frontpageId = get_option('page_on_front');
 
-  $logoImage = get_field("logo");
+  $logoImage = get_field("logo" , $frontpageId);
   $HeaderImage = get_field("forside_hero_billede", $frontpageId);
   $HeaderTitel = get_field("forside_titel", $frontpageId);
   $HeaderTekst = get_field("forside_tekst", $frontpageId);
