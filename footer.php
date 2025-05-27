@@ -29,7 +29,7 @@
 
     <div class="footer-column">
       <h3><?php echo $FooterMerchTitel?></h3>
-      <img src="<?php echo esc_url($FooterMerchBillede["url"]) ?>" alt="<?php echo esc_attr($FooterMerchBillede["alt"]) ?>" class="merch-img">
+      <a href="https://tojkurven.dk/?s=tidslerne&post_type=product"><img src="<?php echo esc_url($FooterMerchBillede["url"]) ?>" alt="<?php echo esc_attr($FooterMerchBillede["alt"]) ?>" class="merch-img"></a>
     </div>
     <div class="footer-bottom">
     <p><?php echo $FooterCopyright?></p>
