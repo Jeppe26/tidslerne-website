@@ -82,7 +82,7 @@ $frontpageId = get_option('page_on_front');
     <div class="headerContainer">
         <div class="headerContainerContent">
             <div class="headerContainerContentLeft">
-                <h1><?php echo $HeaderTitel?> <span class="visually-hidden">Vognsbøl – Danish Photographer Portfolio</span></h1>
+                <h1><?php echo $HeaderTitel?> <span class="visually-hidden">Tidslerne - om os: kræft, behandling, fællesskab</span></h1>
                 <h2><?php echo $HeaderTekst?></h2>
                     <a href="#">UDFORSK </a>
             </div>
