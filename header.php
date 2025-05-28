@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Kræftforeningen Tidslerne er en forening for tidligere og nuværende kræftpatienter 
-    samt deres pårørende og i øvrigt enhver, der ønsker at støtte"
+    <meta name="description" content="Kræftforeningen Tidslerne er en forening for tidligere og nuværende kræft ramte patienter 
+    samt deres pårørende og i øvrigt enhver, der ønsker at støtte fællesskabet"
     >
     <meta name="author" content="Benjamin Steckmetz, Anders Jørgensen, Jeppe Westergaard">
     <meta name="robots" content="index, follow">
     <!--FACEBOOK(meta)-->
     <meta property="og:title" content="KræftForeningen Tidslerne">
     <meta property="og:description" 
-    content="Kræftforeningen Tidslerne støtter kræftramte og pårørende med fællesskab, rådgivning og håb. Vores dør står åben. Du er ikke alene">
+    content="Kræftforeningen Tidslerne støtter kræftramte og pårørende med fællesskab, rådgivning, behandling og håb. Vores dør står åben. Du er ikke alene">
 
     <meta property="og:image" content="<?php echo esc_url($logoImage["url"]); ?>">
     <meta property="og:url" content="http://tidslerne.jeppewestergaard.dk/">
@@ -21,23 +21,21 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="KræftForeningen Tidslerne">
     <meta name="twitter:description" 
-    content="Kræftforeningen Tidslerne støtter kræftramte og pårørende med fællesskab, rådgivning og håb. Vores dør står åben. Du er ikke alene">
+    content="Kræftforeningen Tidslerne støtter kræftramte og pårørende med fællesskab, rådgivning, behandling og håb. Vores dør står åben. Du er ikke alene">
 
     <meta name="twitter:image" content="<?php echo esc_url($logoImage["url"]); ?>">
     <meta name="google-site-verification" content="wGobuLv3lLfWEThGrDh12OOBFQ8OWAw5casnk8qYf-0" />
 
+    <link rel="apple-touch-icon" href="<?php echo esc_url($logoImage["url"]); ?>">
 
         
-        <title>Kræftforeningen Tidslerne: Fællesskab, støtte og kamp mod kræft i Danmark</title>
+        <title>Kræftforeningen Tidslerne: Fællesskab og kamp mod kræft</title>
         <link rel="icon" href="<?php echo esc_url($logoImage["url"]); ?>" type="image/png">
 
         <link rel="stylesheet" href="/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> */ --> 
         
         <title><?php bloginfo("name"); ?></title>
         <?php wp_head(); ?>
