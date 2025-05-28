@@ -1985,6 +1985,9 @@ height: 100%;
   margin-right: 20px;
   margin-top: 20px;
 }
+.socialsButton a{
+  color: #E04060;
+}
 @media (max-width: 1396px) {
  .map{
   display: none;
