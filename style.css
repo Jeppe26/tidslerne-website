@@ -779,7 +779,7 @@ margin: 10px auto;
   
   padding: 10px 20px;
   border: 1px solid #444444 !important;
-  
+  background-color: white;
   
   border: none;
   border-radius: 36px;
@@ -794,6 +794,7 @@ margin: 10px auto;
     height: 100%;
     display: block;
     text-decoration: none;
+    color: black;
    
  }
  @media (max-width: 1412px) {
