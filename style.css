@@ -33,7 +33,8 @@ header{
     
     height: calc(100% - 145px);
     width: calc(100% - 60px); /* Full width minus 25px on each side */
-    margin: 0 30px; /* Push it 25px from each side */
+    min-width: 1860px;
+    margin: 0 auto; /* Push it 25px from each side */
     padding: 0; /* Optional, unless you need internal padding */
     display: flex;
     flex-direction: column;
