@@ -34,7 +34,7 @@ header{
     height: calc(100% - 145px);
     width: calc(100% - 60px); /* Full width minus 25px on each side */
     max-width: 1860px;
-    
+
     margin: 0 auto; /* Push it 25px from each side */
     padding: 0; /* Optional, unless you need internal padding */
     display: flex;
@@ -508,7 +508,8 @@ margin: 10px auto;
     box-sizing: border-box;
     margin:30px auto 0 auto;
     width: calc(100% - 60px);
-    margin: 0 30px;
+    max-width: 1860px;
+    margin: 0 auto;
   }
   
   .cards_content_block {
@@ -742,8 +743,9 @@ margin: 10px auto;
   .socials{
     
     width: calc(100% - 60px); /* Full width minus 25px on each side */
+    max-width: 1860px;
     height: fit-content;
-    margin: 0 30px; /* Push it 25px from each side */
+    margin: 0 auto; /* Push it 25px from each side */
     padding: 0; /* Optional, unless you need internal padding */
   }
  .SocialShape{
@@ -898,8 +900,9 @@ margin: 10px auto;
 .medlemSection{
 
 width: calc(100% - 60px); /* Full width minus 25px on each side */
+max-width: 1860px;
 height: fit-content;
-margin: 0 30px; /* Push it 25px from each side */
+margin: 0 auto; /* Push it 25px from each side */
 padding: 0; /* Optional, unless you need internal padding */
 margin-top: calc(150px + 170px);
 }
@@ -1051,6 +1054,7 @@ line-height: 1.1;
 .nyhedsBrev{
   background-image: linear-gradient(to bottom, #40E0C0, #25857B);
   width: calc(100% - 60px); /* Full width minus 25px on each side */
+  max-width: 1860px;
   height: fit-content;
   padding: 0; /* Optional, unless you need internal padding */
   margin: 0 auto;
@@ -1209,6 +1213,7 @@ footer{
   height: fit-content;
   padding: 0; /* Optional, unless you need internal padding */
   width: calc(100% - 60px); /* Full width minus 25px on each side */
+  max-width: 1860px;
   margin: 0 auto; /* Push it 25px from each side */
   margin-top: 150px;
 }
@@ -1363,6 +1368,7 @@ margin-bottom: 20px;
 }*/
 .eventList{
   width: calc(100% - 60px);
+  max-width: 1860px;
   height: fit-content;
   margin: 0 auto;
   margin-top: 200px;
@@ -1535,6 +1541,7 @@ body.page-id-22 header {
 
 .patientHistorier{
   width: calc(100% - 60px);
+  max-width: 1860px;
   height: fit-content;
   margin: 0 auto;
   margin-top: 100px;
@@ -1553,7 +1560,7 @@ body.page-id-22 header {
 }
 .news img{
   width: 500px;
-  min-width: 500px; /* ✅ don't let it shrink */
+  min-width: 500px; 
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
@@ -1613,6 +1620,7 @@ body.page-id-22 header {
 
 .billedGaleri{
   width: calc(100% - 60px);
+  max-width: 1860px;
   height: fit-content;
   margin: 0 auto;
   
@@ -1669,6 +1677,7 @@ body.page-id-22 header {
 
 .videoGaleri{
   width: calc(100% - 60px);
+  max-width: 1860px;
   height: fit-content;
   margin: 0 auto;
   margin-top: 100px;
@@ -1707,6 +1716,7 @@ body.page-id-22 header {
 
 .wrapperOmOs{
   width: calc(100% - 60px);
+  max-width: 1860px;
   height: 700px;
   margin: 0 auto;
   
@@ -1801,6 +1811,7 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
 }
 .medlemmer{
   width: calc(100% - 60px);
+  max-width: 1860px;
   height: fit-content;
   margin: 0 auto;
   
@@ -1892,6 +1903,7 @@ background-image: linear-gradient(to left, #25857B, #40E0C0);
 .kontakt h2{
   margin: 0 auto;
   width: calc(100% - 60px);
+  max-width: 1860px;
   text-align: right;
   font-size: 106px;
   font-weight: 200;
@@ -1965,6 +1977,7 @@ height: 100%;
 
 .articles{
   width: calc(100% - 60px);
+  max-width: 1860px;
   height: fit-content;
   margin: 0 auto;
 }
