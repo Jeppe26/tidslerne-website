@@ -115,6 +115,10 @@ $frontpageId = get_option('page_on_front');
 <style>
 header {
     background-image: url('<?php echo esc_url($HeaderImage["url"]); ?>');}
+@media (max-width: 600px) {
+    header {
+        background-image: linear-gradient(to bottom, #25857B, #40E0C0)}
+}
 </style>
 
     <?php endwhile; ?>
