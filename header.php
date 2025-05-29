@@ -117,7 +117,7 @@ header {
     background-image: url('<?php echo esc_url($HeaderImage["url"]); ?>');}
 @media (max-width: 600px) {
     header {
-        background-image: linear-gradient(to bottom, #25857B, #40E0C0)}
+        background: radial-gradient(circle, #25857B 0%, #40E0C0 100%);}
 }
 </style>
 
