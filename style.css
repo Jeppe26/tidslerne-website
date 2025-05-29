@@ -372,7 +372,13 @@ margin: 10px auto;
     display: none;
 }
   }
+ 
 
+  @media (max-width: 400px) {
+     .headerContainerContentLeft a::after{
+      display: none;
+     }
+    }
   @media (max-height: 870px) {
    .headerContainerContentRightBox2 p{
     margin-bottom: 5px;
