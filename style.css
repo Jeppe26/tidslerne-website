@@ -399,20 +399,7 @@ margin: 10px auto;
 }
   
 }
-@media (max-height: 650px) {
 
-.headerContainerContentLeft h1{
-   font-size: 60px;
-   stroke: #000;
-   stroke-width: 1px;
-}
-.headerContainerContentLeft h2{
-   font-size: 21px;
-   
-}
-
- 
-}
  @media (max-height: 700px) {
 .headerContainerContentRightBox2 h3{
     font-size: 24px;
@@ -436,6 +423,20 @@ margin: 10px auto;
     margin-top: 10px;
    }
  }
+ @media (max-height: 650px) {
+
+  .headerContainerContentLeft h1{
+     font-size: 60px;
+     stroke: #000;
+     stroke-width: 1px;
+  }
+  .headerContainerContentLeft h2{
+     font-size: 21px;
+     
+  }
+  
+   
+  }
   .cards {
     height: fit-content;
     width:100%;
