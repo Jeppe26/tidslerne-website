@@ -678,6 +678,9 @@ margin: 10px auto;
   .cards_content_block_text_top h5{
     font-size: 30px;
   }
+  .cards_content_block_bottom_area_right button{
+    padding: 10px 50px;
+  }
  }
  .searchbar{
   background: 
@@ -1163,9 +1166,7 @@ footer{
   .merch-img{
     width: auto;
   }
-  .cards_content_block_bottom_area_right button{
-    padding: 10px 50px;
-  }
+
 
 }
 
