@@ -399,7 +399,19 @@ margin: 10px auto;
 }
   
 }
+@media (max-height: 650px) {
 
+.headerContainerContentLeft h1{
+   font-size: 60px;
+   stroke: #000;
+   stroke-width: 1px;
+}
+.headerContainerContentLeft h2{
+   font-size: 21px;
+}
+
+ 
+}
  @media (max-height: 700px) {
 .headerContainerContentRightBox2 h3{
     font-size: 24px;
@@ -692,7 +704,12 @@ margin: 10px auto;
    }
 }
 
+@media (max-height: 650px) {
 
+  .cards_content_block_bottom_area_right button{
+    padding: 10px 50px;
+  }
+}
 
    .socialsSection{
     margin-top: 150px;
@@ -1119,6 +1136,12 @@ footer{
   height: 250px;
   border-radius: 6px;
   max-width: 700px;
+}
+@media (max-height: 650px) {
+
+  .merch-img{
+    width: auto;
+  }
 }
 
 .footer-bottom {
