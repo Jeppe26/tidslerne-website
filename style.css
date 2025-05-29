@@ -675,6 +675,9 @@ margin: 10px auto;
   .cards{
     margin-top: 150px;
   }
+  .cards_content_block_text_top h5{
+    font-size: 30px;
+  }
  }
  .searchbar{
   background: 
@@ -1044,6 +1047,7 @@ line-height: 1.1;
     }
     
 }
+
 .nyhedsBrevTitel {
   
   font-size: clamp(2.1rem, 6vw, 8rem);
@@ -1154,7 +1158,7 @@ footer{
   border-radius: 6px;
   max-width: 700px;
 }
-@media (max-height: 650px) {
+@media (max-width: 500px) {
 
   .merch-img{
     width: auto;
