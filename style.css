@@ -63,6 +63,11 @@ header{
     align-items: center;
 
 }
+.logo-container img{
+  height: 100%;
+  width: auto;
+
+}
 .logo {
     height: 50px; /* Example height */
     width: 100px
