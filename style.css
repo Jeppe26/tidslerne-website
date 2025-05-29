@@ -794,7 +794,7 @@ margin: 10px auto;
     height: 100%;
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
  }
  @media (max-width: 1412px) {
     .socialsButton2{
@@ -882,6 +882,12 @@ margin: 10px auto;
     font-weight: 600;
     width: 100%;
     margin: 0;
+
+  }
+}
+@media (max-width: 500px) {
+  .socialTitle{
+    font-size: 30px;
 
   }
 }
@@ -1033,6 +1039,12 @@ line-height: 1.1;
   top: -130px;        /* Position in center */
 }
 }
+@media (max-width: 575px) {
+  .medlemTitle{
+    font-size: 30px;
+    top: -100px;        /* Position in center */
+  }
+  }
 .nyhedsBrev{
   background-image: linear-gradient(to bottom, #40E0C0, #25857B);
   width: calc(100% - 60px); /* Full width minus 25px on each side */
